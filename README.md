@@ -14,6 +14,12 @@ npm run banco      # regenera docs/BANCO.md para revisar el banco
 npm run build      # valida, chequea tipos y genera dist/ (sitio estático)
 ```
 
+## Publicación
+
+Cada push a `main` se publica solo en GitHub Pages (`.github/workflows/pages.yml`): https://luciomariano123.github.io/estudio-roque/
+
+El workflow corre `npm run build`, que incluye `npm run validate`: si el contenido tiene errores, no se publica. Para que funcione, Pages tiene que estar activado en *Settings → Pages → Source: GitHub Actions*.
+
 ## Contenido
 
 Todo vive en `src/content/`, separado del código:
