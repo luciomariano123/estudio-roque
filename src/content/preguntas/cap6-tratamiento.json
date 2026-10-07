@@ -1,0 +1,357 @@
+[
+  {
+    "id": "mc-6.5.1-01", "tipo": "mc", "capitulo": 6, "clausula": "6.5.1", "dificultad": 1,
+    "enunciado": "¿Cuál es el propósito del tratamiento del riesgo?",
+    "opciones": [
+      "Seleccionar e implementar opciones para abordar el riesgo",
+      "Comparar el riesgo con los criterios",
+      "Eliminar todos los riesgos de la organización",
+      "Documentar los riesgos residuales"
+    ],
+    "correcta": 0,
+    "explicacion": "Tratar no es eliminar todo: es elegir y aplicar opciones. Comparar con criterios es la valoración (6.4.4). Ver 6.5.1.",
+    "tags": ["proposito"]
+  },
+  {
+    "id": "mc-6.5.1-02", "tipo": "mc", "capitulo": 6, "clausula": "6.5.1", "dificultad": 1,
+    "enunciado": "Si después del tratamiento el riesgo residual no es aceptable, ¿qué corresponde?",
+    "opciones": [
+      "Efectuar un tratamiento adicional",
+      "Cerrar el proceso y aceptarlo igual",
+      "Eliminarlo del registro de riesgos",
+      "Esperar al próximo ciclo anual"
+    ],
+    "correcta": 0,
+    "explicacion": "El tratamiento es iterativo: si el riesgo residual no es aceptable, se vuelve a tratar. Ver 6.5.1."
+  },
+  {
+    "id": "cloze-6.5.1-03", "tipo": "cloze", "capitulo": 6, "clausula": "6.5.1", "dificultad": 2,
+    "enunciado": "El ciclo del tratamiento es: formular y seleccionar opciones, planificar e implementar, evaluar la ____ del tratamiento y decidir si el riesgo residual es aceptable.",
+    "opciones": ["eficacia", "eficiencia", "probabilidad", "idoneidad"],
+    "correcta": 0,
+    "explicacion": "Se evalúa la eficacia del tratamiento aplicado. Ver 6.5.1.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "vf-6.5.2-01", "tipo": "vf", "capitulo": 6, "clausula": "6.5.2", "dificultad": 1,
+    "enunciado": "Las opciones de tratamiento son mutuamente excluyentes: hay que elegir una sola.",
+    "correcta": false,
+    "explicacion": "No son necesariamente excluyentes ni sirven en todas las circunstancias; se pueden combinar. Ver 6.5.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-6.5.2-02", "tipo": "mc", "capitulo": 6, "clausula": "6.5.2", "dificultad": 2,
+    "enunciado": "¿Cuántas opciones de tratamiento enumera la norma?",
+    "opciones": ["7", "4", "5", "6"],
+    "correcta": 0,
+    "explicacion": "Evitar; aceptar o aumentar buscando una oportunidad; eliminar la fuente; modificar la probabilidad; modificar las consecuencias; compartir; retener con decisión informada. Ver 6.5.2.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "vf-6.5.2-03", "tipo": "vf", "capitulo": 6, "clausula": "6.5.2", "dificultad": 2,
+    "enunciado": "Aumentar el riesgo para aprovechar una oportunidad es una opción de tratamiento válida.",
+    "correcta": true,
+    "explicacion": "\"Aceptar o aumentar el riesgo en busca de una oportunidad\" es una de las siete opciones. Ver 6.5.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "vf-6.5.2-04", "tipo": "vf", "capitulo": 6, "clausula": "6.5.2", "dificultad": 2,
+    "enunciado": "La elección de la opción de tratamiento se basa únicamente en la relación costo-beneficio económica.",
+    "correcta": false,
+    "explicacion": "La justificación va más allá de lo económico: pesan las obligaciones, los compromisos voluntarios y los puntos de vista de las partes interesadas. Ver 6.5.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "vf-6.5.2-05", "tipo": "vf", "capitulo": 6, "clausula": "6.5.2", "dificultad": 1,
+    "enunciado": "Un tratamiento del riesgo puede introducir riesgos nuevos que también hay que gestionar.",
+    "correcta": true,
+    "explicacion": "Por eso el seguimiento y la revisión forman parte de la implementación del tratamiento. Ver 6.5.2."
+  },
+  {
+    "id": "vf-6.5.2-06", "tipo": "vf", "capitulo": 6, "clausula": "6.5.2", "dificultad": 3,
+    "enunciado": "Si no hay opciones de tratamiento disponibles, el riesgo se debería registrar y mantener en revisión continua.",
+    "correcta": true,
+    "explicacion": "Lo mismo vale si las opciones no modifican el riesgo lo suficiente. Ver 6.5.2."
+  },
+  {
+    "id": "mc-6.5.2-07", "tipo": "mc", "capitulo": 6, "clausula": "6.5.2", "dificultad": 2,
+    "enunciado": "¿Qué debería pasar con el riesgo residual después del tratamiento?",
+    "opciones": [
+      "Documentarse y ser objeto de seguimiento, revisión y, si corresponde, tratamiento adicional",
+      "Eliminarse del registro porque ya fue tratado",
+      "Pasar a responsabilidad de los órganos de supervisión",
+      "Ignorarse si su nivel es bajo"
+    ],
+    "correcta": 0,
+    "explicacion": "Además, quienes deciden deberían conocer su naturaleza y nivel. Ver 6.5.2."
+  },
+  {
+    "id": "vf-6.5.2-08", "tipo": "vf", "capitulo": 6, "clausula": "6.5.2", "dificultad": 3,
+    "enunciado": "Con igual eficacia, algunas partes interesadas pueden aceptar mejor un tratamiento que otro.",
+    "correcta": true,
+    "explicacion": "Por eso al seleccionar opciones se consideran los valores, las percepciones y la participación de las partes interesadas. Ver 6.5.2."
+  },
+  {
+    "id": "caso-6.5.2-01", "tipo": "caso", "capitulo": 6, "clausula": "6.5.2", "dificultad": 2,
+    "enunciado": "Una pyme que exporta contrata un seguro de crédito para cubrirse si un cliente del exterior no paga. ¿Qué opción de tratamiento está usando?",
+    "opciones": ["Compartir el riesgo", "Evitar el riesgo", "Eliminar la fuente de riesgo", "Retener el riesgo"],
+    "correcta": 0,
+    "explicacion": "Los seguros y los contratos son los ejemplos que da la norma para compartir el riesgo. Ver 6.5.2."
+  },
+  {
+    "id": "caso-6.5.2-02", "tipo": "caso", "capitulo": 6, "clausula": "6.5.2", "dificultad": 2,
+    "enunciado": "Una constructora decide no presentarse a una licitación en una zona con conflicto armado. ¿Qué opción de tratamiento es?",
+    "opciones": ["Evitar el riesgo", "Eliminar la fuente de riesgo", "Retener el riesgo", "Compartir el riesgo"],
+    "correcta": 0,
+    "explicacion": "Evitar es decidir no iniciar o no continuar la actividad que genera el riesgo. La fuente (el conflicto) sigue existiendo. Ver 6.5.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "caso-6.5.2-03", "tipo": "caso", "capitulo": 6, "clausula": "6.5.2", "dificultad": 3,
+    "enunciado": "Una fábrica reemplaza un solvente inflamable por otro que no lo es, y sigue produciendo igual. ¿Qué opción de tratamiento es?",
+    "opciones": ["Eliminar la fuente de riesgo", "Evitar el riesgo", "Modificar las consecuencias", "Compartir el riesgo"],
+    "correcta": 0,
+    "explicacion": "La actividad sigue; lo que desaparece es el elemento que generaba el riesgo. Evitar sería dejar de producir. Ver 6.5.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "caso-6.5.2-04", "tipo": "caso", "capitulo": 6, "clausula": "6.5.2", "dificultad": 2,
+    "enunciado": "Un depósito instala rociadores automáticos para que, si hay un incendio, el daño sea menor. ¿Qué opción de tratamiento es?",
+    "opciones": ["Modificar las consecuencias", "Modificar la probabilidad", "Eliminar la fuente de riesgo", "Evitar el riesgo"],
+    "correcta": 0,
+    "explicacion": "Los rociadores no hacen que el incendio sea menos probable: reducen su impacto. Ver 6.5.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "caso-6.5.2-05", "tipo": "caso", "capitulo": 6, "clausula": "6.5.2", "dificultad": 2,
+    "enunciado": "Un banco agrega doble factor de autenticación para que sea más difícil que alguien acceda a cuentas ajenas. ¿Qué opción de tratamiento es?",
+    "opciones": ["Modificar la probabilidad", "Modificar las consecuencias", "Compartir el riesgo", "Retener el riesgo"],
+    "correcta": 0,
+    "explicacion": "Baja la chance de que el fraude ocurra, no su impacto si ocurre. Ver 6.5.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "caso-6.5.2-06", "tipo": "caso", "capitulo": 6, "clausula": "6.5.2", "dificultad": 2,
+    "enunciado": "Una pyme analiza el riesgo de que le suban el alquiler y, conociendo el impacto, decide no hacer nada especial y absorberlo si pasa. ¿Qué opción de tratamiento es?",
+    "opciones": ["Retener el riesgo con base en una decisión informada", "Evitar el riesgo", "Compartir el riesgo", "Modificar la probabilidad"],
+    "correcta": 0,
+    "explicacion": "Retener no es ignorar: es asumir el riesgo sabiendo lo que implica. Ver 6.5.2."
+  },
+  {
+    "id": "caso-6.5.2-07", "tipo": "caso", "capitulo": 6, "clausula": "6.5.2", "dificultad": 2,
+    "enunciado": "Una startup decide entrar a un mercado nuevo, más incierto, porque ve una gran oportunidad de crecimiento. ¿Qué opción de tratamiento es?",
+    "opciones": ["Aceptar o aumentar el riesgo en busca de una oportunidad", "Retener el riesgo", "Evitar el riesgo", "Modificar las consecuencias"],
+    "correcta": 0,
+    "explicacion": "Asumir más riesgo a propósito para buscar una oportunidad es una opción explícita. Ver 6.5.2."
+  },
+  {
+    "id": "caso-6.5.2-08", "tipo": "caso", "capitulo": 6, "clausula": "6.5.2", "dificultad": 2,
+    "enunciado": "Una empresa terceriza la logística con un contrato que deja a cargo del transportista las pérdidas por roturas. ¿Qué opción de tratamiento es?",
+    "opciones": ["Compartir el riesgo", "Evitar el riesgo", "Eliminar la fuente de riesgo", "Retener el riesgo"],
+    "correcta": 0,
+    "explicacion": "Los contratos son uno de los ejemplos de compartir el riesgo. Ver 6.5.2."
+  },
+  {
+    "id": "mc-6.5.3-01", "tipo": "mc", "capitulo": 6, "clausula": "6.5.3", "dificultad": 3,
+    "enunciado": "¿Cuál de estos NO es un contenido del plan de tratamiento?",
+    "opciones": [
+      "Los criterios del riesgo de la organización",
+      "El fundamento de las opciones elegidas y los beneficios esperados",
+      "Quiénes rinden cuentas y quiénes aprueban e implementan el plan",
+      "Las restricciones"
+    ],
+    "correcta": 0,
+    "explicacion": "El plan incluye fundamento y beneficios, responsables, acciones, recursos y contingencias, medidas de desempeño, restricciones, informes y seguimiento, y plazos. Los criterios se definen en 6.3.4. Ver 6.5.3.",
+    "tags": ["lista", "trampa"]
+  },
+  {
+    "id": "mc-6.5.3-02", "tipo": "mc", "capitulo": 6, "clausula": "6.5.3", "dificultad": 2,
+    "enunciado": "¿Cuál es el propósito de los planes de tratamiento?",
+    "opciones": [
+      "Especificar cómo se van a implementar las opciones elegidas, para que se entiendan y se pueda seguir el avance",
+      "Seleccionar la opción de tratamiento más barata",
+      "Comparar el riesgo residual con los criterios",
+      "Reemplazar al registro de riesgos"
+    ],
+    "correcta": 0,
+    "explicacion": "El plan baja a tierra las opciones elegidas e identifica el orden de implementación. Ver 6.5.3.",
+    "tags": ["proposito"]
+  },
+  {
+    "id": "vf-6.5.3-03", "tipo": "vf", "capitulo": 6, "clausula": "6.5.3", "dificultad": 2,
+    "enunciado": "El plan de tratamiento debería indicar en qué orden se va a implementar el tratamiento.",
+    "correcta": true,
+    "explicacion": "La norma pide identificar claramente ese orden. Ver 6.5.3."
+  },
+  {
+    "id": "vf-6.5.3-04", "tipo": "vf", "capitulo": 6, "clausula": "6.5.3", "dificultad": 2,
+    "enunciado": "Los planes de tratamiento deberían ser documentos independientes, separados de los planes de gestión de la organización.",
+    "correcta": false,
+    "explicacion": "Deberían integrarse en los planes y procesos de gestión de la organización, en consulta con las partes interesadas. Ver 6.5.3.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-6.6-01", "tipo": "mc", "capitulo": 6, "clausula": "6.6", "dificultad": 2,
+    "enunciado": "¿Cuál es el propósito del seguimiento y la revisión?",
+    "opciones": [
+      "Asegurar y mejorar la calidad y la eficacia del diseño, la implementación y los resultados del proceso",
+      "Medir periódicamente el desempeño del marco",
+      "Documentar e informar los resultados del proceso",
+      "Decidir si el riesgo residual es aceptable"
+    ],
+    "correcta": 0,
+    "explicacion": "Medir el desempeño del marco es 5.6; documentar e informar es 6.7. Ver 6.6.",
+    "tags": ["proposito", "trampa"]
+  },
+  {
+    "id": "mc-6.6-02", "tipo": "mc", "capitulo": 6, "clausula": "6.6", "dificultad": 2,
+    "enunciado": "Según 6.6, ¿cómo deberían ser el seguimiento y la revisión?",
+    "opciones": [
+      "Seguimiento continuo y revisión periódica",
+      "Seguimiento periódico y revisión continua",
+      "Ambos anuales",
+      "Ambos solo al cerrar el proceso"
+    ],
+    "correcta": 0,
+    "explicacion": "El seguimiento es continuo y la revisión es periódica, y los dos son una parte planificada del proceso con responsables definidos. Ver 6.6.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "vf-6.6-03", "tipo": "vf", "capitulo": 6, "clausula": "6.6", "dificultad": 1,
+    "enunciado": "El seguimiento y la revisión se hacen solo después del tratamiento del riesgo.",
+    "correcta": false,
+    "explicacion": "Deberían tener lugar en todas las etapas del proceso. Por eso en la figura es una barra lateral. Ver 6.6.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-6.6-04", "tipo": "mc", "capitulo": 6, "clausula": "6.6", "dificultad": 3,
+    "enunciado": "¿Qué incluyen el seguimiento y la revisión?",
+    "opciones": [
+      "Planificar, recopilar y analizar información, registrar resultados y dar retroalimentación",
+      "Identificar, analizar y valorar riesgos",
+      "Formular, seleccionar e implementar opciones de tratamiento",
+      "Integrar, diseñar e implementar el marco"
+    ],
+    "correcta": 0,
+    "explicacion": "Las otras opciones son la evaluación (6.4), el tratamiento (6.5) y componentes del marco (cap. 5). Ver 6.6.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "vf-6.6-05", "tipo": "vf", "capitulo": 6, "clausula": "6.6", "dificultad": 2,
+    "enunciado": "Los resultados del seguimiento y la revisión deberían incorporarse a la gestión del desempeño, la medición y los informes de la organización.",
+    "correcta": true,
+    "explicacion": "No quedan aislados: alimentan la gestión del desempeño de toda la organización. Ver 6.6."
+  },
+  {
+    "id": "mc-6.7-01", "tipo": "mc", "capitulo": 6, "clausula": "6.7", "dificultad": 2,
+    "enunciado": "¿Cuál de estos NO es un fin del registro e informe?",
+    "opciones": [
+      "Obtener la certificación de un organismo externo",
+      "Comunicar las actividades de gestión del riesgo y sus resultados",
+      "Dar información para la toma de decisiones",
+      "Mejorar las actividades de gestión del riesgo"
+    ],
+    "correcta": 0,
+    "explicacion": "Los fines son comunicar, informar decisiones, mejorar y facilitar la interacción con las partes interesadas. Ver 6.7.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "mc-6.7-02", "tipo": "mc", "capitulo": 6, "clausula": "6.7", "dificultad": 3,
+    "enunciado": "¿Cuál de estos factores se considera al definir el informe?",
+    "opciones": [
+      "El costo, la frecuencia y los tiempos del informe",
+      "El nivel de riesgo inherente de cada área",
+      "La cantidad de controles implementados",
+      "Las opciones de tratamiento descartadas"
+    ],
+    "correcta": 0,
+    "explicacion": "También se consideran las partes interesadas y sus necesidades, el método de informe y la pertinencia de la información. Ver 6.7.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "vf-6.7-03", "tipo": "vf", "capitulo": 6, "clausula": "6.7", "dificultad": 2,
+    "enunciado": "El informe es parte integral de la gobernanza y debería ayudar a la alta dirección y a los órganos de supervisión a cumplir sus responsabilidades.",
+    "correcta": true,
+    "explicacion": "También debería mejorar la calidad del diálogo con las partes interesadas. Ver 6.7."
+  },
+  {
+    "id": "vf-6.7-04", "tipo": "vf", "capitulo": 6, "clausula": "6.7", "dificultad": 3,
+    "enunciado": "Al decidir qué información documentada crear y conservar se tiene en cuenta su uso, pero también su sensibilidad y los contextos externo e interno.",
+    "correcta": true,
+    "explicacion": "La decisión no se limita al uso de la información. Ver 6.7."
+  },
+  {
+    "id": "caso-6.7-01", "tipo": "caso", "capitulo": 6, "clausula": "6.7", "dificultad": 2,
+    "enunciado": "Al cierre del trimestre, el área de riesgos arma un tablero para el directorio con los riesgos principales y el avance de los planes. ¿Qué parte del proceso es?",
+    "opciones": ["Registro e informe", "Seguimiento y revisión", "Comunicación y consulta", "Valoración del riesgo"],
+    "correcta": 0,
+    "explicacion": "Documentar e informar resultados a quienes deciden es registro e informe. Ver 6.7.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "caso-6.6-01", "tipo": "caso", "capitulo": 6, "clausula": "6.6", "dificultad": 2,
+    "enunciado": "Cada semana, un responsable revisa los indicadores para ver si los controles de calidad siguen funcionando como se esperaba. ¿Qué parte del proceso es?",
+    "opciones": ["Seguimiento y revisión", "Registro e informe", "Análisis del riesgo", "Tratamiento del riesgo"],
+    "correcta": 0,
+    "explicacion": "Verificar de forma continua que las cosas funcionan es seguimiento. Ver 6.6."
+  },
+  {
+    "id": "clau-6-01", "tipo": "clausula", "capitulo": 6, "clausula": "6.4.4", "dificultad": 2,
+    "enunciado": "Las cinco decisiones posibles después de comparar con los criterios",
+    "opciones": ["6.4.4", "6.5.2", "6.4.3", "6.3.4"],
+    "correcta": 0,
+    "explicacion": "Son las salidas de la valoración del riesgo. Ver 6.4.4."
+  },
+  {
+    "id": "clau-6-02", "tipo": "clausula", "capitulo": 6, "clausula": "6.5.2", "dificultad": 1,
+    "enunciado": "Las siete opciones para tratar el riesgo",
+    "opciones": ["6.5.2", "6.5.1", "6.5.3", "6.4.4"],
+    "correcta": 0,
+    "explicacion": "Están en la selección de opciones de tratamiento. Ver 6.5.2."
+  },
+  {
+    "id": "clau-6-03", "tipo": "clausula", "capitulo": 6, "clausula": "6.5.3", "dificultad": 2,
+    "enunciado": "Qué información debería incluir el plan de tratamiento",
+    "opciones": ["6.5.3", "6.5.2", "5.5", "6.7"],
+    "correcta": 0,
+    "explicacion": "Ver 6.5.3."
+  },
+  {
+    "id": "clau-6-04", "tipo": "clausula", "capitulo": 6, "clausula": "6.3.4", "dificultad": 3,
+    "enunciado": "Cómo se van a definir y medir las consecuencias y la probabilidad",
+    "opciones": ["6.3.4", "6.4.3", "6.4.4", "3.7"],
+    "correcta": 0,
+    "explicacion": "Se decide al definir los criterios del riesgo. El análisis (6.4.3) después las estima con esas reglas. Ver 6.3.4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clau-6-05", "tipo": "clausula", "capitulo": 6, "clausula": "6.4.2", "dificultad": 2,
+    "enunciado": "Factores a considerar para encontrar riesgos: fuentes, causas, vulnerabilidades, riesgos emergentes, sesgos",
+    "opciones": ["6.4.2", "6.4.3", "5.4.1", "6.3.3"],
+    "correcta": 0,
+    "explicacion": "Es la lista de la identificación del riesgo. Ver 6.4.2."
+  },
+  {
+    "id": "clau-6-06", "tipo": "clausula", "capitulo": 6, "clausula": "6.2", "dificultad": 2,
+    "enunciado": "Los cuatro fines de la comunicación y consulta en el proceso",
+    "opciones": ["6.2", "5.4.5", "6.7", "5.2"],
+    "correcta": 0,
+    "explicacion": "5.4.5 trata de establecer la comunicación y consulta al diseñar el marco; los cuatro fines están en el proceso. Ver 6.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clau-6-07", "tipo": "clausula", "capitulo": 6, "clausula": "6.6", "dificultad": 2,
+    "enunciado": "Seguimiento continuo y revisión periódica del proceso",
+    "opciones": ["6.6", "5.6", "5.7.1", "6.7"],
+    "correcta": 0,
+    "explicacion": "Ver 6.6.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clau-6-08", "tipo": "clausula", "capitulo": 6, "clausula": "6.3.2", "dificultad": 3,
+    "enunciado": "Tiempo, ubicación, inclusiones y exclusiones de las actividades de gestión del riesgo",
+    "opciones": ["6.3.2", "6.3.4", "5.5", "6.5.3"],
+    "correcta": 0,
+    "explicacion": "Son consideraciones para definir el alcance. Ver 6.3.2."
+  }
+]

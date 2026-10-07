@@ -1,0 +1,57 @@
+[
+  {
+    "id": "principios",
+    "titulo": "Principios",
+    "capitulo": 4,
+    "clausula": "4",
+    "centro": "Creación y protección del valor",
+    "resumen": "Describen cómo es una gestión del riesgo eficaz y eficiente. Son la base para armar el marco y el proceso.",
+    "partes": [
+      { "id": "p-integrada", "titulo": "Integrada", "clausula": "4", "resumen": "La gestión del riesgo es parte de todas las actividades, no un área aparte.", "puntos": ["Principio a)", "No confundir con el componente Integración del marco (5.3)"] },
+      { "id": "p-estructurada", "titulo": "Estructurada y exhaustiva", "clausula": "4", "resumen": "Un enfoque ordenado y completo da resultados coherentes y comparables.", "puntos": ["Principio b)", "Palabras clave: coherentes y comparables"] },
+      { "id": "p-adaptada", "titulo": "Adaptada", "clausula": "4", "resumen": "Marco y proceso se ajustan a cada organización y son proporcionales a sus contextos y objetivos.", "puntos": ["Principio c)", "Adaptada ≠ dinámica: una habla de la organización, la otra de los riesgos que cambian"] },
+      { "id": "p-inclusiva", "titulo": "Inclusiva", "clausula": "4", "resumen": "Las partes interesadas participan a tiempo y se suman su conocimiento, sus puntos de vista y sus percepciones.", "puntos": ["Principio d)", "Resultado: más toma de conciencia y gestión informada"] },
+      { "id": "p-dinamica", "titulo": "Dinámica", "clausula": "4", "resumen": "Los riesgos aparecen, cambian o desaparecen; la gestión los anticipa, detecta, reconoce y responde.", "puntos": ["Principio e)", "Cuatro verbos: anticipar, detectar, reconocer, responder"] },
+      { "id": "p-informacion", "titulo": "Mejor información disponible", "clausula": "4", "resumen": "Se usa información histórica, actual y expectativas futuras, reconociendo sus limitaciones.", "puntos": ["Principio f)", "La información debería ser oportuna, clara y disponible"] },
+      { "id": "p-humanos", "titulo": "Factores humanos y culturales", "clausula": "4", "resumen": "El comportamiento y la cultura influyen en todos los niveles y etapas.", "puntos": ["Principio g)", "Reaparece en 6.1: considerar lo dinámico del comportamiento humano"] },
+      { "id": "p-mejora", "titulo": "Mejora continua", "clausula": "4", "resumen": "La gestión del riesgo mejora con aprendizaje y experiencia.", "puntos": ["Principio h)", "También existe la mejora continua del marco (5.7.2)"] }
+    ]
+  },
+  {
+    "id": "marco",
+    "titulo": "Marco de referencia",
+    "capitulo": 5,
+    "clausula": "5",
+    "centro": "Liderazgo y compromiso",
+    "resumen": "Sirve para integrar la gestión del riesgo en las actividades y funciones significativas. Su eficacia depende de la integración en la gobernanza.",
+    "partes": [
+      { "id": "m-liderazgo", "titulo": "Liderazgo y compromiso", "clausula": "5.2", "resumen": "La alta dirección y los órganos de supervisión aseguran la integración y demuestran compromiso.", "puntos": ["Formas: adaptar e implementar el marco, política o declaración, recursos, autoridad y rendición de cuentas", "Alta dirección: rinde cuentas por gestionar", "Órganos de supervisión: rinden cuentas por supervisar"] },
+      { "id": "m-integracion", "titulo": "Integración", "clausula": "5.3", "resumen": "El riesgo se gestiona en toda la estructura y es responsabilidad de todos.", "puntos": ["Depende de entender estructuras y contexto", "Proceso dinámico e iterativo", "Es parte de la gobernanza, no algo separado"] },
+      { "id": "m-diseno-contexto", "titulo": "Diseño · Contexto", "clausula": "5.4.1", "resumen": "Analizar y comprender el contexto externo e interno al diseñar el marco.", "puntos": ["Externo: factores del entorno, tendencias, partes interesadas externas, redes", "Interno: visión, gobernanza, estrategia, cultura, capacidades, datos", "Relaciones contractuales y compromisos: en las dos listas"] },
+      { "id": "m-diseno-compromiso", "titulo": "Diseño · Compromiso", "clausula": "5.4.2", "resumen": "Expresar el compromiso con una política, declaración u otra forma, y comunicarlo.", "puntos": ["Cubre propósito, cultura, liderazgo, responsabilidades, recursos", "También objetivos en conflicto, medición, revisión y mejora"] },
+      { "id": "m-diseno-roles", "titulo": "Diseño · Roles", "clausula": "5.4.3", "resumen": "Asignar y comunicar autoridades, responsabilidades y rendición de cuentas.", "puntos": ["La gestión del riesgo es una responsabilidad principal", "Identificar a los dueños del riesgo"] },
+      { "id": "m-diseno-recursos", "titulo": "Diseño · Recursos", "clausula": "5.4.4", "resumen": "Asegurar los recursos apropiados para gestionar el riesgo.", "puntos": ["Personas y competencias; métodos y herramientas", "Procedimientos documentados; sistemas de información; formación", "Considerar capacidades y limitaciones de lo existente"] },
+      { "id": "m-diseno-comunicacion", "titulo": "Diseño · Comunicación y consulta", "clausula": "5.4.5", "resumen": "Definir un enfoque aprobado de comunicación y consulta.", "puntos": ["Comunicar = compartir información", "Consultar = además recibir retroalimentación que influye en decisiones"] },
+      { "id": "m-implementacion", "titulo": "Implementación", "clausula": "5.5", "resumen": "Poner en marcha el marco para que se entienda y se aplique.", "puntos": ["Plan con plazos y recursos", "Quién decide qué, dónde, cuándo y cómo", "Ajustar procesos de decisión si hace falta"] },
+      { "id": "m-valoracion", "titulo": "Valoración", "clausula": "5.6", "resumen": "Medir periódicamente el desempeño del marco y ver si sigue siendo idóneo.", "puntos": ["Contra propósito, planes, indicadores y comportamiento esperado", "No confundir con la valoración del riesgo (6.4.4)"] },
+      { "id": "m-mejora", "titulo": "Mejora", "clausula": "5.7", "resumen": "Adaptar el marco a los cambios y mejorarlo de forma continua.", "puntos": ["5.7.1 Adaptación: seguimiento continuo frente a cambios", "5.7.2 Mejora continua: idoneidad, adecuación y eficacia", "Brechas → planes, tareas y responsables"] }
+    ]
+  },
+  {
+    "id": "proceso",
+    "titulo": "Proceso",
+    "capitulo": 6,
+    "clausula": "6",
+    "resumen": "Aplicación sistemática de políticas, procedimientos y prácticas. Se dibuja como secuencia pero es iterativo, y sirve a nivel estratégico, operacional, de programa o de proyecto.",
+    "partes": [
+      { "id": "pr-comunicacion", "titulo": "Comunicación y consulta", "clausula": "6.2", "resumen": "Ayuda a entender el riesgo y las decisiones. Se hace en todas las etapas.", "puntos": ["Comunicación: conciencia y comprensión", "Consulta: retroalimentación para decidir", "4 fines: experiencia, puntos de vista, información para decidir, inclusión"] },
+      { "id": "pr-alcance", "titulo": "Alcance, contexto y criterios", "clausula": "6.3", "resumen": "Adapta el proceso para evaluar y tratar bien.", "puntos": ["Alcance: objetivos, tiempo, inclusiones, herramientas, recursos", "Contexto: retoma los factores de 5.4.1", "Criterios: cuánto y qué tipo de riesgo; se revisan continuamente"] },
+      { "id": "pr-identificacion", "titulo": "Identificación", "clausula": "6.4.2", "resumen": "Encontrar, reconocer y describir los riesgos que ayudan o impiden lograr objetivos.", "puntos": ["Primer paso de la evaluación", "Aunque la fuente no esté bajo control", "Incluye oportunidades, riesgos emergentes y sesgos"] },
+      { "id": "pr-analisis", "titulo": "Análisis", "clausula": "6.4.3", "resumen": "Comprender la naturaleza del riesgo y, cuando corresponde, su nivel.", "puntos": ["Segundo paso de la evaluación", "Cualitativo, cuantitativo o combinado", "Considera probabilidad, consecuencias, complejidad, tiempo, controles, confianza"] },
+      { "id": "pr-valoracion", "titulo": "Valoración", "clausula": "6.4.4", "resumen": "Comparar el análisis con los criterios para decidir si hace falta actuar.", "puntos": ["Tercer y último paso de la evaluación", "5 salidas: nada más, tratar, analizar más, mantener controles, reconsiderar objetivos"] },
+      { "id": "pr-tratamiento", "titulo": "Tratamiento", "clausula": "6.5", "resumen": "Seleccionar e implementar opciones para abordar el riesgo.", "puntos": ["Ciclo iterativo hasta que el riesgo residual sea aceptable", "7 opciones, no excluyentes", "Plan de tratamiento integrado en la gestión (6.5.3)"] },
+      { "id": "pr-seguimiento", "titulo": "Seguimiento y revisión", "clausula": "6.6", "resumen": "Asegurar y mejorar la calidad y eficacia del proceso.", "puntos": ["Seguimiento continuo + revisión periódica", "En todas las etapas, con responsables definidos"] },
+      { "id": "pr-registro", "titulo": "Registro e informe", "clausula": "6.7", "resumen": "Documentar e informar el proceso y sus resultados.", "puntos": ["Fines: comunicar, decidir, mejorar, dialogar", "Informe: destinatarios, costo, frecuencia, método, pertinencia"] }
+    ]
+  }
+]

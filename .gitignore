@@ -1,0 +1,6 @@
+node_modules
+dist
+*.local
+.DS_Store
+# La norma tiene licencia de un solo usuario: nunca al repo ni al build.
+*.pdf

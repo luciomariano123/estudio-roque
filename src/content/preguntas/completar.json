@@ -1,0 +1,78 @@
+[
+  {
+    "id": "cloze-3.1-04", "tipo": "cloze", "capitulo": 3, "clausula": "3.1", "dificultad": 1,
+    "enunciado": "El riesgo es el efecto de la ____ sobre los objetivos.",
+    "opciones": ["incertidumbre", "variabilidad", "amenaza", "probabilidad"],
+    "correcta": 0,
+    "explicacion": "Es la definición textual del término, una de las pocas que conviene saber exacta. Ver 3.1.",
+    "tags": ["definicion"]
+  },
+  {
+    "id": "cloze-3.8-02", "tipo": "cloze", "capitulo": 3, "clausula": "3.8", "dificultad": 2,
+    "enunciado": "Un control es una medida que mantiene y/o ____ un riesgo.",
+    "opciones": ["modifica", "elimina", "transfiere", "mide"],
+    "correcta": 0,
+    "explicacion": "Mantener y/o modificar: un control no necesariamente elimina el riesgo. Ver 3.8.",
+    "tags": ["definicion"]
+  },
+  {
+    "id": "cloze-5.3-06", "tipo": "cloze", "capitulo": 5, "clausula": "5.3", "dificultad": 1,
+    "enunciado": "Todos los ____ de una organización tienen la responsabilidad de gestionar el riesgo.",
+    "opciones": ["miembros", "directivos", "auditores", "dueños del riesgo"],
+    "correcta": 0,
+    "explicacion": "No es tarea solo de un área o de la dirección: es de todos. Ver 5.3."
+  },
+  {
+    "id": "cloze-6.1-07", "tipo": "cloze", "capitulo": 6, "clausula": "6.1", "dificultad": 1,
+    "enunciado": "Aunque el proceso se suele presentar como secuencial, en la práctica es ____.",
+    "opciones": ["iterativo", "lineal", "anual", "opcional"],
+    "correcta": 0,
+    "explicacion": "Ver 6.1."
+  },
+  {
+    "id": "cloze-6.4.1-06", "tipo": "cloze", "capitulo": 6, "clausula": "6.4.1", "dificultad": 2,
+    "enunciado": "La evaluación del riesgo debería hacerse de manera sistemática, iterativa y ____.",
+    "opciones": ["colaborativa", "confidencial", "cuantitativa", "centralizada"],
+    "correcta": 0,
+    "explicacion": "Los tres adjetivos son sistemática, iterativa y colaborativa. Ver 6.4.1.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "cloze-6.4.2-05", "tipo": "cloze", "capitulo": 6, "clausula": "6.4.2", "dificultad": 2,
+    "enunciado": "Los riesgos se identifican estén o no sus fuentes bajo el ____ de la organización.",
+    "opciones": ["control", "análisis", "presupuesto", "registro"],
+    "correcta": 0,
+    "explicacion": "No identificar un riesgo porque su fuente es externa sería un error. Ver 6.4.2."
+  },
+  {
+    "id": "cloze-6.5.2-09", "tipo": "cloze", "capitulo": 6, "clausula": "6.5.2", "dificultad": 1,
+    "enunciado": "Compartir el riesgo incluye, por ejemplo, contratos y la compra de ____.",
+    "opciones": ["seguros", "controles", "activos", "acciones"],
+    "correcta": 0,
+    "explicacion": "Contratos y seguros son los dos ejemplos de la norma. Ver 6.5.2."
+  },
+  {
+    "id": "cloze-6.6-06", "tipo": "cloze", "capitulo": 6, "clausula": "6.6", "dificultad": 2,
+    "enunciado": "El seguimiento es ____ y la revisión es periódica.",
+    "opciones": ["continuo", "anual", "eventual", "trimestral"],
+    "correcta": 0,
+    "explicacion": "Seguimiento continuo + revisión periódica. Ver 6.6.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "cloze-6.3.4-05", "tipo": "cloze", "capitulo": 6, "clausula": "6.3.4", "dificultad": 2,
+    "enunciado": "Los criterios del riesgo se establecen al principio, pero son ____ y deberían revisarse continuamente.",
+    "opciones": ["dinámicos", "definitivos", "confidenciales", "cuantitativos"],
+    "correcta": 0,
+    "explicacion": "Ver 6.3.4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "cloze-6.2-06", "tipo": "cloze", "capitulo": 6, "clausula": "6.2", "dificultad": 2,
+    "enunciado": "La comunicación busca la toma de conciencia y la comprensión del riesgo; la consulta busca obtener ____ para apoyar las decisiones.",
+    "opciones": ["retroalimentación", "aprobación", "financiamiento", "certificación"],
+    "correcta": 0,
+    "explicacion": "Ver 6.2.",
+    "tags": ["trampa"]
+  }
+]

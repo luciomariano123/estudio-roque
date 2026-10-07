@@ -1,0 +1,221 @@
+[
+  {
+    "id": "mc-4-01", "tipo": "mc", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "Según el capítulo 4, ¿cuál es el propósito de la gestión del riesgo?",
+    "opciones": [
+      "La creación y la protección del valor",
+      "El cumplimiento de la legislación aplicable",
+      "La eliminación de todos los riesgos",
+      "La certificación del sistema de gestión"
+    ],
+    "correcta": 0,
+    "explicacion": "El propósito es crear y proteger valor; además mejora el desempeño, fomenta la innovación y ayuda a lograr objetivos. Ver 4.",
+    "tags": ["proposito"]
+  },
+  {
+    "id": "mc-4-02", "tipo": "mc", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "¿Qué va en el centro de la figura de los principios?",
+    "opciones": [
+      "Creación y protección del valor",
+      "Liderazgo y compromiso",
+      "Mejora continua",
+      "Comunicación y consulta"
+    ],
+    "correcta": 0,
+    "explicacion": "En el centro de los principios está el valor. Liderazgo y compromiso es el centro de la figura del marco (cap. 5). Ver 4, Figura 2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-4-03", "tipo": "mc", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "¿Cuántos principios enumera la norma?",
+    "opciones": ["8", "5", "7", "11"],
+    "correcta": 0,
+    "explicacion": "Son ocho, de la a) a la h). La edición 2009 tenía once; en 2018 se revisaron. Ver 4.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "mc-4-04", "tipo": "mc", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "¿Cuál de estos NO es un principio de la gestión del riesgo?",
+    "opciones": ["Centralizada", "Integrada", "Dinámica", "Inclusiva"],
+    "correcta": 0,
+    "explicacion": "Los ocho son: integrada; estructurada y exhaustiva; adaptada; inclusiva; dinámica; mejor información disponible; factores humanos y culturales; mejora continua. Ver 4.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "mc-4-05", "tipo": "mc", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "Los riesgos aparecen, cambian o desaparecen cuando cambia el contexto, y la gestión del riesgo los anticipa y responde a tiempo. ¿Qué principio describe esto?",
+    "opciones": ["Dinámica", "Adaptada", "Mejora continua", "Mejor información disponible"],
+    "correcta": 0,
+    "explicacion": "Es el principio e), dinámica: anticipar, detectar, reconocer y responder a los cambios. Ver 4."
+  },
+  {
+    "id": "mc-4-06", "tipo": "mc", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "La participación apropiada y oportuna de las partes interesadas permite considerar su conocimiento y sus percepciones. ¿Qué principio es?",
+    "opciones": ["Inclusiva", "Integrada", "Factores humanos y culturales", "Adaptada"],
+    "correcta": 0,
+    "explicacion": "Es el principio d), inclusiva. Integrada habla de ser parte de todas las actividades, no de involucrar a las partes interesadas. Ver 4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-4-07", "tipo": "mc", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "¿Qué principio busca resultados coherentes y comparables?",
+    "opciones": ["Estructurada y exhaustiva", "Integrada", "Mejor información disponible", "Mejora continua"],
+    "correcta": 0,
+    "explicacion": "Un enfoque estructurado y exhaustivo lleva a resultados coherentes y comparables. Ver 4, principio b)."
+  },
+  {
+    "id": "mc-4-08", "tipo": "mc", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "¿Qué principio dice que el marco y el proceso se ajustan y son proporcionales a los contextos externo e interno?",
+    "opciones": ["Adaptada", "Dinámica", "Inclusiva", "Estructurada y exhaustiva"],
+    "correcta": 0,
+    "explicacion": "Es el principio c), adaptada. Dinámica se refiere a que los riesgos cambian; adaptada, a que la gestión se ajusta a cada organización. Ver 4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-4-09", "tipo": "mc", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "Usar información histórica, actual y expectativas futuras, teniendo en cuenta sus limitaciones, corresponde al principio…",
+    "opciones": ["Mejor información disponible", "Dinámica", "Estructurada y exhaustiva", "Mejora continua"],
+    "correcta": 0,
+    "explicacion": "Es el principio f). Además pide que la información sea oportuna, clara y esté disponible para las partes interesadas pertinentes. Ver 4."
+  },
+  {
+    "id": "vf-4-10", "tipo": "vf", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "Según el principio \"integrada\", la gestión del riesgo es una actividad aparte, a cargo de un área específica.",
+    "correcta": false,
+    "explicacion": "Integrada significa que forma parte de todas las actividades de la organización, no que es algo separado. Ver 4, principio a).",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "vf-4-11", "tipo": "vf", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "El principio de mejor información disponible exige contar con información completa y sin incertidumbre antes de decidir.",
+    "correcta": false,
+    "explicacion": "Pide usar la mejor información que haya y tener en cuenta explícitamente sus limitaciones e incertidumbre, no esperar información perfecta. Ver 4, principio f).",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "vf-4-12", "tipo": "vf", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "El comportamiento humano y la cultura influyen en todos los aspectos de la gestión del riesgo, en todos los niveles y etapas.",
+    "correcta": true,
+    "explicacion": "Es el principio g), factores humanos y culturales. Ver 4."
+  },
+  {
+    "id": "vf-4-13", "tipo": "vf", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "La mejora continua aparece como principio y también dentro del componente \"Mejora\" del marco de referencia.",
+    "correcta": true,
+    "explicacion": "Es el principio h) y también la subcláusula 5.7.2 del marco. Conviene no confundir cuál te preguntan. Ver 4 y 5.7.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "vf-4-14", "tipo": "vf", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "Los principios se deberían considerar al establecer el marco de referencia y los procesos de gestión del riesgo.",
+    "correcta": true,
+    "explicacion": "Los principios son el fundamento: orientan cómo debería ser una gestión eficaz y eficiente, y se tienen en cuenta al armar el marco y el proceso. Ver 4."
+  },
+  {
+    "id": "caso-4-15", "tipo": "caso", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "En una distribuidora, el análisis de riesgos lo hace solo el área de finanzas, sin escuchar a operaciones, a los clientes ni a los proveedores. ¿Qué principio no se está cumpliendo?",
+    "opciones": ["Inclusiva", "Dinámica", "Mejora continua", "Estructurada y exhaustiva"],
+    "correcta": 0,
+    "explicacion": "Faltan la participación de las partes interesadas y su conocimiento y percepciones: eso es el principio inclusiva. Ver 4, principio d)."
+  },
+  {
+    "id": "caso-4-16", "tipo": "caso", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "Cambió la regulación del sector y apareció un competidor fuerte, pero una cooperativa sigue trabajando con la misma lista de riesgos de hace cinco años. ¿Qué principio no se está cumpliendo?",
+    "opciones": ["Dinámica", "Estructurada y exhaustiva", "Inclusiva", "Factores humanos y culturales"],
+    "correcta": 0,
+    "explicacion": "Los riesgos cambian con el contexto y la gestión debería detectar esos cambios y responder a tiempo. Ver 4, principio e)."
+  },
+  {
+    "id": "caso-4-17", "tipo": "caso", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "Un hospital chico copió tal cual el manual de gestión del riesgo de una petrolera multinacional, sin ajustarlo a su tamaño ni a su contexto. ¿Qué principio no se está cumpliendo?",
+    "opciones": ["Adaptada", "Integrada", "Inclusiva", "Dinámica"],
+    "correcta": 0,
+    "explicacion": "El marco y el proceso deberían ser proporcionales a los contextos y objetivos de cada organización. Ver 4, principio c)."
+  },
+  {
+    "id": "caso-4-18", "tipo": "caso", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "Cada gerencia identifica sus riesgos con un método y una escala distintos, y después los resultados no se pueden comparar. ¿Qué principio falla?",
+    "opciones": ["Estructurada y exhaustiva", "Adaptada", "Mejor información disponible", "Inclusiva"],
+    "correcta": 0,
+    "explicacion": "Un enfoque estructurado y exhaustivo es lo que permite resultados coherentes y comparables. Ver 4, principio b)."
+  },
+  {
+    "id": "caso-4-19", "tipo": "caso", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "En una empresa los mandos medios esconden los incidentes por miedo a que los sancionen. ¿Qué principio está en juego?",
+    "opciones": ["Factores humanos y culturales", "Inclusiva", "Dinámica", "Mejora continua"],
+    "correcta": 0,
+    "explicacion": "El comportamiento y la cultura influyen en toda la gestión del riesgo; una cultura de castigo distorsiona lo que se reporta. Ver 4, principio g)."
+  },
+  {
+    "id": "caso-4-20", "tipo": "caso", "capitulo": 4, "clausula": "4", "dificultad": 3,
+    "enunciado": "Para decidir una inversión, el directorio mira solo los números del año pasado, sin proyecciones y sin preguntarse qué tan confiables son esos datos. ¿Qué principio no se está aplicando?",
+    "opciones": ["Mejor información disponible", "Adaptada", "Inclusiva", "Estructurada y exhaustiva"],
+    "correcta": 0,
+    "explicacion": "El principio pide combinar información histórica, actual y expectativas futuras, y tener en cuenta sus limitaciones. Ver 4, principio f)."
+  },
+  {
+    "id": "caso-4-21", "tipo": "caso", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "Después de cada incidente, una aerolínea revisa qué aprendió y ajusta su forma de gestionar el riesgo. ¿Qué principio está aplicando?",
+    "opciones": ["Mejora continua", "Dinámica", "Factores humanos y culturales", "Integrada"],
+    "correcta": 0,
+    "explicacion": "La gestión del riesgo mejora continuamente con el aprendizaje y la experiencia. Ver 4, principio h)."
+  },
+  {
+    "id": "cloze-4-22", "tipo": "cloze", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "La gestión del riesgo mejora el desempeño, fomenta la ____ y contribuye al logro de objetivos.",
+    "opciones": ["innovación", "eficiencia", "competitividad", "rentabilidad"],
+    "correcta": 0,
+    "explicacion": "Junto con crear y proteger valor, la norma menciona mejorar el desempeño, fomentar la innovación y ayudar a lograr objetivos. Ver 4."
+  },
+  {
+    "id": "cloze-4-23", "tipo": "cloze", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "El principio ____ indica que la gestión del riesgo es parte de todas las actividades de la organización.",
+    "opciones": ["integrada", "inclusiva", "adaptada", "dinámica"],
+    "correcta": 0,
+    "explicacion": "Integrada = parte de todas las actividades. Inclusiva = participación de las partes interesadas. Ver 4, principio a).",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "cloze-4-24", "tipo": "cloze", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "Según el principio de mejora continua, la gestión del riesgo mejora mediante el aprendizaje y la ____.",
+    "opciones": ["experiencia", "auditoría", "certificación", "supervisión"],
+    "correcta": 0,
+    "explicacion": "Aprendizaje y experiencia son los dos motores de la mejora continua. Ver 4, principio h)."
+  },
+  {
+    "id": "clas-4-25", "tipo": "clasificar", "grupo": "estructura", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "Inclusiva",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 0,
+    "explicacion": "Es el principio d). Ver 4."
+  },
+  {
+    "id": "clas-4-26", "tipo": "clasificar", "grupo": "estructura", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "Dinámica",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 0,
+    "explicacion": "Es el principio e). Ver 4."
+  },
+  {
+    "id": "clas-4-27", "tipo": "clasificar", "grupo": "estructura", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "Mejor información disponible",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 0,
+    "explicacion": "Es el principio f). Ver 4."
+  },
+  {
+    "id": "clas-4-28", "tipo": "clasificar", "grupo": "estructura", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "Factores humanos y culturales",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 0,
+    "explicacion": "Es el principio g). Ver 4."
+  },
+  {
+    "id": "clau-4-29", "tipo": "clausula", "capitulo": 4, "clausula": "4", "dificultad": 2,
+    "enunciado": "La idea de que los riesgos pueden aparecer, cambiar o desaparecer con los cambios de contexto, ¿dónde está?",
+    "opciones": ["4", "5.7.1", "6.6", "3.1"],
+    "correcta": 0,
+    "explicacion": "Es la descripción del principio dinámica. 5.7.1 habla de adaptar el marco, y 6.6 de seguimiento y revisión. Ver 4.",
+    "tags": ["trampa"]
+  }
+]

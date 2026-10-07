@@ -1,0 +1,586 @@
+[
+  {
+    "id": "vf-6.1-01", "tipo": "vf", "capitulo": 6, "clausula": "6.1", "dificultad": 1,
+    "enunciado": "El proceso de gestión del riesgo es estrictamente secuencial.",
+    "correcta": false,
+    "explicacion": "Se suele dibujar como una secuencia, pero en la práctica es iterativo. Ver 6.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-6.1-02", "tipo": "mc", "capitulo": 6, "clausula": "6.1", "dificultad": 1,
+    "enunciado": "¿En qué niveles se puede aplicar el proceso de gestión del riesgo?",
+    "opciones": [
+      "Estratégico, operacional, de programa o de proyecto",
+      "Solo en el nivel estratégico",
+      "Solo en el nivel operativo",
+      "Solo en proyectos de inversión"
+    ],
+    "correcta": 0,
+    "explicacion": "El proceso se aplica a cualquier nivel, y puede haber muchas aplicaciones dentro de una misma organización. Ver 6.1."
+  },
+  {
+    "id": "vf-6.1-03", "tipo": "vf", "capitulo": 6, "clausula": "6.1", "dificultad": 2,
+    "enunciado": "A lo largo de todo el proceso se debería tener en cuenta que el comportamiento humano y la cultura son dinámicos y variables.",
+    "correcta": true,
+    "explicacion": "La norma lo pide en las generalidades del proceso, en línea con el principio de factores humanos y culturales. Ver 6.1."
+  },
+  {
+    "id": "mc-6.1-04", "tipo": "mc", "capitulo": 6, "clausula": "6.1", "dificultad": 2,
+    "enunciado": "En la figura del proceso, ¿cuáles son las dos barras laterales que acompañan a todas las etapas?",
+    "opciones": [
+      "Comunicación y consulta; seguimiento y revisión",
+      "Registro e informe; tratamiento del riesgo",
+      "Alcance y contexto; criterios del riesgo",
+      "Identificación; valoración"
+    ],
+    "correcta": 0,
+    "explicacion": "A la izquierda va comunicación y consulta y a la derecha seguimiento y revisión, porque atraviesan todas las etapas. Ver 6.1, Figura 4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-6.1-05", "tipo": "mc", "capitulo": 6, "clausula": "6.1", "dificultad": 2,
+    "enunciado": "¿Qué va como base, abajo de todo, en la figura del proceso?",
+    "opciones": ["Registro e informe", "Tratamiento del riesgo", "Seguimiento y revisión", "Comunicación y consulta"],
+    "correcta": 0,
+    "explicacion": "Registro e informe es la franja horizontal de abajo. El tratamiento es la última caja del centro. Ver 6.1, Figura 4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-6.1-06", "tipo": "mc", "capitulo": 6, "clausula": "6.1", "dificultad": 2,
+    "enunciado": "Según 6.1, ¿qué implica el proceso de gestión del riesgo?",
+    "opciones": [
+      "La aplicación sistemática de políticas, procedimientos y prácticas a sus actividades",
+      "La certificación periódica de los controles",
+      "La designación de un comité de riesgos",
+      "La compra de seguros para cada riesgo identificado"
+    ],
+    "correcta": 0,
+    "explicacion": "Las actividades son comunicación y consulta, contexto, evaluación, tratamiento, seguimiento, revisión, registro e informe. Ver 6.1."
+  },
+  {
+    "id": "clas-6-01", "tipo": "clasificar", "grupo": "estructura", "capitulo": 6, "clausula": "6.3", "dificultad": 1,
+    "enunciado": "Alcance, contexto y criterios",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 2,
+    "explicacion": "Es la primera caja del centro de la figura del proceso. Ver 6.3."
+  },
+  {
+    "id": "clas-6-02", "tipo": "clasificar", "grupo": "estructura", "capitulo": 6, "clausula": "6.5", "dificultad": 1,
+    "enunciado": "Tratamiento del riesgo",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 2,
+    "explicacion": "Es una etapa del proceso. Ver 6.5."
+  },
+  {
+    "id": "clas-6-03", "tipo": "clasificar", "grupo": "estructura", "capitulo": 6, "clausula": "6.6", "dificultad": 1,
+    "enunciado": "Seguimiento y revisión",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 2,
+    "explicacion": "Es parte del proceso: la barra lateral derecha de la figura. Ver 6.6."
+  },
+  {
+    "id": "clas-6-04", "tipo": "clasificar", "grupo": "estructura", "capitulo": 6, "clausula": "6.7", "dificultad": 1,
+    "enunciado": "Registro e informe",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 2,
+    "explicacion": "Es parte del proceso: la base de la figura. Ver 6.7."
+  },
+  {
+    "id": "clas-6-05", "tipo": "clasificar", "grupo": "estructura", "capitulo": 6, "clausula": "6.4.4", "dificultad": 2,
+    "enunciado": "Valoración del riesgo",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 2,
+    "explicacion": "La valoración del riesgo es el tercer paso de la evaluación, dentro del proceso. La valoración del marco (5.6) es otra cosa. Ver 6.4.4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-6-06", "tipo": "clasificar", "grupo": "estructura", "capitulo": 6, "clausula": "6.4", "dificultad": 1,
+    "enunciado": "Evaluación del riesgo",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 2,
+    "explicacion": "Es la etapa central del proceso, con sus tres pasos. Ver 6.4."
+  },
+  {
+    "id": "mc-6.2-01", "tipo": "mc", "capitulo": 6, "clausula": "6.2", "dificultad": 1,
+    "enunciado": "¿En qué momento del proceso se hace la comunicación y consulta?",
+    "opciones": [
+      "En todas las etapas del proceso",
+      "Solo al principio, al definir el contexto",
+      "Solo al final, para informar los resultados",
+      "Solo durante el tratamiento"
+    ],
+    "correcta": 0,
+    "explicacion": "Se hace con las partes interesadas externas e internas en todas y cada una de las etapas. Ver 6.2."
+  },
+  {
+    "id": "mc-6.2-02", "tipo": "mc", "capitulo": 6, "clausula": "6.2", "dificultad": 3,
+    "enunciado": "¿Cuál de estos NO es uno de los fines de la comunicación y consulta?",
+    "opciones": [
+      "Reemplazar la valoración del riesgo por la opinión de la mayoría",
+      "Reunir distintas áreas de experiencia para cada etapa",
+      "Considerar los distintos puntos de vista al definir criterios y valorar riesgos",
+      "Construir un sentido de inclusión y propiedad entre los afectados"
+    ],
+    "correcta": 0,
+    "explicacion": "Los cuatro fines son: reunir experiencia, considerar puntos de vista, dar información suficiente para supervisar y decidir, y generar inclusión y propiedad. Ver 6.2.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "vf-6.2-03", "tipo": "vf", "capitulo": 6, "clausula": "6.2", "dificultad": 2,
+    "enunciado": "El intercambio de información en la comunicación y consulta debe considerar la confidencialidad, la integridad de la información y la privacidad de las personas.",
+    "correcta": true,
+    "explicacion": "El intercambio debería ser oportuno, pertinente, exacto y comprensible, cuidando confidencialidad, integridad y privacidad. Ver 6.2."
+  },
+  {
+    "id": "mc-6.2-04", "tipo": "mc", "capitulo": 6, "clausula": "6.2", "dificultad": 2,
+    "enunciado": "¿Cuál es el propósito de la comunicación y consulta en el proceso?",
+    "opciones": [
+      "Ayudar a las partes interesadas a entender el riesgo, en qué se basan las decisiones y por qué hacen falta ciertas acciones",
+      "Publicar el registro de riesgos para cumplir con la regulación",
+      "Que la alta dirección delegue las decisiones en las partes interesadas",
+      "Documentar el proceso y sus resultados"
+    ],
+    "correcta": 0,
+    "explicacion": "Documentar el proceso es registro e informe (6.7). Ver 6.2.",
+    "tags": ["proposito"]
+  },
+  {
+    "id": "clas-6.2-01", "tipo": "clasificar", "grupo": "comunicacion", "capitulo": 6, "clausula": "6.2", "dificultad": 1,
+    "enunciado": "Promover la toma de conciencia y la comprensión del riesgo",
+    "opciones": ["Comunicación", "Consulta"],
+    "correcta": 0,
+    "explicacion": "Es lo que busca la comunicación. Ver 6.2."
+  },
+  {
+    "id": "clas-6.2-02", "tipo": "clasificar", "grupo": "comunicacion", "capitulo": 6, "clausula": "6.2", "dificultad": 1,
+    "enunciado": "Obtener retroalimentación e información para apoyar la toma de decisiones",
+    "opciones": ["Comunicación", "Consulta"],
+    "correcta": 1,
+    "explicacion": "Es lo que implica la consulta. Ver 6.2."
+  },
+  {
+    "id": "clas-6.2-03", "tipo": "clasificar", "grupo": "comunicacion", "capitulo": 6, "clausula": "6.2", "dificultad": 2,
+    "enunciado": "Mandar a todo el personal un boletín con los riesgos principales del trimestre",
+    "opciones": ["Comunicación", "Consulta"],
+    "correcta": 0,
+    "explicacion": "Se comparte información para generar conciencia, sin pedir una devolución. Ver 6.2."
+  },
+  {
+    "id": "clas-6.2-04", "tipo": "clasificar", "grupo": "comunicacion", "capitulo": 6, "clausula": "6.2", "dificultad": 2,
+    "enunciado": "Reunir a los jefes de planta para que opinen sobre los criterios del riesgo antes de aprobarlos",
+    "opciones": ["Comunicación", "Consulta"],
+    "correcta": 1,
+    "explicacion": "Se busca su retroalimentación para que influya en la decisión. Ver 6.2."
+  },
+  {
+    "id": "clas-6.2-05", "tipo": "clasificar", "grupo": "comunicacion", "capitulo": 6, "clausula": "6.2", "dificultad": 2,
+    "enunciado": "Encuestar a los vecinos de la planta antes de decidir el plan de emergencias",
+    "opciones": ["Comunicación", "Consulta"],
+    "correcta": 1,
+    "explicacion": "Se recoge su opinión para usarla en la decisión. Ver 6.2."
+  },
+  {
+    "id": "mc-6.3.1-01", "tipo": "mc", "capitulo": 6, "clausula": "6.3.1", "dificultad": 2,
+    "enunciado": "¿Para qué se establecen el alcance, el contexto y los criterios?",
+    "opciones": [
+      "Para adaptar el proceso y permitir una evaluación eficaz y un tratamiento apropiado",
+      "Para documentar los resultados del proceso",
+      "Para identificar los riesgos que afectan a los objetivos",
+      "Para designar a los dueños del riesgo"
+    ],
+    "correcta": 0,
+    "explicacion": "Su propósito es ajustar el proceso a lo que se va a analizar. Identificar riesgos es 6.4.2; designar dueños, 5.4.3. Ver 6.3.1.",
+    "tags": ["proposito"]
+  },
+  {
+    "id": "mc-6.3.2-01", "tipo": "mc", "capitulo": 6, "clausula": "6.3.2", "dificultad": 3,
+    "enunciado": "¿Cuál de estas NO es una consideración al planificar el alcance de las actividades de gestión del riesgo?",
+    "opciones": [
+      "La selección de las opciones de tratamiento",
+      "Los objetivos y las decisiones que se necesitan tomar",
+      "El tiempo, la ubicación y las inclusiones y exclusiones",
+      "Las relaciones con otros proyectos, procesos y actividades"
+    ],
+    "correcta": 0,
+    "explicacion": "Elegir opciones de tratamiento es 6.5.2. Al definir el alcance también se consideran resultados esperados, herramientas y técnicas, y recursos, responsabilidades y registros. Ver 6.3.2.",
+    "tags": ["lista", "trampa"]
+  },
+  {
+    "id": "vf-6.3.3-01", "tipo": "vf", "capitulo": 6, "clausula": "6.3.3", "dificultad": 2,
+    "enunciado": "Los propios factores de la organización pueden ser una fuente de riesgo.",
+    "correcta": true,
+    "explicacion": "Es una de las razones por las que importa entender el contexto. Ver 6.3.3."
+  },
+  {
+    "id": "mc-6.3.4-01", "tipo": "mc", "capitulo": 6, "clausula": "6.3.4", "dificultad": 1,
+    "enunciado": "¿Qué precisan los criterios del riesgo?",
+    "opciones": [
+      "Cuánto riesgo y de qué tipo puede o no tomar la organización respecto de sus objetivos",
+      "La lista de riesgos identificados",
+      "Las acciones del plan de tratamiento",
+      "Los controles que ya existen"
+    ],
+    "correcta": 0,
+    "explicacion": "Los criterios sirven para valorar la importancia del riesgo y apoyar las decisiones. Ver 6.3.4."
+  },
+  {
+    "id": "vf-6.3.4-02", "tipo": "vf", "capitulo": 6, "clausula": "6.3.4", "dificultad": 2,
+    "enunciado": "Los criterios del riesgo se fijan al inicio y no se tocan hasta el próximo ciclo anual.",
+    "correcta": false,
+    "explicacion": "Se establecen al principio, pero son dinámicos: se revisan continuamente y se modifican si hace falta. Ver 6.3.4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-6.3.4-03", "tipo": "mc", "capitulo": 6, "clausula": "6.3.4", "dificultad": 3,
+    "enunciado": "¿Cuál de estas cuestiones se debería considerar al establecer los criterios del riesgo?",
+    "opciones": [
+      "Cómo se tendrán en cuenta las combinaciones y secuencias de múltiples riesgos",
+      "Quién aprueba el plan de tratamiento",
+      "Con qué frecuencia se emite el informe",
+      "Qué capacitación necesita el equipo de riesgos"
+    ],
+    "correcta": 0,
+    "explicacion": "También se consideran el tipo de incertidumbres, cómo medir consecuencias y probabilidad, el tiempo, la coherencia de las mediciones, cómo determinar el nivel de riesgo y la capacidad de la organización. Ver 6.3.4.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "vf-6.3.4-04", "tipo": "vf", "capitulo": 6, "clausula": "6.3.4", "dificultad": 2,
+    "enunciado": "Los criterios del riesgo deberían alinearse con el marco y reflejar los valores, objetivos y recursos de la organización.",
+    "correcta": true,
+    "explicacion": "También deberían ser coherentes con las políticas y considerar las obligaciones y los puntos de vista de las partes interesadas. Ver 6.3.4."
+  },
+  {
+    "id": "caso-6.3-01", "tipo": "caso", "capitulo": 6, "clausula": "6.3.2", "dificultad": 1,
+    "enunciado": "Antes de evaluar los riesgos de una planta nueva, el equipo define qué procesos quedan incluidos, en qué plazo trabaja y qué herramientas va a usar. ¿En qué etapa del proceso está?",
+    "opciones": ["Alcance, contexto y criterios", "Identificación del riesgo", "Tratamiento del riesgo", "Registro e informe"],
+    "correcta": 0,
+    "explicacion": "Definir inclusiones, plazos y herramientas es definir el alcance. Ver 6.3.2."
+  },
+  {
+    "id": "caso-6.3.4-01", "tipo": "caso", "capitulo": 6, "clausula": "6.3.4", "dificultad": 2,
+    "enunciado": "Una ONG decide que no va a aceptar ningún riesgo que comprometa la seguridad de sus voluntarios, y que pérdidas de hasta el 5 % del presupuesto son tolerables. ¿Qué está definiendo?",
+    "opciones": ["Los criterios del riesgo", "El plan de tratamiento", "La valoración del riesgo", "El contexto externo"],
+    "correcta": 0,
+    "explicacion": "Fijar cuánto riesgo y de qué tipo se puede tomar es definir los criterios. La valoración viene después y los usa. Ver 6.3.4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-6.4.1-01", "tipo": "mc", "capitulo": 6, "clausula": "6.4.1", "dificultad": 2,
+    "enunciado": "¿Qué tres actividades componen la evaluación del riesgo?",
+    "opciones": [
+      "Identificación, análisis y valoración",
+      "Identificación, valoración y tratamiento",
+      "Análisis, tratamiento y seguimiento",
+      "Contexto, análisis y valoración"
+    ],
+    "correcta": 0,
+    "explicacion": "La evaluación es el proceso global; el tratamiento es una etapa aparte que viene después. Ver 6.4.1.",
+    "tags": ["trampa", "lista"]
+  },
+  {
+    "id": "vf-6.4.1-02", "tipo": "vf", "capitulo": 6, "clausula": "6.4.1", "dificultad": 2,
+    "enunciado": "En la norma, \"evaluación del riesgo\" y \"valoración del riesgo\" son sinónimos.",
+    "correcta": false,
+    "explicacion": "La evaluación es el todo (identificar, analizar y valorar); la valoración es solo el último paso. Ver 6.4.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-6.4.1-03", "tipo": "mc", "capitulo": 6, "clausula": "6.4.1", "dificultad": 2,
+    "enunciado": "¿Cómo debería llevarse a cabo la evaluación del riesgo?",
+    "opciones": [
+      "De manera sistemática, iterativa y colaborativa",
+      "De manera anual, centralizada y confidencial",
+      "De manera cuantitativa, independiente y única",
+      "De manera secuencial, técnica y auditada"
+    ],
+    "correcta": 0,
+    "explicacion": "Además, se apoya en el conocimiento de las partes interesadas y en la mejor información disponible. Ver 6.4.1.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "mc-6.4.1-04", "tipo": "mc", "capitulo": 6, "clausula": "6.4.1", "dificultad": 1,
+    "enunciado": "¿Cuál es el último paso de la evaluación del riesgo?",
+    "opciones": ["Valoración del riesgo", "Análisis del riesgo", "Tratamiento del riesgo", "Identificación del riesgo"],
+    "correcta": 0,
+    "explicacion": "El orden es identificación, análisis y valoración. El tratamiento ya no es parte de la evaluación. Ver 6.4.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "vf-6.4.1-05", "tipo": "vf", "capitulo": 6, "clausula": "6.4.1", "dificultad": 1,
+    "enunciado": "El tratamiento del riesgo forma parte de la evaluación del riesgo.",
+    "correcta": false,
+    "explicacion": "El tratamiento (6.5) es una etapa aparte, posterior a la evaluación (6.4). Ver 6.4.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-6.4.2-01", "tipo": "mc", "capitulo": 6, "clausula": "6.4.2", "dificultad": 2,
+    "enunciado": "¿Cuál es el propósito de la identificación del riesgo?",
+    "opciones": [
+      "Encontrar, reconocer y describir los riesgos que pueden ayudar o impedir lograr los objetivos",
+      "Comprender la naturaleza del riesgo y determinar su nivel",
+      "Comparar los resultados del análisis con los criterios",
+      "Seleccionar e implementar opciones para abordar el riesgo"
+    ],
+    "correcta": 0,
+    "explicacion": "La segunda opción es el análisis (6.4.3), la tercera la valoración (6.4.4) y la cuarta el tratamiento (6.5.1). Ver 6.4.2.",
+    "tags": ["proposito", "trampa"]
+  },
+  {
+    "id": "vf-6.4.2-02", "tipo": "vf", "capitulo": 6, "clausula": "6.4.2", "dificultad": 2,
+    "enunciado": "Solo se deberían identificar los riesgos cuyas fuentes están bajo el control de la organización.",
+    "correcta": false,
+    "explicacion": "Se identifican los riesgos estén o no sus fuentes bajo control de la organización. Ver 6.4.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-6.4.2-03", "tipo": "mc", "capitulo": 6, "clausula": "6.4.2", "dificultad": 3,
+    "enunciado": "¿Cuál de estos factores se debería considerar al identificar riesgos?",
+    "opciones": [
+      "Los sesgos, supuestos y creencias de las personas involucradas",
+      "El costo de cada opción de tratamiento",
+      "La frecuencia del informe al directorio",
+      "El plan de implementación del marco"
+    ],
+    "correcta": 0,
+    "explicacion": "La lista incluye fuentes tangibles e intangibles, causas y eventos, amenazas y oportunidades, vulnerabilidades y capacidades, cambios de contexto, riesgos emergentes, activos, consecuencias, límites del conocimiento, tiempo y sesgos. Ver 6.4.2.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "vf-6.4.2-04", "tipo": "vf", "capitulo": 6, "clausula": "6.4.2", "dificultad": 1,
+    "enunciado": "Al identificar riesgos se consideran tanto las amenazas como las oportunidades.",
+    "correcta": true,
+    "explicacion": "Amenazas y oportunidades están en la lista de factores. Es coherente con que el riesgo puede ser positivo (3.1). Ver 6.4.2."
+  },
+  {
+    "id": "mc-6.4.3-01", "tipo": "mc", "capitulo": 6, "clausula": "6.4.3", "dificultad": 2,
+    "enunciado": "¿Cuál es el propósito del análisis del riesgo?",
+    "opciones": [
+      "Comprender la naturaleza del riesgo y sus características, incluido su nivel cuando corresponda",
+      "Encontrar y describir los riesgos",
+      "Decidir si hace falta una acción adicional",
+      "Asegurar la calidad y eficacia del proceso"
+    ],
+    "correcta": 0,
+    "explicacion": "Decidir si hace falta actuar es la valoración (6.4.4); asegurar calidad y eficacia es seguimiento y revisión (6.6). Ver 6.4.3.",
+    "tags": ["proposito", "trampa"]
+  },
+  {
+    "id": "mc-6.4.3-02", "tipo": "mc", "capitulo": 6, "clausula": "6.4.3", "dificultad": 1,
+    "enunciado": "Las técnicas de análisis del riesgo pueden ser…",
+    "opciones": [
+      "cualitativas, cuantitativas o una combinación de ambas",
+      "solo cuantitativas",
+      "solo cualitativas",
+      "solo las que define la ISO 31000"
+    ],
+    "correcta": 0,
+    "explicacion": "Depende de las circunstancias y del uso previsto. La norma no define técnicas; para eso está la IEC 31010. Ver 6.4.3."
+  },
+  {
+    "id": "mc-6.4.3-03", "tipo": "mc", "capitulo": 6, "clausula": "6.4.3", "dificultad": 3,
+    "enunciado": "¿Cuál de estos NO es un factor que el análisis del riesgo debería considerar?",
+    "opciones": [
+      "Las opciones de tratamiento ya elegidas",
+      "La eficacia de los controles existentes",
+      "La complejidad y la interconexión",
+      "Los niveles de sensibilidad y de confianza"
+    ],
+    "correcta": 0,
+    "explicacion": "Los factores son probabilidad, naturaleza y magnitud de las consecuencias, complejidad e interconexión, tiempo y volatilidad, eficacia de los controles y sensibilidad y confianza. El tratamiento viene después. Ver 6.4.3.",
+    "tags": ["lista", "trampa"]
+  },
+  {
+    "id": "vf-6.4.3-04", "tipo": "vf", "capitulo": 6, "clausula": "6.4.3", "dificultad": 2,
+    "enunciado": "Las diferencias de opinión, los sesgos y la calidad de la información pueden influir en el análisis, y eso se debería documentar y comunicar a quienes deciden.",
+    "correcta": true,
+    "explicacion": "La norma pide considerar, documentar y comunicar esas influencias. Ver 6.4.3."
+  },
+  {
+    "id": "vf-6.4.3-05", "tipo": "vf", "capitulo": 6, "clausula": "6.4.3", "dificultad": 3,
+    "enunciado": "Para eventos muy inciertos con consecuencias graves, combinar técnicas suele dar una visión más amplia.",
+    "correcta": true,
+    "explicacion": "Esos eventos son difíciles de cuantificar, y por eso la norma sugiere combinar técnicas. Ver 6.4.3."
+  },
+  {
+    "id": "cloze-6.4.3-06", "tipo": "cloze", "capitulo": 6, "clausula": "6.4.3", "dificultad": 2,
+    "enunciado": "Un evento puede tener múltiples causas y ____, y puede afectar a múltiples objetivos.",
+    "opciones": ["consecuencias", "controles", "criterios", "dueños"],
+    "correcta": 0,
+    "explicacion": "Es una de las ideas del análisis, en línea con la definición de evento (3.5). Ver 6.4.3."
+  },
+  {
+    "id": "mc-6.4.4-01", "tipo": "mc", "capitulo": 6, "clausula": "6.4.4", "dificultad": 2,
+    "enunciado": "¿Cuál de estas NO es una decisión posible al valorar el riesgo?",
+    "opciones": [
+      "Transferir la valoración a un tercero",
+      "No hacer nada más",
+      "Reconsiderar los objetivos",
+      "Mantener los controles existentes"
+    ],
+    "correcta": 0,
+    "explicacion": "Las cinco salidas son: no hacer nada más, considerar tratamiento, analizar más, mantener controles y reconsiderar objetivos. Ver 6.4.4.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "mc-6.4.4-02", "tipo": "mc", "capitulo": 6, "clausula": "6.4.4", "dificultad": 2,
+    "enunciado": "¿Cuál es el propósito de la valoración del riesgo?",
+    "opciones": [
+      "Apoyar la toma de decisiones, comparando el resultado del análisis con los criterios",
+      "Describir los riesgos que afectan a los objetivos",
+      "Comprender la naturaleza del riesgo",
+      "Medir el desempeño del marco de referencia"
+    ],
+    "correcta": 0,
+    "explicacion": "Medir el desempeño del marco es la otra \"valoración\", la de 5.6. Ver 6.4.4.",
+    "tags": ["proposito", "trampa"]
+  },
+  {
+    "id": "vf-6.4.4-03", "tipo": "vf", "capitulo": 6, "clausula": "6.4.4", "dificultad": 1,
+    "enunciado": "\"No hacer nada más\" es una salida válida de la valoración del riesgo.",
+    "correcta": true,
+    "explicacion": "Es la primera de las cinco decisiones posibles. Ver 6.4.4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "vf-6.4.4-04", "tipo": "vf", "capitulo": 6, "clausula": "6.4.4", "dificultad": 2,
+    "enunciado": "Los resultados de la valoración se deberían registrar, comunicar y validar en los niveles apropiados de la organización.",
+    "correcta": true,
+    "explicacion": "Así cierra 6.4.4. Además, las decisiones deberían tener en cuenta el contexto más amplio y las consecuencias reales y percibidas. Ver 6.4.4."
+  },
+  {
+    "id": "cloze-6.4.4-05", "tipo": "cloze", "capitulo": 6, "clausula": "6.4.4", "dificultad": 2,
+    "enunciado": "La valoración compara los resultados del análisis con los ____ del riesgo establecidos, para determinar cuándo hace falta una acción adicional.",
+    "opciones": ["criterios", "controles", "objetivos", "niveles"],
+    "correcta": 0,
+    "explicacion": "Se compara contra los criterios definidos en 6.3.4. Ver 6.4.4."
+  },
+  {
+    "id": "caso-6.4.4-01", "tipo": "caso", "capitulo": 6, "clausula": "6.4.4", "dificultad": 2,
+    "enunciado": "Al comparar con los criterios, el comité ve que el riesgo está dentro de lo tolerable gracias a que los controles actuales funcionan bien. ¿Qué decisión de valoración corresponde?",
+    "opciones": [
+      "Mantener los controles existentes",
+      "Considerar opciones de tratamiento",
+      "Reconsiderar los objetivos",
+      "Realizar un análisis adicional"
+    ],
+    "correcta": 0,
+    "explicacion": "Si el riesgo está dentro de los criterios porque los controles funcionan, lo lógico es mantenerlos. Ver 6.4.4."
+  },
+  {
+    "id": "caso-6.4.4-02", "tipo": "caso", "capitulo": 6, "clausula": "6.4.4", "dificultad": 2,
+    "enunciado": "El equipo no puede decidir porque los datos sobre la frecuencia de fallas de una máquina son poco confiables. ¿Qué decisión de valoración corresponde?",
+    "opciones": [
+      "Realizar un análisis adicional",
+      "No hacer nada más",
+      "Mantener los controles existentes",
+      "Considerar opciones de tratamiento"
+    ],
+    "correcta": 0,
+    "explicacion": "Cuando no se entiende bien el riesgo, la salida es analizar más. Ver 6.4.4."
+  },
+  {
+    "id": "caso-6.4.4-03", "tipo": "caso", "capitulo": 6, "clausula": "6.4.4", "dificultad": 3,
+    "enunciado": "El riesgo de un plan de expansión supera de lejos los criterios y ningún tratamiento lo baja lo suficiente. La gerencia discute si conviene mantener la meta de abrir 10 sucursales. ¿Qué decisión de valoración es?",
+    "opciones": [
+      "Reconsiderar los objetivos",
+      "Considerar opciones de tratamiento",
+      "Realizar un análisis adicional",
+      "No hacer nada más"
+    ],
+    "correcta": 0,
+    "explicacion": "Revisar la meta misma es reconsiderar los objetivos. Ver 6.4.4."
+  },
+  {
+    "id": "caso-6.4.4-04", "tipo": "caso", "capitulo": 6, "clausula": "6.4.4", "dificultad": 1,
+    "enunciado": "Según los criterios, el riesgo de un ciberataque está por encima de lo tolerable. ¿Qué decisión de valoración corresponde?",
+    "opciones": [
+      "Considerar opciones de tratamiento",
+      "No hacer nada más",
+      "Mantener los controles existentes",
+      "Reconsiderar los objetivos"
+    ],
+    "correcta": 0,
+    "explicacion": "Si el riesgo supera lo tolerable, se pasa a considerar cómo tratarlo. Ver 6.4.4."
+  },
+  {
+    "id": "clas-6.4-01", "tipo": "clasificar", "grupo": "evaluacion", "capitulo": 6, "clausula": "6.4.2", "dificultad": 1,
+    "enunciado": "Hacer una lista de lo que podría impedir lanzar el producto a tiempo",
+    "opciones": ["Identificación", "Análisis", "Valoración"],
+    "correcta": 0,
+    "explicacion": "Encontrar y describir riesgos es identificar. Ver 6.4.2."
+  },
+  {
+    "id": "clas-6.4-02", "tipo": "clasificar", "grupo": "evaluacion", "capitulo": 6, "clausula": "6.4.3", "dificultad": 1,
+    "enunciado": "Estimar la probabilidad y la magnitud de las consecuencias de una falla",
+    "opciones": ["Identificación", "Análisis", "Valoración"],
+    "correcta": 1,
+    "explicacion": "Probabilidad y consecuencias son factores del análisis. Ver 6.4.3."
+  },
+  {
+    "id": "clas-6.4-03", "tipo": "clasificar", "grupo": "evaluacion", "capitulo": 6, "clausula": "6.4.4", "dificultad": 1,
+    "enunciado": "Comparar el nivel de riesgo con los criterios para ver si hace falta actuar",
+    "opciones": ["Identificación", "Análisis", "Valoración"],
+    "correcta": 2,
+    "explicacion": "Comparar contra criterios es valorar. Ver 6.4.4."
+  },
+  {
+    "id": "clas-6.4-04", "tipo": "clasificar", "grupo": "evaluacion", "capitulo": 6, "clausula": "6.4.3", "dificultad": 2,
+    "enunciado": "Considerar qué tan eficaces son los controles existentes",
+    "opciones": ["Identificación", "Análisis", "Valoración"],
+    "correcta": 1,
+    "explicacion": "La eficacia de los controles es un factor del análisis. Decidir mantenerlos, en cambio, es valoración. Ver 6.4.3.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-6.4-05", "tipo": "clasificar", "grupo": "evaluacion", "capitulo": 6, "clausula": "6.4.2", "dificultad": 2,
+    "enunciado": "Detectar indicadores de riesgos emergentes",
+    "opciones": ["Identificación", "Análisis", "Valoración"],
+    "correcta": 0,
+    "explicacion": "Está en la lista de factores de la identificación. Ver 6.4.2."
+  },
+  {
+    "id": "clas-6.4-06", "tipo": "clasificar", "grupo": "evaluacion", "capitulo": 6, "clausula": "6.4.4", "dificultad": 2,
+    "enunciado": "Decidir que se mantienen los controles actuales",
+    "opciones": ["Identificación", "Análisis", "Valoración"],
+    "correcta": 2,
+    "explicacion": "Mantener los controles existentes es una de las cinco salidas de la valoración. Ver 6.4.4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-6.4-07", "tipo": "clasificar", "grupo": "evaluacion", "capitulo": 6, "clausula": "6.4.3", "dificultad": 1,
+    "enunciado": "Determinar el nivel de riesgo",
+    "opciones": ["Identificación", "Análisis", "Valoración"],
+    "correcta": 1,
+    "explicacion": "El análisis incluye, cuando corresponde, el nivel del riesgo. La valoración usa ese nivel para compararlo con los criterios. Ver 6.4.3.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-6.4-08", "tipo": "clasificar", "grupo": "evaluacion", "capitulo": 6, "clausula": "6.4.2", "dificultad": 1,
+    "enunciado": "Reconocer amenazas y oportunidades",
+    "opciones": ["Identificación", "Análisis", "Valoración"],
+    "correcta": 0,
+    "explicacion": "Es parte de la identificación. Ver 6.4.2."
+  },
+  {
+    "id": "clas-6.4-09", "tipo": "clasificar", "grupo": "evaluacion", "capitulo": 6, "clausula": "6.4.4", "dificultad": 2,
+    "enunciado": "Concluir que hacen falta más datos antes de decidir",
+    "opciones": ["Identificación", "Análisis", "Valoración"],
+    "correcta": 2,
+    "explicacion": "\"Realizar un análisis adicional\" es una de las decisiones de la valoración, aunque mande de vuelta al análisis. Ver 6.4.4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "caso-6.4.2-01", "tipo": "caso", "capitulo": 6, "clausula": "6.4.2", "dificultad": 1,
+    "enunciado": "Un estudio contable hace un taller para listar todo lo que podría salir mal (y bien) al migrar a un sistema nuevo. ¿En qué paso del proceso está?",
+    "opciones": ["Identificación del riesgo", "Análisis del riesgo", "Valoración del riesgo", "Tratamiento del riesgo"],
+    "correcta": 0,
+    "explicacion": "Listar lo que puede afectar los objetivos, para bien o para mal, es identificar. Ver 6.4.2."
+  },
+  {
+    "id": "caso-6.4.3-01", "tipo": "caso", "capitulo": 6, "clausula": "6.4.3", "dificultad": 1,
+    "enunciado": "Con una matriz de 5 × 5, el equipo asigna probabilidad e impacto a cada riesgo de la lista. ¿En qué paso del proceso está?",
+    "opciones": ["Análisis del riesgo", "Identificación del riesgo", "Valoración del riesgo", "Seguimiento y revisión"],
+    "correcta": 0,
+    "explicacion": "Estimar probabilidad y consecuencias para llegar a un nivel de riesgo es analizar. Ver 6.4.3."
+  }
+]

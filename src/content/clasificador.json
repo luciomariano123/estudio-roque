@@ -1,0 +1,32 @@
+[
+  {
+    "id": "estructura",
+    "titulo": "¿Principio, componente del marco o etapa del proceso?",
+    "clausula": "Introducción",
+    "categorias": ["Principio", "Componente del marco", "Etapa del proceso"]
+  },
+  {
+    "id": "contexto",
+    "titulo": "¿Contexto externo o interno?",
+    "clausula": "5.4.1",
+    "categorias": ["Contexto externo", "Contexto interno", "Los dos"]
+  },
+  {
+    "id": "roles",
+    "titulo": "¿Alta dirección u órganos de supervisión?",
+    "clausula": "5.2",
+    "categorias": ["Alta dirección", "Órganos de supervisión"]
+  },
+  {
+    "id": "evaluacion",
+    "titulo": "¿Identificación, análisis o valoración?",
+    "clausula": "6.4",
+    "categorias": ["Identificación", "Análisis", "Valoración"]
+  },
+  {
+    "id": "comunicacion",
+    "titulo": "¿Comunicación o consulta?",
+    "clausula": "6.2",
+    "categorias": ["Comunicación", "Consulta"]
+  }
+]

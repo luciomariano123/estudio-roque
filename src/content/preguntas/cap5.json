@@ -1,0 +1,625 @@
+[
+  {
+    "id": "mc-5.1-01", "tipo": "mc", "capitulo": 5, "clausula": "5.1", "dificultad": 1,
+    "enunciado": "¿Cuál es el propósito del marco de referencia?",
+    "opciones": [
+      "Ayudar a integrar la gestión del riesgo en todas las actividades y funciones significativas",
+      "Identificar, analizar y valorar los riesgos de cada proyecto",
+      "Permitir que un organismo externo certifique la gestión del riesgo",
+      "Reemplazar la estructura de gobernanza de la organización"
+    ],
+    "correcta": 0,
+    "explicacion": "El marco existe para integrar la gestión del riesgo en la organización. Identificar, analizar y valorar es la evaluación del riesgo, parte del proceso (6.4). Ver 5.1.",
+    "tags": ["proposito", "trampa"]
+  },
+  {
+    "id": "mc-5.1-02", "tipo": "mc", "capitulo": 5, "clausula": "5.1", "dificultad": 2,
+    "enunciado": "Según 5.1, la eficacia de la gestión del riesgo depende de…",
+    "opciones": [
+      "su integración en la gobernanza, incluida la toma de decisiones",
+      "la cantidad de controles implementados",
+      "contar con un software de gestión de riesgos",
+      "el tamaño del área de riesgos"
+    ],
+    "correcta": 0,
+    "explicacion": "La norma liga la eficacia a la integración en la gobernanza, y eso requiere apoyo de las partes interesadas, sobre todo de la alta dirección. Ver 5.1."
+  },
+  {
+    "id": "vf-5.1-03", "tipo": "vf", "capitulo": 5, "clausula": "5.1", "dificultad": 2,
+    "enunciado": "La organización debería revisar sus prácticas actuales de gestión del riesgo, detectar brechas y abordarlas dentro del marco.",
+    "correcta": true,
+    "explicacion": "Antes de armar todo de cero, se compara lo que ya existe con el marco y se cierran las brechas. Ver 5.1."
+  },
+  {
+    "id": "mc-5.1-04", "tipo": "mc", "capitulo": 5, "clausula": "5.1", "dificultad": 1,
+    "enunciado": "¿Qué va en el centro de la figura del marco de referencia?",
+    "opciones": ["Liderazgo y compromiso", "Creación y protección del valor", "Integración", "Mejora"],
+    "correcta": 0,
+    "explicacion": "El centro del marco es liderazgo y compromiso (5.2). El valor va en el centro de los principios (cap. 4). Ver 5.1, Figura 3.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-5.1-05", "tipo": "mc", "capitulo": 5, "clausula": "5.1", "dificultad": 2,
+    "enunciado": "¿Cuáles son los cinco componentes que rodean al centro en la figura del marco?",
+    "opciones": [
+      "Integración, diseño, implementación, valoración y mejora",
+      "Contexto, evaluación, tratamiento, seguimiento y registro",
+      "Política, roles, recursos, comunicación y consulta",
+      "Integración, diseño, implementación, seguimiento y mejora"
+    ],
+    "correcta": 0,
+    "explicacion": "Son 5.3 a 5.7. La segunda opción son etapas del proceso; la tercera, partes del diseño (5.4); la cuarta cambia valoración por seguimiento. Ver 5.1, Figura 3.",
+    "tags": ["lista", "trampa"]
+  },
+  {
+    "id": "clas-5.2-01", "tipo": "clasificar", "grupo": "roles", "capitulo": 5, "clausula": "5.2", "dificultad": 3,
+    "enunciado": "Rinde cuentas por gestionar el riesgo",
+    "opciones": ["Alta dirección", "Órganos de supervisión"],
+    "correcta": 0,
+    "explicacion": "La alta dirección gestiona; los órganos de supervisión responden por supervisar esa gestión. Ver 5.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-5.2-02", "tipo": "clasificar", "grupo": "roles", "capitulo": 5, "clausula": "5.2", "dificultad": 2,
+    "enunciado": "Rinde cuentas por supervisar la gestión del riesgo",
+    "opciones": ["Alta dirección", "Órganos de supervisión"],
+    "correcta": 1,
+    "explicacion": "Supervisar es lo propio de los órganos de supervisión; gestionar, de la alta dirección. Ver 5.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-5.2-03", "tipo": "clasificar", "grupo": "roles", "capitulo": 5, "clausula": "5.2", "dificultad": 3,
+    "enunciado": "Se asegura de que los riesgos se tengan en cuenta al fijar los objetivos de la organización",
+    "opciones": ["Alta dirección", "Órganos de supervisión"],
+    "correcta": 1,
+    "explicacion": "Está entre lo que se espera de los órganos de supervisión. Ver 5.2."
+  },
+  {
+    "id": "clas-5.2-04", "tipo": "clasificar", "grupo": "roles", "capitulo": 5, "clausula": "5.2", "dificultad": 3,
+    "enunciado": "Se asegura de que los sistemas para gestionar los riesgos se implementen y funcionen eficazmente",
+    "opciones": ["Alta dirección", "Órganos de supervisión"],
+    "correcta": 1,
+    "explicacion": "Verificar que los sistemas funcionen es supervisar, no gestionar. Ver 5.2."
+  },
+  {
+    "id": "clas-5.2-05", "tipo": "clasificar", "grupo": "roles", "capitulo": 5, "clausula": "5.2", "dificultad": 3,
+    "enunciado": "Comprende los riesgos que enfrenta la organización al perseguir sus objetivos",
+    "opciones": ["Alta dirección", "Órganos de supervisión"],
+    "correcta": 1,
+    "explicacion": "Es una de las cosas que se espera o se exige de los órganos de supervisión. Ver 5.2."
+  },
+  {
+    "id": "mc-5.2-06", "tipo": "mc", "capitulo": 5, "clausula": "5.2", "dificultad": 2,
+    "enunciado": "¿Cuál de estas NO es una forma en que la alta dirección demuestra liderazgo y compromiso?",
+    "opciones": [
+      "Delegar toda la gestión del riesgo en un consultor externo",
+      "Publicar una política o declaración sobre la gestión del riesgo",
+      "Asegurar que se asignen los recursos necesarios",
+      "Asignar autoridad, responsabilidad y rendición de cuentas en los niveles apropiados"
+    ],
+    "correcta": 0,
+    "explicacion": "Las cuatro formas son: adaptar e implementar el marco, publicar una política o declaración, asegurar recursos y asignar autoridad, responsabilidad y rendición de cuentas. Ver 5.2.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "vf-5.2-07", "tipo": "vf", "capitulo": 5, "clausula": "5.2", "dificultad": 2,
+    "enunciado": "La alta dirección rinde cuentas por supervisar la gestión del riesgo y los órganos de supervisión, por gestionarlo.",
+    "correcta": false,
+    "explicacion": "Es al revés: la alta dirección gestiona y los órganos de supervisión supervisan. Ver 5.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-5.2-08", "tipo": "mc", "capitulo": 5, "clausula": "5.2", "dificultad": 2,
+    "enunciado": "Según 5.2, el liderazgo y compromiso ayudan a la organización a…",
+    "opciones": [
+      "establecer cuánto riesgo y de qué tipo puede o no tomar, para guiar los criterios del riesgo",
+      "eliminar la incertidumbre de sus objetivos",
+      "evitar consultar a las partes interesadas",
+      "reemplazar los criterios del riesgo por una política única"
+    ],
+    "correcta": 0,
+    "explicacion": "Entre otras cosas, ayuda a alinear el riesgo con objetivos, estrategia y cultura, y a fijar la magnitud y el tipo de riesgo aceptable. Ver 5.2."
+  },
+  {
+    "id": "caso-5.2-09", "tipo": "caso", "capitulo": 5, "clausula": "5.2", "dificultad": 2,
+    "enunciado": "El directorio de un banco pide informes trimestrales para verificar que el sistema de gestión del riesgo funcione bien, pero no interviene en la gestión diaria. ¿Qué rol está cumpliendo?",
+    "opciones": ["Órgano de supervisión", "Alta dirección", "Dueño del riesgo", "Parte interesada externa"],
+    "correcta": 0,
+    "explicacion": "Verificar que los sistemas funcionen eficazmente sin gestionar el día a día es supervisar. Ver 5.2."
+  },
+  {
+    "id": "vf-5.3-01", "tipo": "vf", "capitulo": 5, "clausula": "5.3", "dificultad": 1,
+    "enunciado": "Gestionar el riesgo es responsabilidad exclusiva del área de riesgos.",
+    "correcta": false,
+    "explicacion": "Todos los miembros de la organización tienen la responsabilidad de gestionar el riesgo. Ver 5.3.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-5.3-02", "tipo": "mc", "capitulo": 5, "clausula": "5.3", "dificultad": 2,
+    "enunciado": "Según 5.3, la integración de la gestión del riesgo es un proceso…",
+    "opciones": [
+      "dinámico e iterativo, adaptado a las necesidades y la cultura de la organización",
+      "lineal, que se hace una sola vez al implementar el marco",
+      "estándar, igual para todas las organizaciones",
+      "a cargo exclusivo de la auditoría interna"
+    ],
+    "correcta": 0,
+    "explicacion": "La integración no es un evento único: es dinámica, iterativa y se ajusta a cada organización. Ver 5.3."
+  },
+  {
+    "id": "vf-5.3-03", "tipo": "vf", "capitulo": 5, "clausula": "5.3", "dificultad": 1,
+    "enunciado": "La gestión del riesgo debería ser parte del propósito, la gobernanza, la estrategia y las operaciones, y no estar separada de ellos.",
+    "correcta": true,
+    "explicacion": "La norma insiste en que no es algo aparte de la organización. Ver 5.3."
+  },
+  {
+    "id": "mc-5.3-04", "tipo": "mc", "capitulo": 5, "clausula": "5.3", "dificultad": 2,
+    "enunciado": "¿De qué depende la integración de la gestión del riesgo?",
+    "opciones": [
+      "De comprender las estructuras y el contexto de la organización",
+      "De contar con un software especializado",
+      "De crear un comité de riesgos independiente",
+      "De certificar la norma"
+    ],
+    "correcta": 0,
+    "explicacion": "Las estructuras varían según el propósito, las metas y la complejidad de cada organización, y hay que entenderlas para integrar. Ver 5.3."
+  },
+  {
+    "id": "vf-5.3-05", "tipo": "vf", "capitulo": 5, "clausula": "5.3", "dificultad": 3,
+    "enunciado": "Definir los roles de rendición de cuentas y de supervisión de la gestión del riesgo forma parte de la gobernanza de la organización.",
+    "correcta": true,
+    "explicacion": "La norma considera esos roles como parte integral de la gobernanza. Ver 5.3."
+  },
+  {
+    "id": "clas-5.4.1-01", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 1,
+    "enunciado": "Factores políticos, legales y reglamentarios del país",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 0,
+    "explicacion": "Los factores sociales, culturales, políticos, legales, reglamentarios, financieros, tecnológicos, económicos y ambientales son contexto externo. Ver 5.4.1."
+  },
+  {
+    "id": "clas-5.4.1-02", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 1,
+    "enunciado": "La cultura de la organización",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 1,
+    "explicacion": "La cultura organizacional es contexto interno. Ojo: los factores culturales de la sociedad son externos. Ver 5.4.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-5.4.1-03", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 1,
+    "enunciado": "Impulsores clave y tendencias que afectan los objetivos",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 0,
+    "explicacion": "Las tendencias e impulsores clave son contexto externo. Ver 5.4.1."
+  },
+  {
+    "id": "clas-5.4.1-04", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 1,
+    "enunciado": "Visión, misión y valores",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 1,
+    "explicacion": "Es el primer ítem de la lista del contexto interno. Ver 5.4.1."
+  },
+  {
+    "id": "clas-5.4.1-05", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 2,
+    "enunciado": "Datos, sistemas de información y flujos de información",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 1,
+    "explicacion": "Es contexto interno. No confundir con los factores tecnológicos del entorno, que son externos. Ver 5.4.1."
+  },
+  {
+    "id": "clas-5.4.1-06", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 2,
+    "enunciado": "Complejidad de las redes y dependencias",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 0,
+    "explicacion": "Redes y dependencias van en el externo; interdependencias e interconexiones, en el interno. Ver 5.4.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-5.4.1-07", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 1,
+    "enunciado": "Percepciones, valores y expectativas de las partes interesadas externas",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 0,
+    "explicacion": "Es contexto externo. Las relaciones con partes interesadas internas van en el interno. Ver 5.4.1."
+  },
+  {
+    "id": "clas-5.4.1-08", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 2,
+    "enunciado": "Capacidades en recursos y conocimiento: capital, tiempo, personas, propiedad intelectual",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 1,
+    "explicacion": "Las capacidades de la organización son contexto interno. Ver 5.4.1."
+  },
+  {
+    "id": "clas-5.4.1-09", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 1,
+    "enunciado": "Gobernanza, estructura, roles y rendición de cuentas",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 1,
+    "explicacion": "Es contexto interno. Ver 5.4.1."
+  },
+  {
+    "id": "clas-5.4.1-10", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 2,
+    "enunciado": "Normas, directrices y modelos adoptados por la organización",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 1,
+    "explicacion": "Lo que la organización adoptó es interno, aunque la norma venga de afuera. Ver 5.4.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-5.4.1-11", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 3,
+    "enunciado": "Relaciones contractuales y compromisos",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 2,
+    "explicacion": "Es el único ítem que aparece en las dos listas, la del contexto externo y la del interno. Ver 5.4.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-5.4.1-12", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 2,
+    "enunciado": "Interdependencias e interconexiones",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 1,
+    "explicacion": "Cierra la lista del contexto interno. No confundir con redes y dependencias, que son externas. Ver 5.4.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-5.4.1-13", "tipo": "clasificar", "grupo": "contexto", "capitulo": 5, "clausula": "5.4.1", "dificultad": 1,
+    "enunciado": "Factores ambientales y tecnológicos a nivel regional",
+    "opciones": ["Contexto externo", "Contexto interno", "Los dos"],
+    "correcta": 0,
+    "explicacion": "Los factores del entorno, en cualquier escala (internacional, nacional, regional o local), son contexto externo. Ver 5.4.1."
+  },
+  {
+    "id": "mc-5.4.1-14", "tipo": "mc", "capitulo": 5, "clausula": "5.4.1", "dificultad": 3,
+    "enunciado": "¿Cuál de estos factores figura tanto en el contexto externo como en el interno?",
+    "opciones": [
+      "Las relaciones contractuales y los compromisos",
+      "La cultura de la organización",
+      "Las tendencias que afectan los objetivos",
+      "La visión, la misión y los valores"
+    ],
+    "correcta": 0,
+    "explicacion": "Relaciones contractuales y compromisos aparece en las dos listas. Ver 5.4.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-5.4.2-01", "tipo": "mc", "capitulo": 5, "clausula": "5.4.2", "dificultad": 1,
+    "enunciado": "¿Cómo debería expresarse el compromiso con la gestión del riesgo?",
+    "opciones": [
+      "Con una política, una declaración u otra forma que exprese los objetivos y el compromiso",
+      "Con un contrato firmado con un consultor",
+      "Con la matriz de riesgos de la organización",
+      "Con el registro de incidentes"
+    ],
+    "correcta": 0,
+    "explicacion": "La alta dirección y los órganos de supervisión deberían demostrar su compromiso continuo mediante una política, una declaración u otras formas. Ver 5.4.2."
+  },
+  {
+    "id": "mc-5.4.2-02", "tipo": "mc", "capitulo": 5, "clausula": "5.4.2", "dificultad": 3,
+    "enunciado": "¿Cuál de estos NO es un contenido que la norma espera en la política o declaración de compromiso?",
+    "opciones": [
+      "La lista detallada de los riesgos identificados",
+      "Cómo manejar los objetivos en conflicto",
+      "La disponibilidad de los recursos necesarios",
+      "La revisión y la mejora"
+    ],
+    "correcta": 0,
+    "explicacion": "El compromiso cubre propósito, integración en la cultura, liderazgo, autoridades y responsabilidades, recursos, objetivos en conflicto, medición e informe, y revisión y mejora. Los riesgos concretos salen del proceso, no de la política. Ver 5.4.2.",
+    "tags": ["lista", "trampa"]
+  },
+  {
+    "id": "vf-5.4.2-03", "tipo": "vf", "capitulo": 5, "clausula": "5.4.2", "dificultad": 2,
+    "enunciado": "El compromiso con la gestión del riesgo se debería comunicar dentro de la organización y a las partes interesadas.",
+    "correcta": true,
+    "explicacion": "No alcanza con escribirlo: hay que comunicarlo de manera apropiada. Ver 5.4.2."
+  },
+  {
+    "id": "mc-5.4.3-01", "tipo": "mc", "capitulo": 5, "clausula": "5.4.3", "dificultad": 1,
+    "enunciado": "¿Cómo llama la norma a las personas que rinden cuentas y tienen autoridad para gestionar un riesgo?",
+    "opciones": ["Dueños del riesgo", "Órganos de supervisión", "Partes interesadas", "Responsables de control"],
+    "correcta": 0,
+    "explicacion": "Son los dueños del riesgo, y se deberían identificar al asignar roles. Ver 5.4.3.",
+    "tags": ["definicion"]
+  },
+  {
+    "id": "vf-5.4.3-02", "tipo": "vf", "capitulo": 5, "clausula": "5.4.3", "dificultad": 2,
+    "enunciado": "Al asignar roles, se debería enfatizar que la gestión del riesgo es una responsabilidad principal.",
+    "correcta": true,
+    "explicacion": "Es uno de los dos puntos que destaca 5.4.3, junto con identificar a los dueños del riesgo. Ver 5.4.3."
+  },
+  {
+    "id": "mc-5.4.4-01", "tipo": "mc", "capitulo": 5, "clausula": "5.4.4", "dificultad": 3,
+    "enunciado": "¿Cuál de estos NO está en la lista de recursos de 5.4.4?",
+    "opciones": [
+      "Los criterios del riesgo",
+      "Las personas, sus habilidades, experiencia y competencias",
+      "Los procesos y procedimientos documentados",
+      "El desarrollo profesional y la formación"
+    ],
+    "correcta": 0,
+    "explicacion": "Los recursos son personas y competencias; procesos, métodos y herramientas; procedimientos documentados; sistemas de información y conocimiento; y formación. Los criterios del riesgo se definen en el proceso (6.3.4). Ver 5.4.4.",
+    "tags": ["lista", "trampa"]
+  },
+  {
+    "id": "vf-5.4.4-02", "tipo": "vf", "capitulo": 5, "clausula": "5.4.4", "dificultad": 2,
+    "enunciado": "Al asignar recursos, la organización debería considerar las capacidades y limitaciones de los recursos que ya tiene.",
+    "correcta": true,
+    "explicacion": "La norma lo pide explícitamente al cerrar 5.4.4. Ver 5.4.4."
+  },
+  {
+    "id": "clas-5.4.5-01", "tipo": "clasificar", "grupo": "comunicacion", "capitulo": 5, "clausula": "5.4.5", "dificultad": 1,
+    "enunciado": "Compartir información con el público objetivo",
+    "opciones": ["Comunicación", "Consulta"],
+    "correcta": 0,
+    "explicacion": "Comunicar es compartir información. Ver 5.4.5."
+  },
+  {
+    "id": "clas-5.4.5-02", "tipo": "clasificar", "grupo": "comunicacion", "capitulo": 5, "clausula": "5.4.5", "dificultad": 2,
+    "enunciado": "Los participantes devuelven retroalimentación esperando que influya en las decisiones",
+    "opciones": ["Comunicación", "Consulta"],
+    "correcta": 1,
+    "explicacion": "La consulta suma la retroalimentación de los participantes, que puede dar forma a las decisiones. Ver 5.4.5."
+  },
+  {
+    "id": "vf-5.4.5-03", "tipo": "vf", "capitulo": 5, "clausula": "5.4.5", "dificultad": 1,
+    "enunciado": "En la norma, comunicar y consultar son sinónimos.",
+    "correcta": false,
+    "explicacion": "Comunicar es compartir información; consultar agrega que los participantes aportan retroalimentación que puede influir en las decisiones. Ver 5.4.5.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-5.4.5-04", "tipo": "mc", "capitulo": 5, "clausula": "5.4.5", "dificultad": 2,
+    "enunciado": "¿Qué agrega la consulta respecto de la comunicación?",
+    "opciones": [
+      "Que los participantes aportan retroalimentación que puede influir en las decisiones",
+      "Que la información se publica en un medio oficial",
+      "Que la información pasa a ser confidencial",
+      "Que la alta dirección aprueba el mensaje"
+    ],
+    "correcta": 0,
+    "explicacion": "La diferencia está en la vuelta: en la consulta hay retroalimentación que cuenta para decidir. Ver 5.4.5.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-5.5-01", "tipo": "mc", "capitulo": 5, "clausula": "5.5", "dificultad": 2,
+    "enunciado": "¿Cuál de estas acciones corresponde a la implementación del marco?",
+    "opciones": [
+      "Desarrollar un plan apropiado, con plazos y recursos",
+      "Medir periódicamente el desempeño del marco",
+      "Adaptar el marco ante cambios externos e internos",
+      "Definir los criterios del riesgo"
+    ],
+    "correcta": 0,
+    "explicacion": "Medir el desempeño es valoración (5.6); adaptar el marco es 5.7.1; los criterios se definen en el proceso (6.3.4). Ver 5.5.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "vf-5.5-02", "tipo": "vf", "capitulo": 5, "clausula": "5.5", "dificultad": 2,
+    "enunciado": "Implementar el marco puede requerir modificar los procesos de toma de decisiones.",
+    "correcta": true,
+    "explicacion": "Cuando hace falta, se modifican los procesos de decisión aplicables. Ver 5.5."
+  },
+  {
+    "id": "mc-5.5-03", "tipo": "mc", "capitulo": 5, "clausula": "5.5", "dificultad": 2,
+    "enunciado": "Al implementar el marco, la organización debería identificar…",
+    "opciones": [
+      "dónde, cuándo, cómo y quién toma los distintos tipos de decisiones",
+      "qué riesgos tratar primero",
+      "cuánto cuesta cada control",
+      "qué organismo va a certificar el marco"
+    ],
+    "correcta": 0,
+    "explicacion": "Saber quién decide qué, dónde, cuándo y cómo es clave para que el marco funcione en la práctica. Ver 5.5."
+  },
+  {
+    "id": "vf-5.5-04", "tipo": "vf", "capitulo": 5, "clausula": "5.5", "dificultad": 2,
+    "enunciado": "La implementación exitosa del marco requiere el compromiso y la toma de conciencia de las partes interesadas.",
+    "correcta": true,
+    "explicacion": "Así la organización puede abordar explícitamente la incertidumbre al decidir. Ver 5.5."
+  },
+  {
+    "id": "mc-5.6-01", "tipo": "mc", "capitulo": 5, "clausula": "5.6", "dificultad": 2,
+    "enunciado": "Medir periódicamente el desempeño del marco y determinar si sigue siendo idóneo corresponde a…",
+    "opciones": [
+      "Valoración (5.6)",
+      "Valoración del riesgo (6.4.4)",
+      "Seguimiento y revisión (6.6)",
+      "Mejora continua (5.7.2)"
+    ],
+    "correcta": 0,
+    "explicacion": "\"Valoración\" aparece dos veces: la del marco (5.6) mide su desempeño; la del riesgo (6.4.4) compara el análisis con los criterios. Ver 5.6.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "vf-5.6-02", "tipo": "vf", "capitulo": 5, "clausula": "5.6", "dificultad": 2,
+    "enunciado": "La valoración del marco (5.6) y la valoración del riesgo (6.4.4) son la misma actividad.",
+    "correcta": false,
+    "explicacion": "Comparten el nombre, pero una mide cómo funciona el marco y la otra compara el riesgo analizado con los criterios. Ver 5.6 y 6.4.4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-5.6-03", "tipo": "mc", "capitulo": 5, "clausula": "5.6", "dificultad": 3,
+    "enunciado": "¿Contra qué se mide el desempeño del marco en 5.6?",
+    "opciones": [
+      "Su propósito, sus planes de implementación, sus indicadores y el comportamiento esperado",
+      "Los criterios del riesgo",
+      "El presupuesto anual de la organización",
+      "Los resultados de organizaciones del mismo sector"
+    ],
+    "correcta": 0,
+    "explicacion": "El marco se mide contra lo que se propuso. Los criterios del riesgo se usan en la valoración del riesgo (6.4.4), no en la del marco. Ver 5.6.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-5.7.1-01", "tipo": "mc", "capitulo": 5, "clausula": "5.7.1", "dificultad": 2,
+    "enunciado": "¿De qué trata la subcláusula 5.7.1, Adaptación?",
+    "opciones": [
+      "Hacer seguimiento continuo y adaptar el marco a los cambios externos e internos",
+      "Mejorar la idoneidad, adecuación y eficacia del marco",
+      "Ajustar el proceso a cada proyecto",
+      "Revisar los criterios del riesgo"
+    ],
+    "correcta": 0,
+    "explicacion": "Adaptación = ajustar el marco a los cambios. La segunda opción es 5.7.2. Ver 5.7.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "vf-5.7.2-02", "tipo": "vf", "capitulo": 5, "clausula": "5.7.2", "dificultad": 2,
+    "enunciado": "Cuando se detectan brechas u oportunidades de mejora, se deberían armar planes y tareas y asignarlos a quienes rinden cuentas por implementarlos.",
+    "correcta": true,
+    "explicacion": "La mejora continua baja a planes concretos con responsables. Ver 5.7.2."
+  },
+  {
+    "id": "cloze-5.7.2-01", "tipo": "cloze", "capitulo": 5, "clausula": "5.7.2", "dificultad": 3,
+    "enunciado": "La organización debería mejorar continuamente la idoneidad, ____ y eficacia del marco de referencia.",
+    "opciones": ["adecuación", "eficiencia", "coherencia", "integración"],
+    "correcta": 0,
+    "explicacion": "Los tres atributos son idoneidad, adecuación y eficacia. Ver 5.7.2.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "cloze-5.7-03", "tipo": "cloze", "capitulo": 5, "clausula": "5.7", "dificultad": 2,
+    "enunciado": "El componente Mejora se divide en 5.7.1 ____ y 5.7.2 Mejora continua.",
+    "opciones": ["Adaptación", "Valoración", "Integración", "Revisión"],
+    "correcta": 0,
+    "explicacion": "Mejora tiene dos partes: adaptación y mejora continua. Ver 5.7."
+  },
+  {
+    "id": "cloze-5.2-10", "tipo": "cloze", "capitulo": 5, "clausula": "5.2", "dificultad": 2,
+    "enunciado": "La alta dirección rinde cuentas por ____ el riesgo, mientras que los órganos de supervisión rinden cuentas por supervisar esa gestión.",
+    "opciones": ["gestionar", "valorar", "comunicar", "tratar"],
+    "correcta": 0,
+    "explicacion": "Gestionar (alta dirección) vs. supervisar (órganos de supervisión). Ver 5.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clau-5-01", "tipo": "clausula", "capitulo": 5, "clausula": "5.4.3", "dificultad": 2,
+    "enunciado": "Identificar a los dueños del riesgo",
+    "opciones": ["5.4.3", "5.2", "6.5.3", "5.4.4"],
+    "correcta": 0,
+    "explicacion": "Se hace al asignar roles, autoridades, responsabilidades y rendición de cuentas. Ver 5.4.3."
+  },
+  {
+    "id": "clau-5-02", "tipo": "clausula", "capitulo": 5, "clausula": "5.1", "dificultad": 3,
+    "enunciado": "Revisar las prácticas existentes de gestión del riesgo, detectar brechas y abordarlas en el marco",
+    "opciones": ["5.1", "5.6", "5.7.2", "5.5"],
+    "correcta": 0,
+    "explicacion": "Está en las generalidades del marco. 5.7.2 también habla de brechas, pero para mejorar un marco que ya existe. Ver 5.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clau-5-03", "tipo": "clausula", "capitulo": 5, "clausula": "5.5", "dificultad": 2,
+    "enunciado": "Un plan con plazos y recursos para poner en marcha el marco",
+    "opciones": ["5.5", "6.5.3", "5.4.4", "5.7.2"],
+    "correcta": 0,
+    "explicacion": "Es implementación del marco. 6.5.3 es el plan de tratamiento del riesgo, otra cosa. Ver 5.5.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clau-5-04", "tipo": "clausula", "capitulo": 5, "clausula": "5.6", "dificultad": 2,
+    "enunciado": "Medir periódicamente el desempeño del marco de referencia",
+    "opciones": ["5.6", "6.6", "6.4.4", "5.7.1"],
+    "correcta": 0,
+    "explicacion": "Es la valoración del marco. Ver 5.6.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clau-5-05", "tipo": "clausula", "capitulo": 5, "clausula": "5.4.1", "dificultad": 1,
+    "enunciado": "Las listas de factores del contexto externo e interno de la organización",
+    "opciones": ["5.4.1", "6.3.3", "5.3", "6.4.2"],
+    "correcta": 0,
+    "explicacion": "Las listas están en el diseño del marco. 6.3.3 las retoma para el proceso. Ver 5.4.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-5-01", "tipo": "clasificar", "grupo": "estructura", "capitulo": 5, "clausula": "5.3", "dificultad": 1,
+    "enunciado": "Integración",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 1,
+    "explicacion": "Es un componente del marco. No confundir con el principio \"integrada\". Ver 5.3.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-5-02", "tipo": "clasificar", "grupo": "estructura", "capitulo": 5, "clausula": "5.4", "dificultad": 1,
+    "enunciado": "Diseño",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 1,
+    "explicacion": "Es un componente del marco. Ver 5.4."
+  },
+  {
+    "id": "clas-5-03", "tipo": "clasificar", "grupo": "estructura", "capitulo": 5, "clausula": "5.5", "dificultad": 1,
+    "enunciado": "Implementación",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 1,
+    "explicacion": "Es un componente del marco. Ver 5.5."
+  },
+  {
+    "id": "clas-5-04", "tipo": "clasificar", "grupo": "estructura", "capitulo": 5, "clausula": "5.6", "dificultad": 2,
+    "enunciado": "Valoración (del marco)",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 1,
+    "explicacion": "La valoración del marco es un componente del marco. La valoración del riesgo es un paso del proceso (6.4.4). Ver 5.6.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-5-05", "tipo": "clasificar", "grupo": "estructura", "capitulo": 5, "clausula": "5.7", "dificultad": 2,
+    "enunciado": "Mejora",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 1,
+    "explicacion": "\"Mejora\" es el componente del marco. El principio se llama \"mejora continua\". Ver 5.7.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clas-5-06", "tipo": "clasificar", "grupo": "estructura", "capitulo": 5, "clausula": "5.2", "dificultad": 2,
+    "enunciado": "Liderazgo y compromiso",
+    "opciones": ["Principio", "Componente del marco", "Etapa del proceso"],
+    "correcta": 1,
+    "explicacion": "Es el centro de la figura del marco. Ver 5.2."
+  },
+  {
+    "id": "caso-5.4.1-01", "tipo": "caso", "capitulo": 5, "clausula": "5.4.1", "dificultad": 2,
+    "enunciado": "Mientras diseña su marco de gestión del riesgo, una fintech estudia cómo la nueva regulación del Banco Central y la suba de tasas afectan sus objetivos. ¿En qué parte del diseño está?",
+    "opciones": [
+      "Comprensión de la organización y de su contexto (5.4.1)",
+      "Asignación de recursos (5.4.4)",
+      "Articulación del compromiso (5.4.2)",
+      "Implementación (5.5)"
+    ],
+    "correcta": 0,
+    "explicacion": "Analizar factores regulatorios y económicos es comprender el contexto externo. Ver 5.4.1."
+  },
+  {
+    "id": "caso-5.4.4-01", "tipo": "caso", "capitulo": 5, "clausula": "5.4.4", "dificultad": 1,
+    "enunciado": "Una aseguradora contrata dos analistas, compra una herramienta de modelado y arma un plan de capacitación para su equipo de riesgos. ¿Qué parte del diseño del marco está trabajando?",
+    "opciones": [
+      "Asignación de recursos (5.4.4)",
+      "Asignación de roles y responsabilidades (5.4.3)",
+      "Establecimiento de la comunicación y la consulta (5.4.5)",
+      "Comprensión de la organización y de su contexto (5.4.1)"
+    ],
+    "correcta": 0,
+    "explicacion": "Personas, herramientas y formación son recursos. Ver 5.4.4."
+  },
+  {
+    "id": "caso-5.4.2-01", "tipo": "caso", "capitulo": 5, "clausula": "5.4.2", "dificultad": 1,
+    "enunciado": "El directorio publica una política que explica para qué gestiona el riesgo la empresa y cómo se vincula con sus objetivos. ¿Qué parte del diseño del marco es?",
+    "opciones": [
+      "Articulación del compromiso (5.4.2)",
+      "Implementación (5.5)",
+      "Integración (5.3)",
+      "Valoración (5.6)"
+    ],
+    "correcta": 0,
+    "explicacion": "Expresar el compromiso con una política o declaración es 5.4.2. Ver 5.4.2."
+  },
+  {
+    "id": "caso-5.7.1-01", "tipo": "caso", "capitulo": 5, "clausula": "5.7.1", "dificultad": 3,
+    "enunciado": "Después de una fusión, una empresa ajusta su marco de gestión del riesgo a la nueva estructura y a los nuevos mercados en los que opera. ¿Qué está haciendo?",
+    "opciones": [
+      "Adaptación del marco (5.7.1)",
+      "Valoración del marco (5.6)",
+      "Integración (5.3)",
+      "Comprensión del contexto (5.4.1)"
+    ],
+    "correcta": 0,
+    "explicacion": "Ajustar el marco en función de cambios externos e internos es adaptación. Ver 5.7.1.",
+    "tags": ["trampa"]
+  }
+]

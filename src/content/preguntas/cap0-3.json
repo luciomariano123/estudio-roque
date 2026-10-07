@@ -1,0 +1,205 @@
+[
+  {
+    "id": "mc-prologo-01", "tipo": "mc", "capitulo": 0, "clausula": "Prólogo", "dificultad": 2,
+    "enunciado": "¿Qué comité técnico de ISO es responsable de la ISO 31000?",
+    "opciones": ["ISO/TC 262", "ISO/TC 176", "ISO/TC 207", "ISO/IEC JTC 1"],
+    "correcta": 0,
+    "explicacion": "La norma la elabora el ISO/TC 262, Gestión del riesgo. El TC 176 es el de calidad (ISO 9001) y el TC 207 el de gestión ambiental. Ver Prólogo."
+  },
+  {
+    "id": "vf-prologo-02", "tipo": "vf", "capitulo": 0, "clausula": "Prólogo", "dificultad": 1,
+    "enunciado": "La edición 2018 convive con la de 2009: las dos siguen vigentes.",
+    "correcta": false,
+    "explicacion": "La segunda edición (2018) anula y reemplaza a la primera (2009). Ver Prólogo.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-prologo-03", "tipo": "mc", "capitulo": 0, "clausula": "Prólogo", "dificultad": 2,
+    "enunciado": "¿Cuál de estos NO es uno de los cambios principales de la edición 2018 respecto de la de 2009?",
+    "opciones": [
+      "Se agregaron requisitos certificables",
+      "Se revisaron los principios",
+      "Se destaca el liderazgo de la alta dirección y la integración desde la gobernanza",
+      "Se enfatiza la naturaleza iterativa de la gestión del riesgo"
+    ],
+    "correcta": 0,
+    "explicacion": "Los cambios fueron: principios revisados, más peso al liderazgo y a la integración desde la gobernanza, más énfasis en lo iterativo y contenido simplificado con un modelo de sistemas abiertos. Sigue siendo una norma de directrices, no certificable. Ver Prólogo.",
+    "tags": ["trampa", "lista"]
+  },
+  {
+    "id": "mc-prologo-04", "tipo": "mc", "capitulo": 0, "clausula": "Prólogo", "dificultad": 3,
+    "enunciado": "Según el prólogo, la edición 2018 simplifica el contenido con un mayor enfoque en…",
+    "opciones": [
+      "mantener un modelo de sistemas abiertos que se adapte a distintas necesidades y contextos",
+      "un modelo de sistema de gestión certificable de alto nivel",
+      "un catálogo cerrado de técnicas de evaluación del riesgo",
+      "un esquema único de matriz de probabilidad e impacto"
+    ],
+    "correcta": 0,
+    "explicacion": "La idea es que el modelo sea abierto y adaptable a múltiples contextos, no un esquema rígido. Las técnicas de evaluación se tratan en IEC 31010, no en esta norma. Ver Prólogo."
+  },
+  {
+    "id": "mc-intro-01", "tipo": "mc", "capitulo": 0, "clausula": "Introducción", "dificultad": 1,
+    "enunciado": "¿En qué tres componentes se apoya la gestión del riesgo según la norma?",
+    "opciones": [
+      "Principios, marco de referencia y proceso",
+      "Principios, requisitos y controles",
+      "Política, procedimientos y registros",
+      "Contexto, evaluación y tratamiento"
+    ],
+    "correcta": 0,
+    "explicacion": "La Figura 1 muestra los tres componentes: principios (cap. 4), marco de referencia (cap. 5) y proceso (cap. 6). Contexto, evaluación y tratamiento son etapas del proceso, no componentes. Ver Introducción.",
+    "tags": ["lista"]
+  },
+  {
+    "id": "vf-intro-02", "tipo": "vf", "capitulo": 0, "clausula": "Introducción", "dificultad": 1,
+    "enunciado": "Según la introducción, la gestión del riesgo es parte de la gobernanza y el liderazgo de la organización.",
+    "correcta": true,
+    "explicacion": "La norma la ubica dentro de la gobernanza y el liderazgo, y como parte de todas las actividades de la organización. Ver Introducción."
+  },
+  {
+    "id": "vf-bibliografia-01", "tipo": "vf", "capitulo": 0, "clausula": "Bibliografía", "dificultad": 2,
+    "enunciado": "La única referencia de la bibliografía es la IEC 31010, sobre técnicas de evaluación del riesgo.",
+    "correcta": true,
+    "explicacion": "La bibliografía tiene una sola entrada: IEC 31010. Ojo: es bibliografía, no referencia normativa. Ver Bibliografía."
+  },
+  {
+    "id": "vf-1-01", "tipo": "vf", "capitulo": 1, "clausula": "1", "dificultad": 1,
+    "enunciado": "La ISO 31000 establece requisitos obligatorios contra los que una organización se puede certificar.",
+    "correcta": false,
+    "explicacion": "Da directrices: recomienda (\"debería\"), no exige (\"debe\"). Ver 1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-1-02", "tipo": "mc", "capitulo": 1, "clausula": "1", "dificultad": 1,
+    "enunciado": "¿A qué se puede aplicar la ISO 31000?",
+    "opciones": [
+      "A cualquier organización, cualquier tipo de riesgo y cualquier actividad",
+      "Solo a riesgos financieros y de seguros",
+      "Solo a organizaciones grandes con un sistema de gestión certificado",
+      "Solo a proyectos de inversión"
+    ],
+    "correcta": 0,
+    "explicacion": "Es genérica: no es propia de una industria ni de un sector, y sirve para cualquier tipo de riesgo y actividad. Ver 1."
+  },
+  {
+    "id": "vf-1-03", "tipo": "vf", "capitulo": 1, "clausula": "1", "dificultad": 1,
+    "enunciado": "La norma se puede usar durante toda la vida de la organización y en la toma de decisiones de todos los niveles.",
+    "correcta": true,
+    "explicacion": "El alcance incluye toda la vida de la organización y cualquier actividad, incluida la toma de decisiones a todos los niveles. Ver 1."
+  },
+  {
+    "id": "vf-2-01", "tipo": "vf", "capitulo": 2, "clausula": "2", "dificultad": 2,
+    "enunciado": "El capítulo 2 incluye a la IEC 31010 como referencia normativa.",
+    "correcta": false,
+    "explicacion": "La norma no tiene referencias normativas. La IEC 31010 aparece solo en la bibliografía. Ver 2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-3.1-01", "tipo": "mc", "capitulo": 3, "clausula": "3.1", "dificultad": 1,
+    "enunciado": "Según la norma, el riesgo es el efecto de la incertidumbre sobre…",
+    "opciones": ["los objetivos", "los activos", "los procesos", "las partes interesadas"],
+    "correcta": 0,
+    "explicacion": "La definición ata el riesgo a los objetivos, no a los activos ni a los procesos. Ver 3.1.",
+    "tags": ["definicion"]
+  },
+  {
+    "id": "vf-3.1-02", "tipo": "vf", "capitulo": 3, "clausula": "3.1", "dificultad": 1,
+    "enunciado": "Para la ISO 31000 un riesgo siempre tiene un efecto negativo.",
+    "correcta": false,
+    "explicacion": "El efecto puede ser positivo, negativo o ambos, y puede generar oportunidades además de amenazas. Ver 3.1, nota 1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-3.1-03", "tipo": "mc", "capitulo": 3, "clausula": "3.1", "dificultad": 2,
+    "enunciado": "Según las notas de 3.1, ¿en qué términos se suele expresar el riesgo?",
+    "opciones": [
+      "Fuentes de riesgo, eventos potenciales, sus consecuencias y sus probabilidades",
+      "Activos, amenazas, vulnerabilidades y controles",
+      "Impacto económico y frecuencia anual",
+      "Nivel inherente y nivel residual"
+    ],
+    "correcta": 0,
+    "explicacion": "La nota 3 dice que el riesgo se suele expresar con fuentes, eventos, consecuencias y probabilidades: justo los términos 3.4 a 3.7. Ver 3.1."
+  },
+  {
+    "id": "mc-3.2-01", "tipo": "mc", "capitulo": 3, "clausula": "3.2", "dificultad": 2,
+    "enunciado": "¿Cuál es la definición de \"gestión del riesgo\"?",
+    "opciones": [
+      "Actividades coordinadas para dirigir y controlar la organización con relación al riesgo",
+      "Proceso global de identificación, análisis y valoración del riesgo",
+      "Conjunto de controles que modifican el riesgo",
+      "Aplicación del plan de tratamiento del riesgo"
+    ],
+    "correcta": 0,
+    "explicacion": "La segunda opción es la evaluación del riesgo (6.4.1), no la gestión. Ver 3.2.",
+    "tags": ["definicion", "trampa"]
+  },
+  {
+    "id": "mc-3.3-01", "tipo": "mc", "capitulo": 3, "clausula": "3.3", "dificultad": 1,
+    "enunciado": "¿Quién es \"parte interesada\" según la norma?",
+    "opciones": [
+      "Quien puede afectar, verse afectado o percibirse afectado por una decisión o actividad",
+      "Solo quien tiene participación accionaria en la organización",
+      "Solo quien firmó un contrato con la organización",
+      "Solo los miembros de la alta dirección"
+    ],
+    "correcta": 0,
+    "explicacion": "La definición incluye también a quien se percibe afectado, aunque no lo esté. Ver 3.3.",
+    "tags": ["definicion"]
+  },
+  {
+    "id": "mc-3.4-01", "tipo": "mc", "capitulo": 3, "clausula": "3.4", "dificultad": 1,
+    "enunciado": "\"Elemento que, por sí solo o combinado con otros, tiene el potencial de generar riesgo\" es la definición de…",
+    "opciones": ["fuente de riesgo", "evento", "consecuencia", "control"],
+    "correcta": 0,
+    "explicacion": "Es la fuente de riesgo. Un evento también puede ser fuente de riesgo (3.5, nota 3), pero la definición corresponde a 3.4. Ver 3.4.",
+    "tags": ["definicion"]
+  },
+  {
+    "id": "vf-3.5-01", "tipo": "vf", "capitulo": 3, "clausula": "3.5", "dificultad": 2,
+    "enunciado": "Algo que se esperaba que ocurriera y finalmente no ocurrió también puede ser un evento.",
+    "correcta": true,
+    "explicacion": "Un evento puede ser algo previsto que no llega a pasar, o algo no previsto que pasa. Ver 3.5, nota 2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "mc-3.6-01", "tipo": "mc", "capitulo": 3, "clausula": "3.6", "dificultad": 2,
+    "enunciado": "¿Cuál de estas afirmaciones sobre las consecuencias es correcta?",
+    "opciones": [
+      "Pueden ser ciertas o inciertas y crecer por efectos en cascada o acumulativos",
+      "Siempre son negativas y cuantificables",
+      "Solo cuentan las que afectan directamente a los objetivos",
+      "Son lo mismo que el evento que las provoca"
+    ],
+    "correcta": 0,
+    "explicacion": "Una consecuencia puede ser cierta o incierta, positiva o negativa, directa o indirecta, cualitativa o cuantitativa, y puede escalar por efectos en cascada y acumulativos. Ver 3.6."
+  },
+  {
+    "id": "vf-3.7-01", "tipo": "vf", "capitulo": 3, "clausula": "3.7", "dificultad": 2,
+    "enunciado": "En la norma, \"probabilidad\" se refiere solo a la probabilidad matemática.",
+    "correcta": false,
+    "explicacion": "Se usa en sentido amplio (likelihood): puede definirse objetiva o subjetivamente, cualitativa o cuantitativamente. Ver 3.7.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "vf-3.8-01", "tipo": "vf", "capitulo": 3, "clausula": "3.8", "dificultad": 1,
+    "enunciado": "Un control siempre logra el efecto de modificación que se esperaba.",
+    "correcta": false,
+    "explicacion": "Los controles no siempre producen el efecto previsto o asumido. Ver 3.8, nota 2."
+  },
+  {
+    "id": "clau-3-01", "tipo": "clausula", "capitulo": 3, "clausula": "3.8", "dificultad": 1,
+    "enunciado": "¿En qué cláusula se define \"control\"?",
+    "opciones": ["3.8", "3.4", "3.6", "6.5"],
+    "correcta": 0,
+    "explicacion": "Control es el último de los ocho términos del capítulo 3. Ver 3.8."
+  },
+  {
+    "id": "clau-3-02", "tipo": "clausula", "capitulo": 3, "clausula": "3.5", "dificultad": 2,
+    "enunciado": "¿En qué cláusula se dice que algo previsto que no llega a ocurrir también cuenta?",
+    "opciones": ["3.5", "3.1", "3.6", "3.7"],
+    "correcta": 0,
+    "explicacion": "Es una nota de la definición de evento. Ver 3.5."
+  }
+]

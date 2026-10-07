@@ -1,0 +1,7 @@
+[
+  { "id": "terminos", "titulo": "Términos", "descripcion": "Las 8 definiciones del capítulo 3" },
+  { "id": "principios", "titulo": "Principios", "descripcion": "Los 8 principios y el centro de la figura" },
+  { "id": "marco", "titulo": "Marco", "descripcion": "Liderazgo, componentes y diseño" },
+  { "id": "proceso", "titulo": "Proceso", "descripcion": "Etapas, listas y opciones" },
+  { "id": "proposito", "titulo": "Propósito de…", "descripcion": "Para qué sirve cada cláusula" }
+]
