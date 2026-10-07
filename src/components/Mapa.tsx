@@ -39,9 +39,9 @@ export default function Mapa() {
               className={`flex w-full items-center justify-between gap-3 rounded-2xl border-l-4 p-4 text-left ${COLOR[b.id].bloque}`}
             >
               <span>
-                <span className="block text-xs font-medium uppercase tracking-wide opacity-80">Cap. {b.capitulo}</span>
+                <span className="block text-xs font-medium uppercase tracking-wide">Cap. {b.capitulo}</span>
                 <span className="block text-lg font-semibold">{b.titulo}</span>
-                <span className="block text-sm opacity-90">
+                <span className="block text-sm">
                   {b.centro ? `Centro: ${b.centro}` : "Etapas, dos barras laterales y una base"}
                 </span>
               </span>
@@ -130,7 +130,7 @@ function Ficha({ parte, bloque, onCerrar }: { parte: Parte; bloque: Bloque; onCe
         <a
           href={`#/practicar/${encodeURIComponent(parte.clausula)}`}
           onClick={() => ref.current?.close()}
-          className="block rounded-xl bg-sky-700 py-3 text-center font-semibold text-white dark:bg-sky-600"
+          className="block rounded-xl bg-sky-700 py-3 text-center font-semibold text-white dark:bg-sky-700"
         >
           {textoPracticar} · {n} preguntas
         </a>

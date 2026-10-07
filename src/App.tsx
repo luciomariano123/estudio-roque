@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import Banco from "./components/Banco";
 import Inicio from "./components/Inicio";
 import Proximamente from "./components/Proximamente";
@@ -6,9 +7,12 @@ import Flashcards from "./components/modos/Flashcards";
 import Memotest from "./components/modos/Memotest";
 import ModoPreguntas, { CONFIGS } from "./components/modos/ModoPreguntas";
 import Practicar from "./components/modos/Practicar";
+import Progreso from "./components/modos/Progreso";
+import Simulacro from "./components/modos/Simulacro";
 import VerdaderoFalso from "./components/modos/VerdaderoFalso";
 import { ir, useRuta } from "./lib/ruta";
 import { useTema } from "./lib/tema";
+import { MODOS } from "./modos";
 
 const PESTANAS = [
   { ruta: "inicio", texto: "Inicio", icono: "◎" },
@@ -16,9 +20,25 @@ const PESTANAS = [
   { ruta: "modo/progreso", texto: "Progreso", icono: "▲" },
 ];
 
+function titulo(ruta: string): string {
+  if (ruta === "banco") return "Banco de contenido";
+  if (ruta.startsWith("practicar/")) return `Practicar ${decodeURIComponent(ruta.slice("practicar/".length))}`;
+  if (ruta.startsWith("modo/")) return MODOS.find((m) => m.id === ruta.slice("modo/".length))?.titulo ?? "Inicio";
+  return "Inicio";
+}
+
 export default function App() {
   const ruta = useRuta();
   const { tema, alternar } = useTema();
+  const mainRef = useRef<HTMLElement>(null);
+  const primera = useRef(true);
+
+  // Título de la pestaña y foco al contenido nuevo al navegar (no en la primera carga).
+  useEffect(() => {
+    document.title = `${titulo(ruta)} · ISO 31000`;
+    if (primera.current) primera.current = false;
+    else mainRef.current?.focus({ preventScroll: true });
+  }, [ruta]);
 
   let pantalla;
   if (ruta === "banco") pantalla = <Banco />;
@@ -31,12 +51,24 @@ export default function App() {
     else if (id === "verdadero-falso") pantalla = <VerdaderoFalso />;
     else if (id === "memotest") pantalla = <Memotest />;
     else if (id === "diagrama") pantalla = <Diagrama />;
+    else if (id === "simulacro") pantalla = <Simulacro />;
+    else if (id === "progreso") pantalla = <Progreso />;
     else if (id === "explorar") pantalla = <Inicio />;
     else pantalla = <Proximamente id={id} />;
   } else pantalla = <Inicio />;
 
   return (
     <div className="mx-auto flex min-h-dvh max-w-2xl flex-col">
+      <a
+        href="#contenido"
+        onClick={(e) => {
+          e.preventDefault(); // el hash lo usa el router: movemos el foco a mano
+          mainRef.current?.focus();
+        }}
+        className="sr-only z-20 rounded-lg bg-sky-700 px-3 py-2 text-white focus:not-sr-only focus:fixed focus:left-2 focus:top-2"
+      >
+        Saltar al contenido
+      </a>
       <header className="sticky top-0 z-10 flex items-center justify-between border-b border-stone-200 bg-stone-50/90 px-4 py-3 backdrop-blur dark:border-stone-800 dark:bg-stone-950/90">
         <button onClick={() => ir("inicio")} className="text-left">
           <span className="block text-base font-semibold leading-tight">ISO 31000:2018</span>
@@ -51,7 +83,9 @@ export default function App() {
         </button>
       </header>
 
-      <main className="flex-1 px-4 pb-24 pt-4">{pantalla}</main>
+      <main id="contenido" ref={mainRef} tabIndex={-1} className="flex-1 px-4 pb-24 pt-4 outline-none">
+        {pantalla}
+      </main>
 
       <nav
         className="fixed inset-x-0 bottom-0 z-10 border-t border-stone-200 bg-stone-50/95 backdrop-blur dark:border-stone-800 dark:bg-stone-950/95"

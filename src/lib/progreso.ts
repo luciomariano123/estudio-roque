@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from "react";
-import { guardar, leer } from "./storage";
+import { borrar, guardar, leer } from "./storage";
 
 // Todo el progreso vive en una sola clave de localStorage. Si el storage falla,
 // la app sigue andando con el estado en memoria y se pierde al cerrar.
@@ -7,6 +7,7 @@ import { guardar, leer } from "./storage";
 export type Caja = 1 | 2 | 3;
 export type RegistroItem = { ok: number; mal: number; ultima: boolean; cuando: number };
 export type RegistroCarta = { caja: Caja; cuando: number };
+export type RegistroSimulacro = { cuando: number; aciertos: number; total: number };
 
 export type EstadoProgreso = {
   version: 1;
@@ -14,10 +15,11 @@ export type EstadoProgreso = {
   cartas: Record<string, RegistroCarta>;
   dias: string[]; // días con actividad, "AAAA-MM-DD" en hora local
   recordVF: number;
+  simulacros: RegistroSimulacro[];
 };
 
 const CLAVE = "progreso.v1";
-const VACIO: EstadoProgreso = { version: 1, items: {}, cartas: {}, dias: [], recordVF: 0 };
+const VACIO: EstadoProgreso = { version: 1, items: {}, cartas: {}, dias: [], recordVF: 0, simulacros: [] };
 
 function cargar(): EstadoProgreso {
   const e = leer<Partial<EstadoProgreso> | null>(CLAVE, null);
@@ -28,6 +30,7 @@ function cargar(): EstadoProgreso {
     cartas: e.cartas && typeof e.cartas === "object" ? e.cartas : {},
     dias: Array.isArray(e.dias) ? e.dias : [],
     recordVF: typeof e.recordVF === "number" ? e.recordVF : 0,
+    simulacros: Array.isArray(e.simulacros) ? e.simulacros : [],
   };
 }
 
@@ -50,10 +53,11 @@ export function useProgreso(): EstadoProgreso {
   );
 }
 
-function hoy(): string {
-  const d = new Date();
+export function fechaLocal(d: Date): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
+
+const hoy = () => fechaLocal(new Date());
 
 const conDia = (dias: string[]) => (dias.includes(hoy()) ? dias : [...dias, hoy()]);
 
@@ -89,3 +93,31 @@ export function registrarPuntajeVF(puntaje: number) {
 }
 
 export const cajaDe = (e: EstadoProgreso, id: string): Caja => e.cartas[id]?.caja ?? 1;
+
+export function registrarSimulacro(aciertos: number, total: number) {
+  cambiar((e) => ({
+    ...e,
+    dias: conDia(e.dias),
+    simulacros: [...e.simulacros, { cuando: Date.now(), aciertos, total }].slice(-20),
+  }));
+}
+
+// Días seguidos con actividad. Si hoy todavía no estudiaste, la racha de ayer sigue viva.
+export function racha(dias: string[], ahora = new Date()): number {
+  const set = new Set(dias);
+  const d = new Date(ahora);
+  if (!set.has(fechaLocal(d))) d.setDate(d.getDate() - 1);
+  let n = 0;
+  while (set.has(fechaLocal(d))) {
+    n++;
+    d.setDate(d.getDate() - 1);
+  }
+  return n;
+}
+
+export const CLAVE_SIMULACRO = "simulacro.v1";
+
+export function resetearProgreso() {
+  borrar(CLAVE_SIMULACRO);
+  cambiar(() => VACIO);
+}

@@ -57,7 +57,7 @@ export default function Memotest() {
       />
       <button
         onClick={() => setRonda({ ...armarRonda(set), n: 0 })}
-        className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-600"
+        className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-700"
       >
         Jugar
       </button>
@@ -104,6 +104,7 @@ function Tablero(props: { pares: ParMemotest[]; cartas: Carta[]; onOtra: () => v
 
   return (
     <div className="space-y-4">
+      <h1 className="sr-only">Memotest</h1>
       <div className="flex items-center justify-between text-sm text-stone-500 dark:text-stone-400">
         <button onClick={props.onSalir} className="underline-offset-2 hover:underline">
           Salir
@@ -156,13 +157,13 @@ function Tablero(props: { pares: ParMemotest[]; cartas: Carta[]; onOtra: () => v
               {turnos} turnos (lo mínimo posible son {props.pares.length})
             </p>
           </div>
-          <button onClick={props.onOtra} className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-600">
+          <button onClick={props.onOtra} className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-700">
             Otra ronda
           </button>
           <ul className="space-y-1 text-sm">
             {props.pares.map((p) => (
               <li key={p.id} className="tarjeta p-2">
-                <strong>{p.a}</strong> — {p.b} <span className="text-stone-500">({p.clausula})</span>
+                <strong>{p.a}</strong> — {p.b} <span className="text-stone-500 dark:text-stone-400">({p.clausula})</span>
               </li>
             ))}
           </ul>

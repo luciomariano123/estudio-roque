@@ -11,9 +11,9 @@ type Props = {
 };
 
 // Valor de cada opción tal como se compara con item.correcta.
-type Opcion = { valor: number | boolean; texto: string };
+export type Opcion = { valor: number | boolean; texto: string };
 
-function armarOpciones(item: Item): Opcion[] {
+export function armarOpciones(item: Item): Opcion[] {
   if (item.tipo === "vf")
     return [
       { valor: true, texto: "Verdadero" },
@@ -145,7 +145,7 @@ export default function Pregunta({ item, onRespondida, onSiguiente, textoSiguien
         <button
           ref={siguienteRef}
           onClick={onSiguiente}
-          className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-600"
+          className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-700"
         >
           {textoSiguiente}
         </button>

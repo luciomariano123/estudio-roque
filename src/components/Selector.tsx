@@ -19,7 +19,7 @@ export default function Selector<T extends string | number>(props: {
               onClick={() => props.onChange(o.valor)}
               className={`rounded-full border px-3 py-1.5 text-sm ${
                 activo
-                  ? "border-sky-700 bg-sky-700 text-white dark:border-sky-500 dark:bg-sky-600"
+                  ? "border-sky-700 bg-sky-700 text-white dark:border-sky-500 dark:bg-sky-700"
                   : "border-stone-300 dark:border-stone-700"
               }`}
             >

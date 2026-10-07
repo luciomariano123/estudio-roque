@@ -98,7 +98,7 @@ export default function VerdaderoFalso() {
           <p className="text-3xl font-bold tabular-nums">{recordVF}</p>
         </div>
         <p className="text-xs text-stone-500 dark:text-stone-400">Con teclado: V o ← para verdadero, F o → para falso.</p>
-        <button onClick={empezar} className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-600">
+        <button onClick={empezar} className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-700">
           Empezar
         </button>
         <button onClick={() => ir("inicio")} className="w-full text-sm text-stone-500 underline dark:text-stone-400">
@@ -120,7 +120,7 @@ export default function VerdaderoFalso() {
             {partida.aciertos}/{respondidas} bien · mejor racha {partida.mejorRacha}
           </p>
         </div>
-        <button onClick={empezar} className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-600">
+        <button onClick={empezar} className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-700">
           Jugar otra vez
         </button>
         <button onClick={() => setFase("inicio")} className="w-full rounded-xl border border-stone-300 py-3 font-medium dark:border-stone-700">
@@ -150,6 +150,7 @@ export default function VerdaderoFalso() {
   const segundos = Math.ceil(restante / 1000);
   return (
     <div className="flex min-h-[calc(100dvh-12rem)] flex-col gap-4">
+      <h1 className="sr-only">Verdadero o falso</h1>
       <div className="flex items-end justify-between">
         <div>
           <p className="text-xs text-stone-500 dark:text-stone-400">Puntaje</p>
@@ -185,13 +186,13 @@ export default function VerdaderoFalso() {
       <div className="grid grid-cols-2 gap-3">
         <button
           onClick={() => responder(true)}
-          className="min-h-20 rounded-2xl bg-emerald-600 text-lg font-bold text-white active:scale-[0.98] dark:bg-emerald-700"
+          className="min-h-20 rounded-2xl bg-emerald-700 text-lg font-bold text-white active:scale-[0.98]"
         >
           Verdadero
         </button>
         <button
           onClick={() => responder(false)}
-          className="min-h-20 rounded-2xl bg-rose-600 text-lg font-bold text-white active:scale-[0.98] dark:bg-rose-700"
+          className="min-h-20 rounded-2xl bg-rose-700 text-lg font-bold text-white active:scale-[0.98]"
         >
           Falso
         </button>

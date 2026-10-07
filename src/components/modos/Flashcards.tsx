@@ -58,7 +58,7 @@ export default function Flashcards() {
       </div>
       <button
         onClick={() => setCola(armarSesion(delMazo, progreso))}
-        className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-600"
+        className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-700"
       >
         Repasar {Math.min(POR_SESION, delMazo.length)} cartas
       </button>
@@ -104,12 +104,12 @@ function Repaso({ cola: inicial, onTerminar }: { cola: Flashcard[]; onTerminar: 
     return (
       <div className="space-y-4">
         <div className="tarjeta p-5 text-center">
-          <p className="text-lg font-semibold">Listo el repaso</p>
+          <h1 className="text-lg font-semibold">Listo el repaso</h1>
           <p className="mt-2 text-sm text-stone-600 dark:text-stone-300">
             La sabía: {conteo.sabia} · Más o menos: {conteo.masomenos} · No la sabía: {conteo.nosabia}
           </p>
         </div>
-        <button onClick={onTerminar} className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-600">
+        <button onClick={onTerminar} className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-700">
           Volver a los mazos
         </button>
       </div>
@@ -118,6 +118,7 @@ function Repaso({ cola: inicial, onTerminar }: { cola: Flashcard[]; onTerminar: 
   const mazo = mazos.find((m) => m.id === carta.mazo);
   return (
     <div className="space-y-4">
+      <h1 className="sr-only">Flashcards</h1>
       <div className="flex items-center justify-between text-sm text-stone-500 dark:text-stone-400">
         <button onClick={onTerminar} className="underline-offset-2 hover:underline">
           Terminar

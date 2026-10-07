@@ -6,12 +6,13 @@ import Pregunta from "./Pregunta";
 type Resultado = { item: Item; ok: boolean };
 
 type Props = {
+  titulo?: string; // si la pantalla que la contiene no tiene su propio h1
   items: Item[];
   onOtra?: () => void; // arma una sesión nueva con la misma configuración
   onSalir: () => void;
 };
 
-export default function Sesion({ items: iniciales, onOtra, onSalir }: Props) {
+export default function Sesion({ titulo, items: iniciales, onOtra, onSalir }: Props) {
   const [items, setItems] = useState(iniciales);
   const [ronda, setRonda] = useState(0); // fuerza remontar al repetir errores
   const [indice, setIndice] = useState(0);
@@ -33,6 +34,7 @@ export default function Sesion({ items: iniciales, onOtra, onSalir }: Props) {
     const pct = Math.round((aciertos / resultados.length) * 100);
     return (
       <div className="space-y-4">
+        {titulo && <h1 className="text-sm font-semibold text-stone-600 dark:text-stone-400">{titulo}</h1>}
         <div className="tarjeta p-5 text-center">
           <p className="text-sm text-stone-500 dark:text-stone-400">Resultado</p>
           <p className="text-4xl font-bold tabular-nums">
@@ -50,7 +52,7 @@ export default function Sesion({ items: iniciales, onOtra, onSalir }: Props) {
                 setIndice(0);
                 setRonda((r) => r + 1);
               }}
-              className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-600"
+              className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-700"
             >
               Repetir las {errores.length} que fallé
             </button>
@@ -82,6 +84,7 @@ export default function Sesion({ items: iniciales, onOtra, onSalir }: Props) {
   const item = items[indice];
   return (
     <div className="space-y-4">
+      {titulo && <h1 className="text-sm font-semibold text-stone-600 dark:text-stone-400">{titulo}</h1>}
       <div className="flex items-center gap-3">
         <button onClick={onSalir} className="text-sm text-stone-500 underline-offset-2 hover:underline dark:text-stone-400">
           Salir

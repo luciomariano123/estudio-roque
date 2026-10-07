@@ -127,7 +127,7 @@ function Resumen() {
         <div key={g.texto} className="px-1 py-2">
           <p className="text-lg font-semibold tabular-nums">{g.n}</p>
           <p className="text-xs text-stone-500 dark:text-stone-400">{g.texto}</p>
-          <p className="text-[11px] text-stone-400 tabular-nums">
+          <p className="text-[11px] tabular-nums text-stone-500 dark:text-stone-400">
             {Math.round((g.n / preguntas.length) * 100)}% · meta {g.meta}%
           </p>
         </div>
@@ -145,7 +145,7 @@ function Filtro<T extends string | number>(props: {
   const boton = (activo: boolean) =>
     `shrink-0 rounded-full border px-3 py-1 text-sm ${
       activo
-        ? "border-sky-700 bg-sky-700 text-white dark:border-sky-500 dark:bg-sky-600"
+        ? "border-sky-700 bg-sky-700 text-white dark:border-sky-500 dark:bg-sky-700"
         : "border-stone-300 dark:border-stone-700"
     }`;
   return (
@@ -241,7 +241,7 @@ function ListaFlashcards() {
         return (
           <section key={m.id} aria-labelledby={`mazo-${m.id}`}>
             <h2 id={`mazo-${m.id}`} className="font-semibold">
-              {m.titulo} <span className="font-normal text-stone-500">· {cartas.length}</span>
+              {m.titulo} <span className="font-normal text-stone-500 dark:text-stone-400">· {cartas.length}</span>
             </h2>
             <p className="mb-2 text-sm text-stone-500 dark:text-stone-400">{m.descripcion}</p>
             <ul className="space-y-2">
@@ -269,7 +269,7 @@ function ListaFichas() {
       {estructura.map((b) => (
         <section key={b.id} aria-labelledby={`bloque-${b.id}`}>
           <h2 id={`bloque-${b.id}`} className="font-semibold">
-            {b.titulo} <span className="font-normal text-stone-500">· cap. {b.capitulo}</span>
+            {b.titulo} <span className="font-normal text-stone-500 dark:text-stone-400">· cap. {b.capitulo}</span>
           </h2>
           <p className="text-sm text-stone-600 dark:text-stone-300">{b.resumen}</p>
           {b.centro && <p className="text-sm text-stone-500 dark:text-stone-400">Centro de la figura: {b.centro}</p>}

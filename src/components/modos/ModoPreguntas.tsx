@@ -110,7 +110,7 @@ export default function ModoPreguntas({ config }: { config: ConfigModo }) {
     setSesion((s) => ({ items: cantidad ? items.slice(0, cantidad) : items, n: (s?.n ?? 0) + 1 }));
   }
 
-  if (sesion) return <Sesion key={sesion.n} items={sesion.items} onOtra={empezar} onSalir={() => setSesion(null)} />;
+  if (sesion) return <Sesion key={sesion.n} titulo={config.titulo} items={sesion.items} onOtra={empezar} onSalir={() => setSesion(null)} />;
 
   return (
     <div className="space-y-5">
@@ -145,7 +145,7 @@ export default function ModoPreguntas({ config }: { config: ConfigModo }) {
       <button
         onClick={empezar}
         disabled={disponibles.length === 0}
-        className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white disabled:opacity-50 dark:bg-sky-600"
+        className="w-full rounded-xl bg-sky-700 py-3 font-semibold text-white disabled:opacity-50 dark:bg-sky-700"
       >
         Empezar
       </button>

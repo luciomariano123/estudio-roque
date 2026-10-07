@@ -17,3 +17,11 @@ export function guardar<T>(clave: string, valor: T): void {
     /* sin persistencia */
   }
 }
+
+export function borrar(clave: string): void {
+  try {
+    localStorage.removeItem(clave);
+  } catch {
+    /* sin persistencia */
+  }
+}

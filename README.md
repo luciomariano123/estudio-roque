@@ -58,7 +58,14 @@ Para revisar el banco sin levantar la app: [`docs/BANCO.md`](docs/BANCO.md).
 
 ## Progreso
 
-Se guarda en `localStorage` bajo la clave `progreso.v1`: respuestas por pregunta (aciertos, errores y si la última salió bien), caja Leitner de cada flashcard, días con actividad y récord del verdadero o falso. Si el navegador bloquea el storage, la app funciona igual pero no recuerda nada al cerrar.
+Se guarda en `localStorage` bajo la clave `progreso.v1`: respuestas por pregunta (aciertos, errores y si la última salió bien), caja Leitner de cada flashcard, días con actividad, récord del verdadero o falso y los últimos simulacros. Un simulacro sin terminar se guarda aparte (`simulacro.v1`) para poder retomarlo. Si el navegador bloquea el storage, la app funciona igual pero no recuerda nada al cerrar.
+
+## Accesibilidad
+
+- Todo se puede usar con teclado: foco visible, "Saltar al contenido", teclas 1–4 para responder, Enter para seguir, ← → en el simulacro, espacio y 1–3 en las flashcards, V/F en el contrarreloj.
+- Arrastrar y soltar siempre tiene alternativa de tocar la pieza y después el lugar.
+- Al cambiar de pantalla, el foco va al contenido nuevo y cambia el título de la pestaña.
+- Contraste AA en tema claro y oscuro (auditado con axe-core en todas las pantallas), y se respeta "reducir movimiento".
 
 ## Reglas del contenido
 
@@ -71,4 +78,4 @@ Se guarda en `localStorage` bajo la clave `progreso.v1`: respuestas por pregunta
 - [x] Fase 1 — Base, navegación, tema claro/oscuro, banco de contenido y validador
 - [x] Fase 2 — Mapa interactivo, flashcards (Leitner), multiple choice, V/F, guardado de progreso
 - [x] Fase 3 — Clasificador, armá el diagrama, memotest, completar la frase, casos, ¿qué cláusula es?
-- [ ] Fase 4 — Simulacro, tablero de progreso, repasar errores, pulido mobile y accesibilidad
+- [x] Fase 4 — Simulacro, tablero de progreso, repasar errores, pulido mobile y accesibilidad

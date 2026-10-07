@@ -123,7 +123,7 @@ function Armado({ d }: { d: TDiagrama }) {
                   aria-pressed={elegida === p}
                   className={`touch-none select-none rounded-lg border-2 px-2 py-1 text-[13px] font-medium ${
                     elegida === p
-                      ? "border-sky-600 bg-sky-600 text-white"
+                      ? "border-sky-700 bg-sky-700 text-white"
                       : "border-stone-300 bg-white dark:border-stone-600 dark:bg-stone-800"
                   }`}
                 >
@@ -153,7 +153,7 @@ function Armado({ d }: { d: TDiagrama }) {
       )}
 
       <div className="grid grid-cols-2 gap-2">
-        <button onClick={comprobar} className="col-span-2 rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-600">
+        <button onClick={comprobar} className="col-span-2 rounded-xl bg-sky-700 py-3 font-semibold text-white dark:bg-sky-700">
           Comprobar
         </button>
         <button
@@ -187,7 +187,7 @@ function Armado({ d }: { d: TDiagrama }) {
       {fantasma && (
         <div
           aria-hidden
-          className="pointer-events-none fixed z-50 -translate-x-1/2 -translate-y-1/2 rounded-lg bg-sky-600 px-2.5 py-1.5 text-sm font-medium text-white shadow-lg"
+          className="pointer-events-none fixed z-50 -translate-x-1/2 -translate-y-1/2 rounded-lg bg-sky-700 px-2.5 py-1.5 text-sm font-medium text-white shadow-lg"
           style={{ left: fantasma.x, top: fantasma.y }}
         >
           {fantasma.pieza}
