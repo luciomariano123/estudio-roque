@@ -1,8 +1,10 @@
 export type Modo = { id: string; titulo: string; descripcion: string; fase: 2 | 3 | 4 };
 
-// Fase 1 = base y contenido. Cada modo se habilita en la fase indicada del brief.
+// Fase de construcción en la que estamos: los modos de fases posteriores se muestran como "próximamente".
+export const FASE_ACTUAL = 2;
+
+// "Explorar" (el mapa) es la pantalla de inicio, así que no figura en esta lista.
 export const MODOS: Modo[] = [
-  { id: "explorar", titulo: "Explorar", descripcion: "Mapa de principios, marco y proceso, con fichas por cláusula.", fase: 2 },
   { id: "flashcards", titulo: "Flashcards", descripcion: "Repetición espaciada con 3 cajas.", fase: 2 },
   { id: "multiple-choice", titulo: "Multiple choice", descripcion: "Por capítulo o mezclado, con explicación.", fase: 2 },
   { id: "verdadero-falso", titulo: "Verdadero o falso", descripcion: "60 segundos, puntaje por racha.", fase: 2 },

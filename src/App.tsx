@@ -1,6 +1,10 @@
 import Banco from "./components/Banco";
 import Inicio from "./components/Inicio";
 import Proximamente from "./components/Proximamente";
+import Flashcards from "./components/modos/Flashcards";
+import MultipleChoice from "./components/modos/MultipleChoice";
+import Practicar from "./components/modos/Practicar";
+import VerdaderoFalso from "./components/modos/VerdaderoFalso";
 import { ir, useRuta } from "./lib/ruta";
 import { useTema } from "./lib/tema";
 
@@ -16,8 +20,16 @@ export default function App() {
 
   let pantalla;
   if (ruta === "banco") pantalla = <Banco />;
-  else if (ruta.startsWith("modo/")) pantalla = <Proximamente id={ruta.slice(5)} />;
-  else pantalla = <Inicio />;
+  else if (ruta.startsWith("practicar/"))
+    pantalla = <Practicar key={ruta} clausula={decodeURIComponent(ruta.slice("practicar/".length))} />;
+  else if (ruta.startsWith("modo/")) {
+    const id = ruta.slice("modo/".length);
+    if (id === "flashcards") pantalla = <Flashcards />;
+    else if (id === "multiple-choice") pantalla = <MultipleChoice />;
+    else if (id === "verdadero-falso") pantalla = <VerdaderoFalso />;
+    else if (id === "explorar") pantalla = <Inicio />;
+    else pantalla = <Proximamente id={id} />;
+  } else pantalla = <Inicio />;
 
   return (
     <div className="mx-auto flex min-h-dvh max-w-2xl flex-col">

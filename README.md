@@ -54,6 +54,10 @@ Para revisar el banco sin levantar la app: [`docs/BANCO.md`](docs/BANCO.md).
 
 `npm run validate` controla ids únicos, que la respuesta correcta exista, que la cláusula exista y corresponda al capítulo, y que la explicación esté y cite la cláusula ("Ver …").
 
+## Progreso
+
+Se guarda en `localStorage` bajo la clave `progreso.v1`: respuestas por pregunta (aciertos, errores y si la última salió bien), caja Leitner de cada flashcard, días con actividad y récord del verdadero o falso. Si el navegador bloquea el storage, la app funciona igual pero no recuerda nada al cerrar.
+
 ## Reglas del contenido
 
 - Explicaciones y enunciados con palabras propias, citando la cláusula. No se pegan párrafos de la norma; solo las definiciones del capítulo 3 usan su formulación.
@@ -63,6 +67,6 @@ Para revisar el banco sin levantar la app: [`docs/BANCO.md`](docs/BANCO.md).
 ## Estado
 
 - [x] Fase 1 — Base, navegación, tema claro/oscuro, banco de contenido y validador
-- [ ] Fase 2 — Mapa interactivo, flashcards (Leitner), multiple choice, V/F, guardado de progreso
+- [x] Fase 2 — Mapa interactivo, flashcards (Leitner), multiple choice, V/F, guardado de progreso
 - [ ] Fase 3 — Clasificador, armá el diagrama, memotest, completar la frase, casos, ¿qué cláusula es?
 - [ ] Fase 4 — Simulacro, tablero de progreso, repasar errores, pulido mobile y accesibilidad

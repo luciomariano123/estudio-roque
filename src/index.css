@@ -5,6 +5,9 @@
 @layer base {
   html {
     -webkit-tap-highlight-color: transparent;
+    /* Que el foco y los scrolls no queden tapados por el header y la barra fija de abajo */
+    scroll-padding-top: 5rem;
+    scroll-padding-bottom: 6rem;
   }
   body {
     @apply bg-stone-50 text-stone-900 antialiased dark:bg-stone-950 dark:text-stone-100;
@@ -20,5 +23,25 @@
   }
   .chip {
     @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium;
+  }
+}
+
+/* Destello de acierto/error en el contrarreloj */
+@keyframes ok {
+  from {
+    box-shadow: inset 0 0 0 3px rgb(5 150 105);
+  }
+}
+@keyframes mal {
+  from {
+    box-shadow: inset 0 0 0 3px rgb(225 29 72);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
   }
 }
