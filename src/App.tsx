@@ -1,8 +1,10 @@
 import Banco from "./components/Banco";
 import Inicio from "./components/Inicio";
 import Proximamente from "./components/Proximamente";
+import Diagrama from "./components/modos/Diagrama";
 import Flashcards from "./components/modos/Flashcards";
-import MultipleChoice from "./components/modos/MultipleChoice";
+import Memotest from "./components/modos/Memotest";
+import ModoPreguntas, { CONFIGS } from "./components/modos/ModoPreguntas";
 import Practicar from "./components/modos/Practicar";
 import VerdaderoFalso from "./components/modos/VerdaderoFalso";
 import { ir, useRuta } from "./lib/ruta";
@@ -25,8 +27,10 @@ export default function App() {
   else if (ruta.startsWith("modo/")) {
     const id = ruta.slice("modo/".length);
     if (id === "flashcards") pantalla = <Flashcards />;
-    else if (id === "multiple-choice") pantalla = <MultipleChoice />;
+    else if (CONFIGS[id]) pantalla = <ModoPreguntas key={id} config={CONFIGS[id]} />;
     else if (id === "verdadero-falso") pantalla = <VerdaderoFalso />;
+    else if (id === "memotest") pantalla = <Memotest />;
+    else if (id === "diagrama") pantalla = <Diagrama />;
     else if (id === "explorar") pantalla = <Inicio />;
     else pantalla = <Proximamente id={id} />;
   } else pantalla = <Inicio />;

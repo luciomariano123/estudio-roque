@@ -24,6 +24,8 @@ Todo vive en `src/content/`, separado del código:
 | `flashcards.json` · `mazos.json` | Flashcards y sus mazos. |
 | `estructura.json` | Los tres bloques (principios, marco, proceso) y las fichas del mapa. |
 | `clasificador.json` | Los sets del modo "¿Dónde va?" y sus categorías. |
+| `memotest.json` | Las parejas del memotest (término ↔ definición, cláusula ↔ propósito). |
+| `diagramas.json` | Las piezas de cada figura para "Armá el diagrama" y las que sobran. |
 | `clausulas.json` | Cláusulas válidas de la norma (el validador las usa). |
 
 Para revisar el banco sin levantar la app: [`docs/BANCO.md`](docs/BANCO.md).
@@ -68,5 +70,5 @@ Se guarda en `localStorage` bajo la clave `progreso.v1`: respuestas por pregunta
 
 - [x] Fase 1 — Base, navegación, tema claro/oscuro, banco de contenido y validador
 - [x] Fase 2 — Mapa interactivo, flashcards (Leitner), multiple choice, V/F, guardado de progreso
-- [ ] Fase 3 — Clasificador, armá el diagrama, memotest, completar la frase, casos, ¿qué cláusula es?
+- [x] Fase 3 — Clasificador, armá el diagrama, memotest, completar la frase, casos, ¿qué cláusula es?
 - [ ] Fase 4 — Simulacro, tablero de progreso, repasar errores, pulido mobile y accesibilidad

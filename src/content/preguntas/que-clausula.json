@@ -1,0 +1,182 @@
+[
+  {
+    "id": "clau-prologo-01", "tipo": "clausula", "capitulo": 0, "clausula": "Prólogo", "dificultad": 1,
+    "enunciado": "Los cambios principales respecto de la edición 2009",
+    "opciones": ["Prólogo", "Introducción", "1", "Bibliografía"],
+    "correcta": 0,
+    "explicacion": "Los cambios se listan en el prólogo. Ver Prólogo."
+  },
+  {
+    "id": "clau-intro-01", "tipo": "clausula", "capitulo": 0, "clausula": "Introducción", "dificultad": 1,
+    "enunciado": "La figura que reúne principios, marco de referencia y proceso",
+    "opciones": ["Introducción", "Prólogo", "1", "4"],
+    "correcta": 0,
+    "explicacion": "Es la Figura 1, en la introducción. Ver Introducción."
+  },
+  {
+    "id": "clau-1-01", "tipo": "clausula", "capitulo": 1, "clausula": "1", "dificultad": 1,
+    "enunciado": "La norma no es específica de una industria o de un sector",
+    "opciones": ["1", "Introducción", "2", "4"],
+    "correcta": 0,
+    "explicacion": "Es parte del objeto y campo de aplicación. Ver 1."
+  },
+  {
+    "id": "clau-3-03", "tipo": "clausula", "capitulo": 3, "clausula": "3.7", "dificultad": 2,
+    "enunciado": "El término inglés \"likelihood\" y su sentido amplio",
+    "opciones": ["3.7", "3.1", "3.6", "6.4.3"],
+    "correcta": 0,
+    "explicacion": "Las notas de la definición de probabilidad explican por qué se usa likelihood. Ver 3.7."
+  },
+  {
+    "id": "clau-3-04", "tipo": "clausula", "capitulo": 3, "clausula": "3.3", "dificultad": 1,
+    "enunciado": "Quien se percibe afectado por una decisión también cuenta",
+    "opciones": ["3.3", "3.1", "3.5", "6.2"],
+    "correcta": 0,
+    "explicacion": "Está en la definición de parte interesada. Ver 3.3."
+  },
+  {
+    "id": "clau-4-30", "tipo": "clausula", "capitulo": 4, "clausula": "4", "dificultad": 1,
+    "enunciado": "La gestión del riesgo crea y protege valor, mejora el desempeño y fomenta la innovación",
+    "opciones": ["4", "5.1", "6.1", "3.2"],
+    "correcta": 0,
+    "explicacion": "Es el propósito que abre el capítulo de principios. Ver 4."
+  },
+  {
+    "id": "clau-5-06", "tipo": "clausula", "capitulo": 5, "clausula": "5.4.5", "dificultad": 2,
+    "enunciado": "Establecer un enfoque aprobado de comunicación y consulta para apoyar el marco",
+    "opciones": ["5.4.5", "6.2", "5.4.2", "5.5"],
+    "correcta": 0,
+    "explicacion": "Es la última parte del diseño del marco. 6.2 trata la comunicación y consulta dentro del proceso. Ver 5.4.5.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clau-5-07", "tipo": "clausula", "capitulo": 5, "clausula": "5.2", "dificultad": 1,
+    "enunciado": "La alta dirección rinde cuentas por gestionar el riesgo",
+    "opciones": ["5.2", "5.4.3", "5.3", "5.1"],
+    "correcta": 0,
+    "explicacion": "Ver 5.2."
+  },
+  {
+    "id": "clau-5-08", "tipo": "clausula", "capitulo": 5, "clausula": "5.3", "dificultad": 2,
+    "enunciado": "Todos los miembros de la organización son responsables de gestionar el riesgo",
+    "opciones": ["5.3", "5.2", "5.4.3", "4"],
+    "correcta": 0,
+    "explicacion": "Está en Integración. Ver 5.3."
+  },
+  {
+    "id": "clau-5-09", "tipo": "clausula", "capitulo": 5, "clausula": "5.4.4", "dificultad": 1,
+    "enunciado": "Asegurar personas, herramientas, procedimientos documentados y formación",
+    "opciones": ["5.4.4", "5.5", "6.5.3", "5.4.3"],
+    "correcta": 0,
+    "explicacion": "Son los recursos del diseño del marco. Ver 5.4.4."
+  },
+  {
+    "id": "clau-5-10", "tipo": "clausula", "capitulo": 5, "clausula": "5.4.2", "dificultad": 2,
+    "enunciado": "Qué debería cubrir la política de compromiso: propósito, objetivos en conflicto, medición, revisión",
+    "opciones": ["5.4.2", "5.2", "5.4.5", "6.3.4"],
+    "correcta": 0,
+    "explicacion": "5.2 menciona publicar una política; su contenido se detalla en 5.4.2. Ver 5.4.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clau-5-11", "tipo": "clausula", "capitulo": 5, "clausula": "5.7.1", "dificultad": 2,
+    "enunciado": "Hacer seguimiento continuo y ajustar el marco a los cambios externos e internos",
+    "opciones": ["5.7.1", "5.7.2", "5.6", "6.6"],
+    "correcta": 0,
+    "explicacion": "Es la adaptación del marco. Ver 5.7.1.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clau-5-12", "tipo": "clausula", "capitulo": 5, "clausula": "5.7.2", "dificultad": 2,
+    "enunciado": "Mejorar la idoneidad, la adecuación y la eficacia del marco",
+    "opciones": ["5.7.2", "5.7.1", "5.6", "4"],
+    "correcta": 0,
+    "explicacion": "Es la mejora continua del marco, no el principio. Ver 5.7.2.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clau-5-13", "tipo": "clausula", "capitulo": 5, "clausula": "5.5", "dificultad": 2,
+    "enunciado": "Identificar dónde, cuándo, cómo y quién toma los distintos tipos de decisiones",
+    "opciones": ["5.5", "5.4.3", "5.2", "6.3.2"],
+    "correcta": 0,
+    "explicacion": "Es parte de implementar el marco. Ver 5.5."
+  },
+  {
+    "id": "clau-6-09", "tipo": "clausula", "capitulo": 6, "clausula": "6.1", "dificultad": 1,
+    "enunciado": "El proceso se suele presentar como secuencial, pero en la práctica es iterativo",
+    "opciones": ["6.1", "6.4.1", "6.5.1", "4"],
+    "correcta": 0,
+    "explicacion": "Está en las generalidades del proceso. Ver 6.1."
+  },
+  {
+    "id": "clau-6-10", "tipo": "clausula", "capitulo": 6, "clausula": "6.3.4", "dificultad": 2,
+    "enunciado": "Precisar cuánto riesgo y de qué tipo puede o no tomar la organización",
+    "opciones": ["6.3.4", "6.4.4", "6.3.2", "6.5.2"],
+    "correcta": 0,
+    "explicacion": "Es la definición de los criterios del riesgo. Ver 6.3.4."
+  },
+  {
+    "id": "clau-6-11", "tipo": "clausula", "capitulo": 6, "clausula": "6.3.3", "dificultad": 3,
+    "enunciado": "Los factores propios de la organización pueden ser una fuente de riesgo",
+    "opciones": ["6.3.3", "5.4.1", "6.4.2", "3.4"],
+    "correcta": 0,
+    "explicacion": "Es una de las razones por las que importa el contexto en el proceso. Ver 6.3.3."
+  },
+  {
+    "id": "clau-6-12", "tipo": "clausula", "capitulo": 6, "clausula": "6.4.1", "dificultad": 1,
+    "enunciado": "La evaluación del riesgo es el proceso global de identificación, análisis y valoración",
+    "opciones": ["6.4.1", "6.4.4", "6.1", "3.2"],
+    "correcta": 0,
+    "explicacion": "Ver 6.4.1."
+  },
+  {
+    "id": "clau-6-13", "tipo": "clausula", "capitulo": 6, "clausula": "6.4.4", "dificultad": 1,
+    "enunciado": "Comparar el resultado del análisis con los criterios del riesgo",
+    "opciones": ["6.4.4", "6.4.3", "6.3.4", "5.6"],
+    "correcta": 0,
+    "explicacion": "Es la valoración del riesgo. 5.6 es la valoración del marco. Ver 6.4.4.",
+    "tags": ["trampa"]
+  },
+  {
+    "id": "clau-6-14", "tipo": "clausula", "capitulo": 6, "clausula": "6.4.3", "dificultad": 2,
+    "enunciado": "Técnicas cualitativas, cuantitativas o una combinación",
+    "opciones": ["6.4.3", "6.4.2", "6.3.2", "6.4.4"],
+    "correcta": 0,
+    "explicacion": "Es parte del análisis del riesgo. Ver 6.4.3."
+  },
+  {
+    "id": "clau-6-15", "tipo": "clausula", "capitulo": 6, "clausula": "6.5.1", "dificultad": 2,
+    "enunciado": "Formular opciones, implementarlas, evaluar su eficacia y decidir si el riesgo residual es aceptable",
+    "opciones": ["6.5.1", "6.5.2", "6.5.3", "6.6"],
+    "correcta": 0,
+    "explicacion": "Es el ciclo iterativo del tratamiento. Ver 6.5.1."
+  },
+  {
+    "id": "clau-6-16", "tipo": "clausula", "capitulo": 6, "clausula": "6.5.2", "dificultad": 3,
+    "enunciado": "Al elegir el tratamiento pesan las obligaciones, los compromisos voluntarios y las opiniones de las partes interesadas",
+    "opciones": ["6.5.2", "6.5.1", "6.4.4", "5.4.2"],
+    "correcta": 0,
+    "explicacion": "La justificación del tratamiento va más allá de lo económico. Ver 6.5.2."
+  },
+  {
+    "id": "clau-6-17", "tipo": "clausula", "capitulo": 6, "clausula": "6.5.3", "dificultad": 2,
+    "enunciado": "Integrar los planes de tratamiento en los planes y procesos de gestión de la organización",
+    "opciones": ["6.5.3", "5.5", "6.5.1", "5.3"],
+    "correcta": 0,
+    "explicacion": "Ver 6.5.3."
+  },
+  {
+    "id": "clau-6-18", "tipo": "clausula", "capitulo": 6, "clausula": "6.2", "dificultad": 2,
+    "enunciado": "Cuidar la confidencialidad, la integridad de la información y la privacidad al intercambiar información",
+    "opciones": ["6.2", "6.7", "5.4.5", "6.4.2"],
+    "correcta": 0,
+    "explicacion": "Ver 6.2."
+  },
+  {
+    "id": "clau-6-19", "tipo": "clausula", "capitulo": 6, "clausula": "6.7", "dificultad": 2,
+    "enunciado": "Al definir el informe se consideran destinatarios, costo, frecuencia, método y pertinencia",
+    "opciones": ["6.7", "6.6", "5.4.5", "6.2"],
+    "correcta": 0,
+    "explicacion": "Ver 6.7."
+  }
+]

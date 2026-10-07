@@ -1,9 +1,11 @@
-import type { Bloque, Clausula, Flashcard, GrupoClasificacion, Item, Mazo } from "../types";
+import type { Bloque, Clausula, Diagrama, Flashcard, GrupoClasificacion, Item, Mazo, SetMemotest } from "../types";
 import clausulasJson from "./clausulas.json";
 import clasificadorJson from "./clasificador.json";
+import diagramasJson from "./diagramas.json";
 import estructuraJson from "./estructura.json";
 import flashcardsJson from "./flashcards.json";
 import mazosJson from "./mazos.json";
+import memotestJson from "./memotest.json";
 
 // Cualquier .json nuevo en preguntas/ se carga solo: agregar preguntas no requiere tocar código.
 const archivos = import.meta.glob<Item[]>("./preguntas/*.json", { eager: true, import: "default" });
@@ -17,6 +19,8 @@ export const mazos = mazosJson as Mazo[];
 export const clausulas = clausulasJson as Clausula[];
 export const gruposClasificacion = clasificadorJson as GrupoClasificacion[];
 export const estructura = estructuraJson as Bloque[];
+export const memotest = memotestJson as SetMemotest[];
+export const diagramas = diagramasJson as Diagrama[];
 
 const porId = new Map(clausulas.map((c) => [c.id, c]));
 export const tituloClausula = (id: string) => porId.get(id)?.titulo ?? "";

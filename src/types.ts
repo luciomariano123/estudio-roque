@@ -37,3 +37,17 @@ export type Bloque = {
   resumen: string;
   partes: Parte[];
 };
+
+export type ParMemotest = { id: string; clausula: string; a: string; b: string };
+export type SetMemotest = { id: string; titulo: string; pares: ParMemotest[] };
+
+export type Lugar = { id: string; correcta: string; pista: string };
+export type Diagrama = {
+  id: "principios" | "marco" | "proceso";
+  titulo: string;
+  clausula: string;
+  forma: "rueda" | "proceso";
+  centro?: Lugar;
+  lugares: Lugar[];
+  distractores: string[];
+};

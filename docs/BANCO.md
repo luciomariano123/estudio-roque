@@ -2,23 +2,37 @@
 
 > Archivo generado con `npm run banco` a partir de `src/content/`. Para corregir algo, editá el JSON (buscá el id) y volvé a generar.
 
-**240 preguntas** · **63 flashcards** · fichas del mapa al final.
+**265 preguntas** · **63 flashcards** · fichas del mapa al final.
 
 En el JSON la opción correcta va primera por convención; la app mezcla el orden en cada intento. Acá se marca con ✅.
 
 ## Índice
 
-- [Prólogo, introducción y bibliografía](#prólogo-introducción-y-bibliografía) — 7
-- [1 · Objeto y campo de aplicación](#1--objeto-y-campo-de-aplicación) — 3
+- [Prólogo, introducción y bibliografía](#prólogo-introducción-y-bibliografía) — 9
+- [1 · Objeto y campo de aplicación](#1--objeto-y-campo-de-aplicación) — 4
 - [2 · Referencias normativas](#2--referencias-normativas) — 1
-- [3 · Términos y definiciones](#3--términos-y-definiciones) — 14
-- [4 · Principios](#4--principios) — 29
-- [5 · Marco de referencia](#5--marco-de-referencia) — 72
-- [6 · Proceso](#6--proceso) — 114
+- [3 · Términos y definiciones](#3--términos-y-definiciones) — 16
+- [4 · Principios](#4--principios) — 30
+- [5 · Marco de referencia](#5--marco-de-referencia) — 80
+- [6 · Proceso](#6--proceso) — 125
 - [Flashcards](#flashcards)
 - [Fichas del mapa](#fichas-del-mapa)
+- [Memotest](#memotest)
+- [Armá el diagrama](#armá-el-diagrama)
 
 ## Prólogo, introducción y bibliografía
+
+#### `clau-prologo-01`
+<sub>¿Qué cláusula? · cláusula Prólogo · dificultad 1</sub>
+
+Los cambios principales respecto de la edición 2009
+
+- ✅ **Prólogo**
+- Introducción
+- 1
+- Bibliografía
+
+> Los cambios se listan en el prólogo. Ver Prólogo.
 
 #### `mc-prologo-01`
 <sub>Multiple choice · cláusula Prólogo · dificultad 2</sub>
@@ -65,6 +79,18 @@ La edición 2018 convive con la de 2009: las dos siguen vigentes.
 
 > La segunda edición (2018) anula y reemplaza a la primera (2009). Ver Prólogo.
 
+#### `clau-intro-01`
+<sub>¿Qué cláusula? · cláusula Introducción · dificultad 1</sub>
+
+La figura que reúne principios, marco de referencia y proceso
+
+- ✅ **Introducción**
+- Prólogo
+- 1
+- 4
+
+> Es la Figura 1, en la introducción. Ver Introducción.
+
 #### `mc-intro-01`
 <sub>Multiple choice · cláusula Introducción · dificultad 1 · lista</sub>
 
@@ -96,6 +122,18 @@ La única referencia de la bibliografía es la IEC 31010, sobre técnicas de eva
 > La bibliografía tiene una sola entrada: IEC 31010. Ojo: es bibliografía, no referencia normativa. Ver Bibliografía.
 
 ## 1 · Objeto y campo de aplicación
+
+#### `clau-1-01`
+<sub>¿Qué cláusula? · cláusula 1 · dificultad 1</sub>
+
+La norma no es específica de una industria o de un sector
+
+- ✅ **1**
+- Introducción
+- 2
+- 4
+
+> Es parte del objeto y campo de aplicación. Ver 1.
 
 #### `mc-1-02`
 <sub>Multiple choice · cláusula 1 · dificultad 1</sub>
@@ -197,6 +235,18 @@ Para la ISO 31000 un riesgo siempre tiene un efecto negativo.
 
 > La segunda opción es la evaluación del riesgo (6.4.1), no la gestión. Ver 3.2.
 
+#### `clau-3-04`
+<sub>¿Qué cláusula? · cláusula 3.3 · dificultad 1</sub>
+
+Quien se percibe afectado por una decisión también cuenta
+
+- ✅ **3.3**
+- 3.1
+- 3.5
+- 6.2
+
+> Está en la definición de parte interesada. Ver 3.3.
+
 #### `mc-3.3-01`
 <sub>Multiple choice · cláusula 3.3 · dificultad 1 · definicion</sub>
 
@@ -253,6 +303,18 @@ Algo que se esperaba que ocurriera y finalmente no ocurrió también puede ser u
 - Son lo mismo que el evento que las provoca
 
 > Una consecuencia puede ser cierta o incierta, positiva o negativa, directa o indirecta, cualitativa o cuantitativa, y puede escalar por efectos en cascada y acumulativos. Ver 3.6.
+
+#### `clau-3-03`
+<sub>¿Qué cláusula? · cláusula 3.7 · dificultad 2</sub>
+
+El término inglés "likelihood" y su sentido amplio
+
+- ✅ **3.7**
+- 3.1
+- 3.6
+- 6.4.3
+
+> Las notas de la definición de probabilidad explican por qué se usa likelihood. Ver 3.7.
 
 #### `vf-3.7-01`
 <sub>V/F · cláusula 3.7 · dificultad 2 · ⚠️ trampa</sub>
@@ -445,6 +507,18 @@ La idea de que los riesgos pueden aparecer, cambiar o desaparecer con los cambio
 - 3.1
 
 > Es la descripción del principio dinámica. 5.7.1 habla de adaptar el marco, y 6.6 de seguimiento y revisión. Ver 4.
+
+#### `clau-4-30`
+<sub>¿Qué cláusula? · cláusula 4 · dificultad 1</sub>
+
+La gestión del riesgo crea y protege valor, mejora el desempeño y fomenta la innovación
+
+- ✅ **4**
+- 5.1
+- 6.1
+- 3.2
+
+> Es el propósito que abre el capítulo de principios. Ver 4.
 
 #### `cloze-4-22`
 <sub>Completar · cláusula 4 · dificultad 2</sub>
@@ -791,6 +865,18 @@ Comprende los riesgos que enfrenta la organización al perseguir sus objetivos
 
 > Es una de las cosas que se espera o se exige de los órganos de supervisión. Ver 5.2.
 
+#### `clau-5-07`
+<sub>¿Qué cláusula? · cláusula 5.2 · dificultad 1</sub>
+
+La alta dirección rinde cuentas por gestionar el riesgo
+
+- ✅ **5.2**
+- 5.4.3
+- 5.3
+- 5.1
+
+> Ver 5.2.
+
 #### `cloze-5.2-10`
 <sub>Completar · cláusula 5.2 · dificultad 2 · ⚠️ trampa</sub>
 
@@ -848,6 +934,18 @@ Integración
 - Etapa del proceso
 
 > Es un componente del marco. No confundir con el principio "integrada". Ver 5.3.
+
+#### `clau-5-08`
+<sub>¿Qué cláusula? · cláusula 5.3 · dificultad 2</sub>
+
+Todos los miembros de la organización son responsables de gestionar el riesgo
+
+- ✅ **5.3**
+- 5.2
+- 5.4.3
+- 4
+
+> Está en Integración. Ver 5.3.
 
 #### `cloze-5.3-06`
 <sub>Completar · cláusula 5.3 · dificultad 1</sub>
@@ -1142,6 +1240,18 @@ El directorio publica una política que explica para qué gestiona el riesgo la 
 
 > Expresar el compromiso con una política o declaración es 5.4.2. Ver 5.4.2.
 
+#### `clau-5-10`
+<sub>¿Qué cláusula? · cláusula 5.4.2 · dificultad 2 · ⚠️ trampa</sub>
+
+Qué debería cubrir la política de compromiso: propósito, objetivos en conflicto, medición, revisión
+
+- ✅ **5.4.2**
+- 5.2
+- 5.4.5
+- 6.3.4
+
+> 5.2 menciona publicar una política; su contenido se detalla en 5.4.2. Ver 5.4.2.
+
 #### `mc-5.4.2-01`
 <sub>Multiple choice · cláusula 5.4.2 · dificultad 1</sub>
 
@@ -1220,6 +1330,18 @@ Una aseguradora contrata dos analistas, compra una herramienta de modelado y arm
 
 > Personas, herramientas y formación son recursos. Ver 5.4.4.
 
+#### `clau-5-09`
+<sub>¿Qué cláusula? · cláusula 5.4.4 · dificultad 1</sub>
+
+Asegurar personas, herramientas, procedimientos documentados y formación
+
+- ✅ **5.4.4**
+- 5.5
+- 6.5.3
+- 5.4.3
+
+> Son los recursos del diseño del marco. Ver 5.4.4.
+
 #### `mc-5.4.4-01`
 <sub>Multiple choice · cláusula 5.4.4 · dificultad 3 · lista · ⚠️ trampa</sub>
 
@@ -1264,6 +1386,18 @@ Los participantes devuelven retroalimentación esperando que influya en las deci
 - ✅ **Consulta**
 
 > La consulta suma la retroalimentación de los participantes, que puede dar forma a las decisiones. Ver 5.4.5.
+
+#### `clau-5-06`
+<sub>¿Qué cláusula? · cláusula 5.4.5 · dificultad 2 · ⚠️ trampa</sub>
+
+Establecer un enfoque aprobado de comunicación y consulta para apoyar el marco
+
+- ✅ **5.4.5**
+- 6.2
+- 5.4.2
+- 5.5
+
+> Es la última parte del diseño del marco. 6.2 trata la comunicación y consulta dentro del proceso. Ver 5.4.5.
 
 #### `mc-5.4.5-04`
 <sub>Multiple choice · cláusula 5.4.5 · dificultad 2 · ⚠️ trampa</sub>
@@ -1310,6 +1444,18 @@ Un plan con plazos y recursos para poner en marcha el marco
 - 5.7.2
 
 > Es implementación del marco. 6.5.3 es el plan de tratamiento del riesgo, otra cosa. Ver 5.5.
+
+#### `clau-5-13`
+<sub>¿Qué cláusula? · cláusula 5.5 · dificultad 2</sub>
+
+Identificar dónde, cuándo, cómo y quién toma los distintos tipos de decisiones
+
+- ✅ **5.5**
+- 5.4.3
+- 5.2
+- 6.3.2
+
+> Es parte de implementar el marco. Ver 5.5.
 
 #### `mc-5.5-01`
 <sub>Multiple choice · cláusula 5.5 · dificultad 2 · ⚠️ trampa</sub>
@@ -1448,6 +1594,18 @@ Después de una fusión, una empresa ajusta su marco de gestión del riesgo a la
 
 > Ajustar el marco en función de cambios externos e internos es adaptación. Ver 5.7.1.
 
+#### `clau-5-11`
+<sub>¿Qué cláusula? · cláusula 5.7.1 · dificultad 2 · ⚠️ trampa</sub>
+
+Hacer seguimiento continuo y ajustar el marco a los cambios externos e internos
+
+- ✅ **5.7.1**
+- 5.7.2
+- 5.6
+- 6.6
+
+> Es la adaptación del marco. Ver 5.7.1.
+
 #### `mc-5.7.1-01`
 <sub>Multiple choice · cláusula 5.7.1 · dificultad 2 · ⚠️ trampa</sub>
 
@@ -1459,6 +1617,18 @@ Después de una fusión, una empresa ajusta su marco de gestión del riesgo a la
 - Revisar los criterios del riesgo
 
 > Adaptación = ajustar el marco a los cambios. La segunda opción es 5.7.2. Ver 5.7.1.
+
+#### `clau-5-12`
+<sub>¿Qué cláusula? · cláusula 5.7.2 · dificultad 2 · ⚠️ trampa</sub>
+
+Mejorar la idoneidad, la adecuación y la eficacia del marco
+
+- ✅ **5.7.2**
+- 5.7.1
+- 5.6
+- 4
+
+> Es la mejora continua del marco, no el principio. Ver 5.7.2.
 
 #### `cloze-5.7.2-01`
 <sub>Completar · cláusula 5.7.2 · dificultad 3 · lista</sub>
@@ -1482,6 +1652,18 @@ Cuando se detectan brechas u oportunidades de mejora, se deberían armar planes 
 > La mejora continua baja a planes concretos con responsables. Ver 5.7.2.
 
 ## 6 · Proceso
+
+#### `clau-6-09`
+<sub>¿Qué cláusula? · cláusula 6.1 · dificultad 1</sub>
+
+El proceso se suele presentar como secuencial, pero en la práctica es iterativo
+
+- ✅ **6.1**
+- 6.4.1
+- 6.5.1
+- 4
+
+> Está en las generalidades del proceso. Ver 6.1.
 
 #### `cloze-6.1-07`
 <sub>Completar · cláusula 6.1 · dificultad 1</sub>
@@ -1633,6 +1815,18 @@ Los cuatro fines de la comunicación y consulta en el proceso
 
 > 5.4.5 trata de establecer la comunicación y consulta al diseñar el marco; los cuatro fines están en el proceso. Ver 6.2.
 
+#### `clau-6-18`
+<sub>¿Qué cláusula? · cláusula 6.2 · dificultad 2</sub>
+
+Cuidar la confidencialidad, la integridad de la información y la privacidad al intercambiar información
+
+- ✅ **6.2**
+- 6.7
+- 5.4.5
+- 6.4.2
+
+> Ver 6.2.
+
 #### `cloze-6.2-06`
 <sub>Completar · cláusula 6.2 · dificultad 2 · ⚠️ trampa</sub>
 
@@ -1751,6 +1945,18 @@ Tiempo, ubicación, inclusiones y exclusiones de las actividades de gestión del
 
 > Elegir opciones de tratamiento es 6.5.2. Al definir el alcance también se consideran resultados esperados, herramientas y técnicas, y recursos, responsabilidades y registros. Ver 6.3.2.
 
+#### `clau-6-11`
+<sub>¿Qué cláusula? · cláusula 6.3.3 · dificultad 3</sub>
+
+Los factores propios de la organización pueden ser una fuente de riesgo
+
+- ✅ **6.3.3**
+- 5.4.1
+- 6.4.2
+- 3.4
+
+> Es una de las razones por las que importa el contexto en el proceso. Ver 6.3.3.
+
 #### `vf-6.3.3-01`
 <sub>V/F · cláusula 6.3.3 · dificultad 2</sub>
 
@@ -1783,6 +1989,18 @@ Cómo se van a definir y medir las consecuencias y la probabilidad
 - 3.7
 
 > Se decide al definir los criterios del riesgo. El análisis (6.4.3) después las estima con esas reglas. Ver 6.3.4.
+
+#### `clau-6-10`
+<sub>¿Qué cláusula? · cláusula 6.3.4 · dificultad 2</sub>
+
+Precisar cuánto riesgo y de qué tipo puede o no tomar la organización
+
+- ✅ **6.3.4**
+- 6.4.4
+- 6.3.2
+- 6.5.2
+
+> Es la definición de los criterios del riesgo. Ver 6.3.4.
 
 #### `cloze-6.3.4-05`
 <sub>Completar · cláusula 6.3.4 · dificultad 2 · ⚠️ trampa</sub>
@@ -1850,6 +2068,18 @@ Evaluación del riesgo
 - ✅ **Etapa del proceso**
 
 > Es la etapa central del proceso, con sus tres pasos. Ver 6.4.
+
+#### `clau-6-12`
+<sub>¿Qué cláusula? · cláusula 6.4.1 · dificultad 1</sub>
+
+La evaluación del riesgo es el proceso global de identificación, análisis y valoración
+
+- ✅ **6.4.1**
+- 6.4.4
+- 6.1
+- 3.2
+
+> Ver 6.4.1.
 
 #### `cloze-6.4.1-06`
 <sub>Completar · cláusula 6.4.1 · dificultad 2 · lista</sub>
@@ -2085,6 +2315,18 @@ Determinar el nivel de riesgo
 
 > El análisis incluye, cuando corresponde, el nivel del riesgo. La valoración usa ese nivel para compararlo con los criterios. Ver 6.4.3.
 
+#### `clau-6-14`
+<sub>¿Qué cláusula? · cláusula 6.4.3 · dificultad 2</sub>
+
+Técnicas cualitativas, cuantitativas o una combinación
+
+- ✅ **6.4.3**
+- 6.4.2
+- 6.3.2
+- 6.4.4
+
+> Es parte del análisis del riesgo. Ver 6.4.3.
+
 #### `cloze-6.4.3-06`
 <sub>Completar · cláusula 6.4.3 · dificultad 2</sub>
 
@@ -2263,6 +2505,18 @@ Las cinco decisiones posibles después de comparar con los criterios
 
 > Son las salidas de la valoración del riesgo. Ver 6.4.4.
 
+#### `clau-6-13`
+<sub>¿Qué cláusula? · cláusula 6.4.4 · dificultad 1 · ⚠️ trampa</sub>
+
+Comparar el resultado del análisis con los criterios del riesgo
+
+- ✅ **6.4.4**
+- 6.4.3
+- 6.3.4
+- 5.6
+
+> Es la valoración del riesgo. 5.6 es la valoración del marco. Ver 6.4.4.
+
 #### `cloze-6.4.4-05`
 <sub>Completar · cláusula 6.4.4 · dificultad 2</sub>
 
@@ -2329,6 +2583,18 @@ Tratamiento del riesgo
 - ✅ **Etapa del proceso**
 
 > Es una etapa del proceso. Ver 6.5.
+
+#### `clau-6-15`
+<sub>¿Qué cláusula? · cláusula 6.5.1 · dificultad 2</sub>
+
+Formular opciones, implementarlas, evaluar su eficacia y decidir si el riesgo residual es aceptable
+
+- ✅ **6.5.1**
+- 6.5.2
+- 6.5.3
+- 6.6
+
+> Es el ciclo iterativo del tratamiento. Ver 6.5.1.
 
 #### `cloze-6.5.1-03`
 <sub>Completar · cláusula 6.5.1 · dificultad 2 · lista</sub>
@@ -2474,6 +2740,18 @@ Las siete opciones para tratar el riesgo
 
 > Están en la selección de opciones de tratamiento. Ver 6.5.2.
 
+#### `clau-6-16`
+<sub>¿Qué cláusula? · cláusula 6.5.2 · dificultad 3</sub>
+
+Al elegir el tratamiento pesan las obligaciones, los compromisos voluntarios y las opiniones de las partes interesadas
+
+- ✅ **6.5.2**
+- 6.5.1
+- 6.4.4
+- 5.4.2
+
+> La justificación del tratamiento va más allá de lo económico. Ver 6.5.2.
+
 #### `cloze-6.5.2-09`
 <sub>Completar · cláusula 6.5.2 · dificultad 1</sub>
 
@@ -2573,6 +2851,18 @@ Qué información debería incluir el plan de tratamiento
 - 6.5.2
 - 5.5
 - 6.7
+
+> Ver 6.5.3.
+
+#### `clau-6-17`
+<sub>¿Qué cláusula? · cláusula 6.5.3 · dificultad 2</sub>
+
+Integrar los planes de tratamiento en los planes y procesos de gestión de la organización
+
+- ✅ **6.5.3**
+- 5.5
+- 6.5.1
+- 5.3
 
 > Ver 6.5.3.
 
@@ -2745,6 +3035,18 @@ Registro e informe
 - ✅ **Etapa del proceso**
 
 > Es parte del proceso: la base de la figura. Ver 6.7.
+
+#### `clau-6-19`
+<sub>¿Qué cláusula? · cláusula 6.7 · dificultad 2</sub>
+
+Al definir el informe se consideran destinatarios, costo, frecuencia, método y pertinencia
+
+- ✅ **6.7**
+- 6.6
+- 5.4.5
+- 6.2
+
+> Ver 6.7.
 
 #### `mc-6.7-01`
 <sub>Multiple choice · cláusula 6.7 · dificultad 2 · lista</sub>
@@ -3036,3 +3338,71 @@ Aplicación sistemática de políticas, procedimientos y prácticas. Se dibuja c
 
 - Fines: comunicar, decidir, mejorar, dialogar
 - Informe: destinatarios, costo, frecuencia, método, pertinencia
+
+## Memotest
+
+### Término ↔ definición
+
+| cláusula | carta A | carta B |
+|---|---|---|
+| 3.1 | Riesgo | Efecto de la incertidumbre sobre los objetivos |
+| 3.2 | Gestión del riesgo | Actividades coordinadas para dirigir y controlar la organización respecto del riesgo |
+| 3.3 | Parte interesada | Puede afectar, verse afectada o percibirse afectada por una decisión |
+| 3.4 | Fuente de riesgo | Elemento que, solo o combinado, puede generar riesgo |
+| 3.5 | Evento | Ocurrencia o cambio de un conjunto de circunstancias |
+| 3.6 | Consecuencia | Resultado de un evento que afecta a los objetivos |
+| 3.7 | Probabilidad | Posibilidad de que algo suceda |
+| 3.8 | Control | Medida que mantiene y/o modifica un riesgo |
+
+### Cláusula ↔ propósito
+
+| cláusula | carta A | carta B |
+|---|---|---|
+| 4 | 4 | Crear y proteger valor |
+| 5.1 | 5.1 | Integrar la gestión del riesgo en las actividades y funciones |
+| 6.2 | 6.2 | Que las partes interesadas entiendan el riesgo y las decisiones |
+| 6.3.1 | 6.3.1 | Adaptar el proceso para evaluar y tratar bien |
+| 6.4.2 | 6.4.2 | Encontrar, reconocer y describir riesgos |
+| 6.4.3 | 6.4.3 | Comprender la naturaleza del riesgo y su nivel |
+| 6.4.4 | 6.4.4 | Apoyar decisiones comparando con los criterios |
+| 6.5.1 | 6.5.1 | Seleccionar e implementar opciones para abordar el riesgo |
+| 6.5.3 | 6.5.3 | Especificar cómo se implementan las opciones elegidas |
+| 6.6 | 6.6 | Asegurar y mejorar la calidad y eficacia del proceso |
+
+## Armá el diagrama
+
+### Rueda de principios (4)
+
+- **Centro:** Creación y protección del valor
+- a) → Integrada
+- b) → Estructurada y exhaustiva
+- c) → Adaptada
+- d) → Inclusiva
+- e) → Dinámica
+- f) → Mejor información disponible
+- g) → Factores humanos y culturales
+- h) → Mejora continua
+- *Piezas que sobran:* Liderazgo y compromiso, Integración
+
+### Rueda del marco (5)
+
+- **Centro:** Liderazgo y compromiso
+- 5.3 → Integración
+- 5.4 → Diseño
+- 5.5 → Implementación
+- 5.6 → Valoración
+- 5.7 → Mejora
+- *Piezas que sobran:* Creación y protección del valor, Comunicación y consulta
+
+### Esquema del proceso (6)
+
+- 6.2 → Comunicación y consulta
+- 6.3 → Alcance, contexto y criterios
+- 6.4 → Evaluación del riesgo
+- 6.4.2 → Identificación del riesgo
+- 6.4.3 → Análisis del riesgo
+- 6.4.4 → Valoración del riesgo
+- 6.5 → Tratamiento del riesgo
+- 6.6 → Seguimiento y revisión
+- 6.7 → Registro e informe
+- *Piezas que sobran:* Implementación, Valoración del marco

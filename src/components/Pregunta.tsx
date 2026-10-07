@@ -80,7 +80,7 @@ export default function Pregunta({ item, onRespondida, onSiguiente, textoSiguien
         <h2 className={`font-semibold leading-snug ${item.tipo === "clasificar" ? "text-xl" : "text-lg"}`}>{enunciado}</h2>
       </div>
 
-      <ul className={item.tipo === "vf" ? "grid grid-cols-2 gap-2" : "space-y-2"}>
+      <ul className={item.tipo === "vf" ? "grid grid-cols-2 gap-2" : item.tipo === "cloze" ? "flex flex-wrap gap-2" : "space-y-2"}>
         {opciones.map((o, i) => {
           const esCorrecta = o.valor === item.correcta;
           const esElegida = o.valor === elegida;
@@ -95,7 +95,9 @@ export default function Pregunta({ item, onRespondida, onSiguiente, textoSiguien
               <button
                 onClick={() => responder(o.valor)}
                 disabled={respondida}
-                className={`flex min-h-12 w-full items-center gap-3 rounded-xl border-2 px-3 py-2.5 text-left transition-colors ${estilo} ${
+                className={`flex min-h-12 items-center gap-3 rounded-xl border-2 px-3 py-2.5 text-left transition-colors ${
+                  item.tipo === "cloze" ? "" : "w-full"
+                } ${estilo} ${
                   respondida ? "cursor-default" : "active:scale-[0.99]"
                 }`}
               >
@@ -105,7 +107,13 @@ export default function Pregunta({ item, onRespondida, onSiguiente, textoSiguien
                 >
                   {respondida && esCorrecta ? "✓" : respondida && esElegida ? "✗" : i + 1}
                 </span>
-                <span>{o.texto}</span>
+                <span>
+                  {o.texto}
+                  {/* En "¿qué cláusula es?", al responder se ve de qué trata cada opción */}
+                  {item.tipo === "clausula" && respondida && tituloClausula(o.texto) && (
+                    <span className="text-sm font-normal opacity-80"> · {tituloClausula(o.texto)}</span>
+                  )}
+                </span>
               </button>
             </li>
           );

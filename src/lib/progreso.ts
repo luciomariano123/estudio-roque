@@ -79,6 +79,11 @@ export function moverCarta(id: string, resultado: ResultadoCarta) {
   });
 }
 
+// Para los juegos que no tienen preguntas individuales (memotest, diagrama): cuenta para la racha de días.
+export function marcarDia() {
+  cambiar((e) => (e.dias.includes(hoy()) ? e : { ...e, dias: conDia(e.dias) }));
+}
+
 export function registrarPuntajeVF(puntaje: number) {
   cambiar((e) => (puntaje > e.recordVF ? { ...e, recordVF: puntaje } : e));
 }

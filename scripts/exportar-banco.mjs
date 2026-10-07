@@ -34,7 +34,7 @@ for (const c of Object.keys(CAP)) {
   const n = preguntas.filter((p) => p.capitulo === Number(c)).length;
   if (n) L.push(`- [${CAP[c]}](#${ancla(CAP[c])}) — ${n}`);
 }
-L.push("- [Flashcards](#flashcards)", "- [Fichas del mapa](#fichas-del-mapa)", "");
+L.push("- [Flashcards](#flashcards)", "- [Fichas del mapa](#fichas-del-mapa)", "- [Memotest](#memotest)", "- [Armá el diagrama](#armá-el-diagrama)", "");
 
 let capActual = null;
 for (const p of preguntas) {
@@ -70,6 +70,21 @@ for (const b of leer("estructura.json")) {
     for (const pt of p.puntos) L.push(`- ${pt}`);
     L.push("");
   }
+}
+
+L.push("## Memotest", "");
+for (const set of leer("memotest.json")) {
+  L.push(`### ${set.titulo}`, "", "| cláusula | carta A | carta B |", "|---|---|---|");
+  for (const p of set.pares) L.push(`| ${p.clausula} | ${p.a} | ${p.b} |`);
+  L.push("");
+}
+
+L.push("## Armá el diagrama", "");
+for (const d of leer("diagramas.json")) {
+  L.push(`### ${d.titulo} (${d.clausula})`, "");
+  if (d.centro) L.push(`- **Centro:** ${d.centro.correcta}`);
+  for (const l of d.lugares) L.push(`- ${l.pista} → ${l.correcta}`);
+  L.push(`- *Piezas que sobran:* ${d.distractores.join(", ")}`, "");
 }
 
 mkdirSync(join(base, "docs"), { recursive: true });

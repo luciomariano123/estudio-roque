@@ -1,7 +1,7 @@
 export type Modo = { id: string; titulo: string; descripcion: string; fase: 2 | 3 | 4 };
 
 // Fase de construcción en la que estamos: los modos de fases posteriores se muestran como "próximamente".
-export const FASE_ACTUAL = 2;
+export const FASE_ACTUAL = 3;
 
 // "Explorar" (el mapa) es la pantalla de inicio, así que no figura en esta lista.
 export const MODOS: Modo[] = [

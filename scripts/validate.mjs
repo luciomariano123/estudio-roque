@@ -112,6 +112,41 @@ for (const b of leer("estructura.json")) {
   }
 }
 
+// --- Memotest ---
+for (const set of leer("memotest.json")) {
+  const donde = `memotest.json#${set.id}`;
+  idUnico(`memotest:${set.id}`, donde);
+  if (!Array.isArray(set.pares) || set.pares.length < 6) error(donde, "hacen falta al menos 6 pares por set");
+  const textos = new Set();
+  for (const par of set.pares ?? []) {
+    idUnico(par.id, `${donde}/${par.id}`);
+    clausulaValida(par.clausula, `${donde}/${par.id}`);
+    if (!par.a?.trim() || !par.b?.trim()) error(`${donde}/${par.id}`, "falta a o b");
+    for (const t of [par.a, par.b]) {
+      if (textos.has(t)) error(`${donde}/${par.id}`, `texto repetido "${t}": las cartas tienen que ser distinguibles`);
+      textos.add(t);
+    }
+  }
+}
+
+// --- Diagramas ---
+const LUGARES_PROCESO = ["comunicacion", "alcance", "evaluacion", "identificacion", "analisis", "valoracion", "tratamiento", "seguimiento", "registro"];
+for (const d of leer("diagramas.json")) {
+  const donde = `diagramas.json#${d.id}`;
+  idUnico(`diagrama:${d.id}`, donde);
+  clausulaValida(d.clausula, donde);
+  const lugares = [...(d.centro ? [d.centro] : []), ...(d.lugares ?? [])];
+  const idsLugares = lugares.map((l) => l.id);
+  const piezas = lugares.map((l) => l.correcta);
+  if (new Set(idsLugares).size !== idsLugares.length) error(donde, "hay lugares con id repetido");
+  if (new Set(piezas).size !== piezas.length) error(donde, "hay piezas correctas repetidas");
+  for (const x of d.distractores ?? []) if (piezas.includes(x)) error(donde, `el distractor "${x}" es una pieza correcta`);
+  if (d.forma === "rueda" && !d.centro) error(donde, "una rueda necesita centro");
+  else if (d.forma === "proceso" && JSON.stringify([...idsLugares].sort()) !== JSON.stringify([...LUGARES_PROCESO].sort()))
+    error(donde, `el esquema del proceso necesita exactamente los lugares: ${LUGARES_PROCESO.join(", ")}`);
+  else if (!["rueda", "proceso"].includes(d.forma)) error(donde, `forma desconocida "${d.forma}"`);
+}
+
 // --- Resumen ---
 const porCap = { "0-3": 0, 4: 0, 5: 0, 6: 0 };
 const porTipo = {};

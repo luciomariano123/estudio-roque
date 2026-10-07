@@ -1,0 +1,32 @@
+[
+  {
+    "id": "terminos",
+    "titulo": "Término ↔ definición",
+    "pares": [
+      { "id": "mt-3.1", "clausula": "3.1", "a": "Riesgo", "b": "Efecto de la incertidumbre sobre los objetivos" },
+      { "id": "mt-3.2", "clausula": "3.2", "a": "Gestión del riesgo", "b": "Actividades coordinadas para dirigir y controlar la organización respecto del riesgo" },
+      { "id": "mt-3.3", "clausula": "3.3", "a": "Parte interesada", "b": "Puede afectar, verse afectada o percibirse afectada por una decisión" },
+      { "id": "mt-3.4", "clausula": "3.4", "a": "Fuente de riesgo", "b": "Elemento que, solo o combinado, puede generar riesgo" },
+      { "id": "mt-3.5", "clausula": "3.5", "a": "Evento", "b": "Ocurrencia o cambio de un conjunto de circunstancias" },
+      { "id": "mt-3.6", "clausula": "3.6", "a": "Consecuencia", "b": "Resultado de un evento que afecta a los objetivos" },
+      { "id": "mt-3.7", "clausula": "3.7", "a": "Probabilidad", "b": "Posibilidad de que algo suceda" },
+      { "id": "mt-3.8", "clausula": "3.8", "a": "Control", "b": "Medida que mantiene y/o modifica un riesgo" }
+    ]
+  },
+  {
+    "id": "propositos",
+    "titulo": "Cláusula ↔ propósito",
+    "pares": [
+      { "id": "mp-4", "clausula": "4", "a": "4", "b": "Crear y proteger valor" },
+      { "id": "mp-5.1", "clausula": "5.1", "a": "5.1", "b": "Integrar la gestión del riesgo en las actividades y funciones" },
+      { "id": "mp-6.2", "clausula": "6.2", "a": "6.2", "b": "Que las partes interesadas entiendan el riesgo y las decisiones" },
+      { "id": "mp-6.3.1", "clausula": "6.3.1", "a": "6.3.1", "b": "Adaptar el proceso para evaluar y tratar bien" },
+      { "id": "mp-6.4.2", "clausula": "6.4.2", "a": "6.4.2", "b": "Encontrar, reconocer y describir riesgos" },
+      { "id": "mp-6.4.3", "clausula": "6.4.3", "a": "6.4.3", "b": "Comprender la naturaleza del riesgo y su nivel" },
+      { "id": "mp-6.4.4", "clausula": "6.4.4", "a": "6.4.4", "b": "Apoyar decisiones comparando con los criterios" },
+      { "id": "mp-6.5.1", "clausula": "6.5.1", "a": "6.5.1", "b": "Seleccionar e implementar opciones para abordar el riesgo" },
+      { "id": "mp-6.5.3", "clausula": "6.5.3", "a": "6.5.3", "b": "Especificar cómo se implementan las opciones elegidas" },
+      { "id": "mp-6.6", "clausula": "6.6", "a": "6.6", "b": "Asegurar y mejorar la calidad y eficacia del proceso" }
+    ]
+  }
+]

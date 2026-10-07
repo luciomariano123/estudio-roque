@@ -1,0 +1,53 @@
+[
+  {
+    "id": "principios",
+    "titulo": "Rueda de principios",
+    "clausula": "4",
+    "forma": "rueda",
+    "centro": { "id": "centro", "correcta": "Creación y protección del valor", "pista": "centro" },
+    "lugares": [
+      { "id": "a", "correcta": "Integrada", "pista": "a)" },
+      { "id": "b", "correcta": "Estructurada y exhaustiva", "pista": "b)" },
+      { "id": "c", "correcta": "Adaptada", "pista": "c)" },
+      { "id": "d", "correcta": "Inclusiva", "pista": "d)" },
+      { "id": "e", "correcta": "Dinámica", "pista": "e)" },
+      { "id": "f", "correcta": "Mejor información disponible", "pista": "f)" },
+      { "id": "g", "correcta": "Factores humanos y culturales", "pista": "g)" },
+      { "id": "h", "correcta": "Mejora continua", "pista": "h)" }
+    ],
+    "distractores": ["Liderazgo y compromiso", "Integración"]
+  },
+  {
+    "id": "marco",
+    "titulo": "Rueda del marco",
+    "clausula": "5",
+    "forma": "rueda",
+    "centro": { "id": "centro", "correcta": "Liderazgo y compromiso", "pista": "5.2" },
+    "lugares": [
+      { "id": "integracion", "correcta": "Integración", "pista": "5.3" },
+      { "id": "diseno", "correcta": "Diseño", "pista": "5.4" },
+      { "id": "implementacion", "correcta": "Implementación", "pista": "5.5" },
+      { "id": "valoracion", "correcta": "Valoración", "pista": "5.6" },
+      { "id": "mejora", "correcta": "Mejora", "pista": "5.7" }
+    ],
+    "distractores": ["Creación y protección del valor", "Comunicación y consulta"]
+  },
+  {
+    "id": "proceso",
+    "titulo": "Esquema del proceso",
+    "clausula": "6",
+    "forma": "proceso",
+    "lugares": [
+      { "id": "comunicacion", "correcta": "Comunicación y consulta", "pista": "6.2" },
+      { "id": "alcance", "correcta": "Alcance, contexto y criterios", "pista": "6.3" },
+      { "id": "evaluacion", "correcta": "Evaluación del riesgo", "pista": "6.4" },
+      { "id": "identificacion", "correcta": "Identificación del riesgo", "pista": "6.4.2" },
+      { "id": "analisis", "correcta": "Análisis del riesgo", "pista": "6.4.3" },
+      { "id": "valoracion", "correcta": "Valoración del riesgo", "pista": "6.4.4" },
+      { "id": "tratamiento", "correcta": "Tratamiento del riesgo", "pista": "6.5" },
+      { "id": "seguimiento", "correcta": "Seguimiento y revisión", "pista": "6.6" },
+      { "id": "registro", "correcta": "Registro e informe", "pista": "6.7" }
+    ],
+    "distractores": ["Implementación", "Valoración del marco"]
+  }
+]
