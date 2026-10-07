@@ -7,11 +7,10 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◎</text></svg>" />
     <title>ISO 31000 — Estudio</title>
     <script>
-      // Aplica el tema antes de pintar para evitar el parpadeo.
+      // Aplica el tema antes de pintar para evitar el parpadeo. Claro por defecto;
+      // oscuro solo si la persona lo eligió con el botón.
       try {
-        var t = localStorage.getItem("tema");
-        if (t === "oscuro" || (!t && matchMedia("(prefers-color-scheme: dark)").matches))
-          document.documentElement.classList.add("dark");
+        if (localStorage.getItem("tema.elegido") === "oscuro") document.documentElement.classList.add("dark");
       } catch (e) {}
     </script>
   </head>
